@@ -1,0 +1,223 @@
+// Display flex
+@mixin flex() {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+// Align center
+@mixin align() {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+// Justify content
+@mixin justify-content($arg) {
+    -webkit-justify-content:  $arg ;
+    justify-content:  $arg ;
+}
+
+// Transition
+@mixin transition($args) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    -o-transition: $args;
+    transition: $args;
+}
+
+/*------------------------------------------------------------------
+Table
+-------------------------------------------------------------------*/
+.wew-table {
+    margin: 0 auto;
+
+    thead .wew-table-cell {
+        background-color: #13aff0;
+        color: #fff;
+        border-bottom: 0;
+    }
+
+    &.wew-table-rules {
+        border-collapse: collapse;
+    }
+}
+
+.wew-table-cell {
+    padding: 0;
+}
+
+.wew-table-text {
+    @include flex();
+    @include align();
+    padding: 12px;
+}
+
+.wew-table {
+    .wew-table-row,
+    .wew-table-cell,
+    .wew-table-text {
+        @include transition(all .3s ease);
+    }
+}
+
+.wew-align-left .wew-table {
+    .wew-table-cell {
+        text-align: left;
+    }
+
+    .wew-table-text {
+        @include justify-content(flex-start);
+    }
+}
+
+.wew-align-center .wew-table {
+    .wew-table-cell {
+        text-align: center;
+    }
+    
+    .wew-table-text {
+        @include justify-content(center);
+    }
+}
+
+.wew-align-right .wew-table {
+    .wew-table-cell {
+        text-align: right;
+    }
+    
+    .wew-table-text {
+        @include justify-content(flex-end);
+    }
+}
+
+.wew-table-text {
+    .elementor-align-icon-left {
+        margin-right: 12px;
+    }
+
+    .elementor-align-icon-right {
+        -ms-flex-order: 2;
+        order: 2;
+        margin-left: 12px;
+    }
+}
+
+/*------------------------------------------------------------------
+Responsive
+-------------------------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+    .wew-tablet-align-left .wew-table {
+        .wew-table-cell {
+            text-align: left;
+        }
+
+        .wew-table-text {
+            @include justify-content(flex-start);
+        }
+    }
+
+    .wew-tablet-align-center .wew-table {
+        .wew-table-cell {
+            text-align: center;
+        }
+        
+        .wew-table-text {
+            @include justify-content(center);
+        }
+    }
+
+    .wew-tablet-align-right .wew-table {
+        .wew-table-cell {
+            text-align: right;
+        }
+        
+        .wew-table-text {
+            @include justify-content(flex-end);
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .wew-table {
+        thead {
+            display: none;
+        }
+
+        tr {
+            td,
+            th {
+                @include flex();
+            }
+
+            td > *,
+            td:before,
+            th > *,
+            th:before {
+                -ms-flex-preferred-size: 50%;
+                flex-basis: 50%;
+                width: 50%;
+                -ms-flex-positive: 1;
+                flex-grow: 1;
+            }
+
+            td[data-title]:before,
+            th[data-title]:before {
+                background-color: #13aff0;
+                color: #fff;
+                content: attr(data-title);
+                position: relative;
+                padding: 12px;
+            }
+        }
+    }
+
+    .wew-table-mobile-header-hide .wew-table-cell[data-title]:before {
+        content: none !important;
+    }
+
+    .wew-table-mobile-header-inline .wew-table-cell[data-title] {
+        -ms-flex-direction: column;
+        flex-direction: column;
+
+        > *,
+        &:before {
+            -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
+            width: auto;
+        }
+    }
+
+    .wew-mobile-align-left .wew-table {
+        .wew-table-cell {
+            text-align: left;
+        }
+
+        .wew-table-text {
+            @include justify-content(flex-start);
+        }
+    }
+
+    .wew-mobile-align-center .wew-table {
+        .wew-table-cell {
+            text-align: center;
+        }
+        
+        .wew-table-text {
+            @include justify-content(center);
+        }
+    }
+
+    .wew-mobile-align-right .wew-table {
+        .wew-table-cell {
+            text-align: right;
+        }
+        
+        .wew-table-text {
+            @include justify-content(flex-end);
+        }
+    }
+}

@@ -1,0 +1,116 @@
+/**
+ * Top Bar Social
+ */
+#top-bar-social {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    float: left;
+
+    a {
+      display: block;
+      float: left;
+      font-size: 14px;
+      color: $color-13;
+      padding: 0 6px;
+    }
+  }
+
+  &.top-bar-left li:first-child a {
+    padding-left: 0;
+  }
+
+  &.top-bar-right li:last-child a {
+    padding-right: 0;
+  }
+
+  li a {
+    &.woovina-twitter a:hover { color: #46d4fe; }
+    &.woovina-facebook a:hover { color: #37589b; }
+    &.woovina-googleplus a:hover { color: #de5a49; }
+    &.woovina-pinterest a:hover { color: #cb2027; }
+    &.woovina-dribbble a:hover { color: #ea4c89; }
+    &.woovina-vk a:hover { color: #597BA5; }
+    &.woovina-instagram a:hover { color: #3F729B; }
+    &.woovina-linkedin a:hover { color: #3399CC; }
+    &.woovina-tumblr a:hover { color: #2C4762; }
+    &.woovina-github a:hover { color: #60b044; }
+    &.woovina-flickr a:hover { color: #fa4086; }
+    &.woovina-skype a:hover { color: #00AFF0; }
+    &.woovina-youtube a:hover { color: #C4302B; }
+    &.woovina-vimeo a:hover { color: #1ab7ea; }
+    &.woovina-vine a:hover { color: #00bf8f; }
+    &.woovina-xing a:hover { color: #006464; }
+    &.woovina-yelp a:hover { color: #C41200; }
+    &.woovina-tripadvisor a:hover { color: #589442; }
+    &.woovina-rss a:hover { color: #ff7900; }
+    &.woovina-email a:hover { color: #f68e13; }
+  }
+}
+
+/**
+ * Top Bar Social Right
+ */
+#top-bar-social.top-bar-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  height: 20px;
+  line-height: 20px;
+  margin-top: -10px;
+}
+
+/**
+ * Top Bar Social Left
+ */
+#top-bar-social.top-bar-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 20px;
+  line-height: 20px;
+  margin-top: -10px;
+}
+
+/**
+ * Top Bar Social Centered
+ */
+#top-bar-social.top-bar-centered {
+  padding-top: 15px;
+
+  li {
+    display: inline-block;
+    float: none;
+  }
+}
+
+/*------------------------------------*
+  Phone Portrait and Landscape
+*------------------------------------*/
+@media only screen and (max-width: 767px) {
+
+  #top-bar-social {
+    text-align: center;
+
+    &.top-bar-left,
+    &.top-bar-right {
+      position: inherit;
+      left: auto;
+      right: auto;
+      float: none;
+      height: auto;
+      line-height: 1.5em;
+      margin-top: 0;
+    }
+
+    li {
+      float: none;
+      display: inline-block;
+    }
+  }
+  
+}

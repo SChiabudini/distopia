@@ -1,0 +1,48 @@
+/*------------------------------------------------------------------
+Scroll Up
+-------------------------------------------------------------------*/
+.wew-scroll-button .elementor-align-icon-left {
+  margin-left: 4px; }
+
+.wew-scroll-button .elementor-align-icon-right {
+  margin-right: 4px; }
+
+.wew-align-left {
+  text-align: left; }
+
+.wew-align-center {
+  text-align: center; }
+
+.wew-align-right {
+  text-align: right; }
+
+.wew-align-justify .wew-scroll-button a {
+  width: 100%; }
+
+/* RTL */
+body.rtl .wew-scroll-button .elementor-align-icon-left {
+  margin-right: 4px;
+  margin-left: 0; }
+
+body.rtl .wew-scroll-button .elementor-align-icon-right {
+  margin-left: 4px;
+  margin-right: 0; }
+
+/*------------------------------------------------------------------
+Responsive
+-------------------------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+  .wew-tablet-align-left {
+    text-align: left; }
+  .wew-tablet-align-center {
+    text-align: center; }
+  .wew-tablet-align-right {
+    text-align: right; } }
+
+@media only screen and (max-width: 767px) {
+  .wew-mobile-align-left {
+    text-align: left; }
+  .wew-mobile-align-center {
+    text-align: center; }
+  .wew-mobile-align-right {
+    text-align: right; } }

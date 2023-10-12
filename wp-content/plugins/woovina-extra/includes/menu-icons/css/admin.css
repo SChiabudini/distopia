@@ -1,0 +1,151 @@
+.we-icons-wrap {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.we-icons-wrap p {
+	min-height: 2.2em;
+	margin-bottom: 0;
+}
+.we-icons-wrap p a,
+.we-icons-wrap p label {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 2.2em;
+}
+.we-icons-wrap a {
+	cursor: pointer;
+	text-decoration: none;
+}
+.we-icons-wrap .submitdelete {
+	float: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	line-height: 2.2em;
+	height: 100%;
+}
+.we-icons-wrap .hidden {
+	display: none;
+}
+.we-icons-wrap ._icon {
+	color: #666;
+	font-size: 1.9em;
+	width: auto;
+	height: auto;
+	vertical-align: middle;
+	margin: -.1em .2em 0 .2em;
+}
+.we-icons-wrap img._icon {
+	max-width: 24px;
+	width: 1em;
+    height: 1em;
+}
+
+.we-icons-wrap a._select:focus ._icon,
+.we-icons-wrap a._select:hover ._icon {
+	color: #101010;
+}
+
+.we-preview.menu-item {
+	font-size: 1.2em;
+	min-height: 0;
+}
+.we-preview.menu-item a {
+	text-decoration: none;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+}
+.we-preview.menu-item a > * {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 100%;
+	height: 100%;
+}
+.we-preview.menu-item ._icon._before {
+	margin-right: 4px;
+}
+.we-preview.menu-item ._icon._after {
+	margin-left: 4px;
+}
+.we-preview.menu-item span.icon-wrap {
+	text-align: center;
+}
+.we-preview.menu-item span.icon-wrap ._icon._below {
+	display: block;
+    margin: 0 0 8px;
+    width: auto;
+    height: auto;
+}
+.we-preview.menu-item span.icon-wrap img._icon._below {
+    margin: 0 auto 8px auto;
+}
+.we-preview.menu-item span.icon-wrap span.menu-text {
+	display: block;
+    line-height: 1;
+}
+.media-sidebar .we-settings .setting input[type="number"],
+.we-icons-settings input[type="number"] {
+	width: auto;
+	max-width: 5em;
+	float: none;
+}
+.media-sidebar .we-settings .setting input,
+.media-sidebar .we-settings span.description {
+	float: none;
+}
+.media-sidebar .we-settings .setting select {
+	min-width: 100px;
+}
+
+/** Settings Meta Box **/
+.we-icons-settings ._field {
+	padding: .5em 0;
+}
+.we-icons-settings ._field ._main {
+	display: block;
+	font-weight: bold;
+	margin-bottom: .25em;
+}
+#menu-settings-column .we-icons-settings .inside {
+	margin-top: 0;
+}
+.we-icons-settings .taxonomydiv .tabs-panel {
+	max-height: none;
+	padding-top: .3em;
+	padding-bottom: .4em;
+	margin-bottom: .75em;
+}
+.js .we-icons-settings .taxonomydiv .tabs-panel {
+	margin-bottom: 0;
+}
+.we-icons-settings h4 {
+	margin: 0;
+}
+.we-icons-settings select {
+	min-width: 110px;
+}
+.we-icons-settings ._menu span.description {
+	margin-left: .5em;
+}
+.we-icons-settings .spinner {
+	float: none;
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+}
+.attachment .svg-icon img {
+	max-width: 100%;
+}
+
+/* RTL */
+.rtl .we-preview.menu-item ._icon._before {
+	margin-left: 4px;
+	margin-right: 0;
+}
+.rtl .we-preview.menu-item ._icon._after {
+	margin-right: 4px;
+	margin-left: 0;
+}
+.rtl .we-icons-settings ._menu span.description {
+	margin-right: .5em;
+	margin-left: 0;
+}

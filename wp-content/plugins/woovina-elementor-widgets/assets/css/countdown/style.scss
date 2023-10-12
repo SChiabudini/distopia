@@ -1,0 +1,141 @@
+// Display Flex
+@mixin display() {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+// Flex Wrap
+@mixin flex-wrap($args) {
+    -ms-flex-wrap: $args;
+    -webkit-flex-wrap: $args;
+    flex-wrap: $args;
+}
+
+// Justify Content
+@mixin justify-content($args) {
+    -webkit-justify-content: $args;
+    justify-content: $args;
+}
+
+// Flex Grow
+@mixin flex-grow($args) {
+    -ms-flex-positive: $args;
+    -webkit-box-flex: $args;
+    -webkit-flex-grow: $args;
+    flex-grow: $args;
+}
+
+/*------------------------------------------------------------------
+Countdown
+-------------------------------------------------------------------*/
+.wew-countdown-wrap {
+    margin: 0 auto;
+    text-align: center;
+
+    .wew-countdown-item-wrap {
+        padding: 0 8px;
+    }
+
+    .wew-countdown-number {
+        font-size: 60px;
+        color: #333;
+    }
+}
+
+.wew-countdown-label-block .wew-countdown-wrap {
+    @include display();
+    @include justify-content(center);
+    @include flex-wrap(wrap);
+
+    .wew-countdown-item-wrap {
+        @include flex-grow(1);
+    }
+
+    .wew-countdown-number {
+        display: block;
+    }
+
+    .wew-countdown-label {
+        display: block;
+        margin-top: 8px;
+    }
+}
+
+.wew-countdown-label-inline .wew-countdown-wrap {
+    .wew-countdown-item-wrap {
+        display: inline-block;
+    }
+
+    .wew-countdown-label {
+        margin-left: 4px;
+    }
+}
+
+.wew-countdown-align-left .wew-countdown-wrap {
+    margin-left: 0;
+}
+
+.wew-countdown-align-right .wew-countdown-wrap {
+    margin-right: 0;
+}
+
+.wew-countdown-column-1 .wew-countdown-wrap .wew-countdown-item-wrap {
+    width: 100%;
+}
+
+.wew-countdown-column-2 .wew-countdown-wrap .wew-countdown-item-wrap {
+    width: calc(100% * 1 / 2);
+}
+
+.wew-countdown-column-3 .wew-countdown-wrap .wew-countdown-item-wrap {
+    width: calc(100% * 1 / 3);
+}
+
+.wew-countdown-column-4 .wew-countdown-wrap .wew-countdown-item-wrap {
+    width: calc(100% * 1 / 4);
+}
+
+/* RTL */
+body.rtl {
+}
+
+/*------------------------------------------------------------------
+Responsive
+-------------------------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+    .wew-tablet-countdown-column-1 .wew-countdown-wrap .wew-countdown-item-wrap {
+        width: 100%;
+    }
+
+    .wew-tablet-countdown-column-2 .wew-countdown-wrap .wew-countdown-item-wrap {
+        width: calc(100% * 1 / 2);
+    }
+
+    .wew-tablet-countdown-column-3 .wew-countdown-wrap .wew-countdown-item-wrap {
+        width: calc(100% * 1 / 3);
+    }
+
+    .wew-tablet-countdown-column-4 .wew-countdown-wrap .wew-countdown-item-wrap {
+        width: calc(100% * 1 / 4);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .wew-mobile-countdown-column-1 .wew-countdown-wrap .wew-countdown-item-wrap {
+        width: 100%;
+    }
+
+    .wew-mobile-countdown-column-2 .wew-countdown-wrap .wew-countdown-item-wrap {
+        width: calc(100% * 1 / 2);
+    }
+
+    .wew-mobile-countdown-column-3 .wew-countdown-wrap .wew-countdown-item-wrap {
+        width: calc(100% * 1 / 3);
+    }
+
+    .wew-mobile-countdown-column-4 .wew-countdown-wrap .wew-countdown-item-wrap {
+        width: calc(100% * 1 / 4);
+    }
+}

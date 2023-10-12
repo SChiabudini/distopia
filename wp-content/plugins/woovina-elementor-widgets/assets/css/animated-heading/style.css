@@ -1,0 +1,61 @@
+/*------------------------------------------------------------------
+Animated Heading
+-------------------------------------------------------------------*/
+.wew-heading-wrap .wew-heading-tag,
+.wew-heading-wrap .wew-pre-heading,
+.wew-heading-wrap .wew-animated-heading,
+.wew-heading-wrap .wew-post-heading,
+.wew-heading-wrap span {
+  display: inline-block; }
+
+.wew-heading-wrap .wew-heading-tag {
+  margin: 0; }
+
+.wew-heading-wrap .typed-cursor {
+  opacity: 1;
+  font-weight: 100;
+  -webkit-animation: typed-blink 0.7s infinite;
+  -moz-animation: typed-blink 0.7s infinite;
+  -ms-animation: typed-blink 0.7s infinite;
+  -o-animation: typed-blink 0.7s infinite;
+  animation: typed-blink 0.7s infinite; }
+
+@-o-keyframes typed-blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-ms-keyframes typed-blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-moz-keyframes typed-blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes typed-blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes typed-blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }

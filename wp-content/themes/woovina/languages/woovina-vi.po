@@ -1,0 +1,2340 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooVina\n"
+"POT-Creation-Date: 2019-04-25 07:01+0000\n"
+"PO-Revision-Date: 2021-08-27 07:27+0000\n"
+"Last-Translator: \n"
+"Language-Team: Tiếng Việt\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.5.3; wp-5.8"
+
+#: dokan/products/new-product-single.php:208
+msgid " You Earn : "
+msgstr "Bạn kiếm được :"
+
+#: partials/entry/meta.php:42 partials/single/meta.php:48
+#: partials/entry/thumbnail-style/comments.php:16
+msgid "% Comments"
+msgstr "% Bình luận"
+
+#: inc/helpers.php:2916
+#, php-format
+msgid "%s "
+msgstr "%s "
+
+#: inc/woocommerce/woocommerce-config.php:2143
+#: inc/woocommerce/woocommerce-config.php:2161
+#, php-format
+msgid "%s in stock"
+msgstr "%s trong kho"
+
+#: inc/woocommerce/woocommerce-config.php:2197
+#, php-format
+msgid "%s Sold "
+msgstr "%s đã bán"
+
+#: inc/helpers.php:2898
+msgid "(Edit)"
+msgstr "(Chỉnh sửa)"
+
+#: dokan/products/new-product-single.php:267
+msgid "- Select a category -"
+msgstr "- Chọn danh mục -"
+
+#: partials/entry/meta.php:42 partials/single/meta.php:48
+#: partials/entry/thumbnail-style/comments.php:16
+msgid "0 Comments"
+msgstr "0 Bình luận"
+
+#: dokan/products/new-product-single.php:212
+#: dokan/products/new-product-single.php:225
+msgid "0.00"
+msgstr "0.00"
+
+#: partials/entry/meta.php:42 partials/single/meta.php:48
+#: partials/entry/thumbnail-style/comments.php:16
+msgid "1 Comment"
+msgstr "1 Bình luận"
+
+#: inc/customizer/controls/radio-image/class-control-radio-image.php:111
+#, php-format
+msgid "100% Full Width"
+msgstr "Chiều rộng toàn màn hình"
+
+#: inc/helpers.php:3499
+msgid "3D X"
+msgstr "3D X"
+
+#: inc/helpers.php:3500
+msgid "3D X Reverse"
+msgstr "3D X Reverse"
+
+#: inc/helpers.php:3503
+msgid "3D XY"
+msgstr "3D XY"
+
+#: inc/helpers.php:3504
+msgid "3D XY Reverse"
+msgstr "3D XY Reverse"
+
+#: inc/helpers.php:3501
+msgid "3D Y"
+msgstr "3D Y"
+
+#: inc/helpers.php:3502
+msgid "3D Y Reverse"
+msgstr "3D Y Reverse"
+
+#: inc/breadcrumbs.php:270
+msgid "404 Not Found"
+msgstr "Lỗi 404 không tìm thấy trang"
+
+#: inc/helpers.php:1871
+msgid "404: Page Not Found"
+msgstr "Lỗi 404 không tìm thấy trang"
+
+#: dokan/products/new-product-single.php:32
+msgid "Access Denied"
+msgstr "Truy cập bị Từ chối "
+
+#: dokan/products/new-product-single.php:8
+msgid "Access Denied, No product found"
+msgstr "Truy cập bị Từ chối, Không tìm thấy sản phẩm "
+
+#: functions.php:1028
+msgid "Activate Now"
+msgstr "Kích hoạt ngay"
+
+#: inc/customizer/settings/blog.php:458
+msgid "Add 500 to display full content"
+msgstr "Thêm 500 để hiển thị toàn bộ nội dung"
+
+#: inc/customizer/settings/footer-widgets.php:115
+msgid "Add a parallax effect to your footer."
+msgstr "Thêm hiệu ứng parallax vào chân trang của bạn."
+
+#: inc/customizer/settings/footer-widgets.php:190
+msgid "Add Container"
+msgstr "Thêm bao hàm"
+
+#: dokan/products/new-product-single.php:399
+msgid "Add gallery image"
+msgstr "Thêm thư viện hình ảnh"
+
+#: inc/customizer/settings/blog.php:172
+msgid "Add Overlay On image Hover"
+msgstr "Thêm Lớp phủ Trên hình ảnh khi di chuột"
+
+#: inc/third/class-beaver-themer.php:132
+msgid "After Content"
+msgstr "Trước nội dung"
+
+#: inc/third/class-beaver-themer.php:131
+msgid "After Content Inner"
+msgstr "Trước bên trong nội dung"
+
+#: inc/third/class-beaver-themer.php:150
+msgid "After Footer"
+msgstr "Sau Footer"
+
+#: inc/third/class-beaver-themer.php:149
+msgid "After Footer Inner"
+msgstr "Trước bên trong Footer"
+
+#: inc/third/class-beaver-themer.php:114
+msgid "After Header"
+msgstr "Sau Header"
+
+#: inc/third/class-beaver-themer.php:113
+msgid "After Header Inner"
+msgstr "Sau bên trong Header"
+
+#: inc/third/class-beaver-themer.php:96
+msgid "After Page"
+msgstr "Trang sau"
+
+#: inc/third/class-beaver-themer.php:123
+msgid "After Page Header"
+msgstr "Sau tiêu đề trang"
+
+#: inc/third/class-beaver-themer.php:122
+msgid "After Page Header Inner"
+msgstr "Sau tiêu đề trang bên trong"
+
+#: inc/third/class-beaver-themer.php:141
+msgid "After Sidebar"
+msgstr "Trước thanh bên"
+
+#: inc/third/class-beaver-themer.php:140
+msgid "After Sidebar Inner"
+msgstr "Trước bên trong thanh bên"
+
+#: inc/third/class-beaver-themer.php:105
+msgid "After Top Bar"
+msgstr "Trước Top Bar"
+
+#: inc/third/class-beaver-themer.php:104
+msgid "After Top Bar Inner"
+msgstr "Trước bên trong Top Bar"
+
+#: woocommerce/result-count.php:63
+msgid "All"
+msgstr "Tất cả"
+
+#: inc/third/class-gutenberg.php:63 inc/customizer/settings/typography.php:55
+msgid "All Headings"
+msgstr "Tất cả các tiêu đề"
+
+#: inc/breadcrumbs.php:271
+msgid "Archives"
+msgstr "Lưu trữ"
+
+#: inc/customizer/settings/blog.php:62
+msgid "Archives & Entries Layout"
+msgstr "Bố cục lưu trữ và mục nhập"
+
+#: inc/helpers.php:3505
+msgid "Arrow"
+msgstr "Mũi tên"
+
+#: inc/helpers.php:3506
+msgid "Arrow Reverse"
+msgstr "Đảo ngược mũi tên"
+
+#: inc/helpers.php:3507
+msgid "Arrowalt"
+msgstr "Arrowalt"
+
+#: inc/helpers.php:3508
+msgid "Arrowalt Reverse"
+msgstr "Arrowalt Reverse"
+
+#: inc/helpers.php:3509
+msgid "Arrowturn"
+msgstr "Arrowturn"
+
+#: inc/helpers.php:3510
+msgid "Arrowturn Reverse"
+msgstr "Arrowturn Reverse"
+
+#: inc/helpers.php:1932
+msgid "articles"
+msgstr "Bài viết"
+
+#: inc/customizer/settings/blog.php:798
+msgid "Attachment"
+msgstr "Tập tin đính kèm"
+
+#: inc/customizer/settings/blog.php:574 inc/customizer/settings/blog.php:973
+msgid "Author"
+msgstr "Tác giả"
+
+#: inc/helpers.php:2808
+msgid "Author Box"
+msgstr "Hộp tác giả"
+
+#: inc/customizer/settings/blog.php:854
+msgid "Auto"
+msgstr "Tự động"
+
+#: woocommerce/checkout/form-multistep-checkout.php:93
+msgid "Back to cart"
+msgstr "Quay lại giỏ hàng"
+
+#: 404.php:106
+msgid "Back To Homepage"
+msgstr "Trở lại Trang chủ"
+
+#: inc/customizer/settings/footer-bottom.php:196
+#: inc/customizer/settings/footer-widgets.php:292
+#: inc/customizer/settings/sidebar.php:53
+#: inc/customizer/settings/sidebar.php:164
+#: inc/customizer/settings/topbar.php:227
+msgid "Background Color"
+msgstr "Màu nền"
+
+#: inc/third/class-beaver-themer.php:129
+msgid "Before Content"
+msgstr "Trước nội dung"
+
+#: inc/third/class-beaver-themer.php:130
+msgid "Before Content Inner"
+msgstr "Sau nội dung trang"
+
+#: inc/third/class-beaver-themer.php:147
+msgid "Before Footer"
+msgstr "Sau Footer"
+
+#: inc/third/class-beaver-themer.php:148
+msgid "Before Footer Inner"
+msgstr "Sau bên trong Footer"
+
+#: inc/third/class-beaver-themer.php:111
+msgid "Before Header"
+msgstr "Trước Header"
+
+#: inc/third/class-beaver-themer.php:112
+msgid "Before Header Inner"
+msgstr "Trước bên trong Header"
+
+#: inc/third/class-beaver-themer.php:95
+msgid "Before Page"
+msgstr "Trang trước"
+
+#: inc/third/class-beaver-themer.php:120
+msgid "Before Page Header"
+msgstr "Trước tiêu đề trang"
+
+#: inc/third/class-beaver-themer.php:121
+msgid "Before Page Header Inner"
+msgstr "Trước tiêu đề trang bên trong"
+
+#: inc/third/class-beaver-themer.php:138
+msgid "Before Sidebar"
+msgstr "Sau thanh bên"
+
+#: inc/third/class-beaver-themer.php:139
+msgid "Before Sidebar Inner"
+msgstr "Sau bên trong thanh bên"
+
+#: inc/third/class-beaver-themer.php:102
+msgid "Before Top Bar"
+msgstr "Sau Top Bar"
+
+#: inc/third/class-beaver-themer.php:103
+msgid "Before Top Bar Inner"
+msgstr "Sau bên trong Top Bar"
+
+#: woocommerce/checkout/checkout-timeline.php:50
+msgid "Billing"
+msgstr "Thanh toán"
+
+#: woocommerce/checkout/form-billing.php:25
+msgid "Billing &amp; Shipping"
+msgstr "Thanh toán &amp; Giao hàng"
+
+#: woocommerce/checkout/form-billing.php:35
+msgid "Billing details"
+msgstr "Chi tiết hóa đơn"
+
+#: inc/customizer/settings/typography.php:445
+#: inc/customizer/controls/typo/class-control-typo.php:305
+msgid "Black: 900"
+msgstr "Đen: 900"
+
+#: inc/helpers.php:1889 inc/customizer/settings/blog.php:40
+#: inc/customizer/settings/blog.php:715
+msgid "Blog"
+msgstr "Tin tức"
+
+#: inc/customizer/settings/blog.php:48
+msgid "Blog Entries"
+msgstr "Bài viết tin tức"
+
+#: inc/customizer/settings/typography.php:176
+msgid "Blog Entry Title"
+msgstr "Tiêu đề bài viết"
+
+#: inc/customizer/settings/blog.php:478
+msgid "Blog Pagination Style"
+msgstr "Phong cách phân trang tin tức"
+
+#: inc/third/class-gutenberg.php:108 inc/customizer/settings/typography.php:185
+msgid "Blog Post Title"
+msgstr "Tiêu đề bài đăng"
+
+#: inc/customizer/settings/blog.php:188
+msgid "Blog Style"
+msgstr "Kiểu hiển thị tin tức"
+
+#: inc/third/class-gutenberg.php:54 inc/customizer/settings/typography.php:46
+msgid "Body"
+msgstr "Thân"
+
+#: inc/customizer/settings/typography.php:443
+#: inc/customizer/controls/typo/class-control-typo.php:303
+msgid "Bold: 700"
+msgstr "Đậm: 700"
+
+#: inc/customizer/settings/typography.php:439
+#: inc/customizer/controls/typo/class-control-typo.php:299
+msgid "Book: 300"
+msgstr "Nhẹ :300"
+
+#: inc/customizer/settings/topbar.php:244
+msgid "Border Color"
+msgstr "Màu đường viền"
+
+#: inc/customizer/settings/footer-widgets.php:326
+msgid "Borders Color"
+msgstr "Màu đường viền"
+
+#: inc/helpers.php:3511
+msgid "Boring"
+msgstr "Boring"
+
+#: inc/customizer/settings/blog.php:100 inc/customizer/settings/blog.php:638
+msgid "Both Sidebars: Content Width (%)"
+msgstr "Hai thanh bên:  Độ rộng nội dung (%)"
+
+#: inc/customizer/settings/blog.php:122 inc/customizer/settings/blog.php:660
+msgid "Both Sidebars: Sidebars Width (%)"
+msgstr "Hai thanh bên:  Độ rộng thanh bên (%)"
+
+#: inc/customizer/settings/blog.php:78 inc/customizer/settings/blog.php:616
+msgid "Both Sidebars: Style"
+msgstr "Hai Thanh bên"
+
+#: inc/customizer/settings/blog.php:322
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:192
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:196
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:200
+msgid "Bottom"
+msgstr "Dưới"
+
+#: inc/customizer/settings/blog.php:783
+msgid "Bottom Center"
+msgstr "Dưới giữa"
+
+#: inc/customizer/settings/blog.php:782
+msgid "Bottom Left"
+msgstr "Dưới trái"
+
+#: inc/customizer/settings/blog.php:784
+msgid "Bottom Right"
+msgstr "Dưới trái"
+
+#: inc/customizer/settings/typography.php:167
+msgid "Breadcrumbs"
+msgstr "Đường dẫn"
+
+#: inc/breadcrumbs.php:268
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr "Đường dẫn"
+
+#: functions.php:1006
+msgid "Browse 14+ Free Child Themes"
+msgstr "Có 14+ Child Themes miễn phí"
+
+#: functions.php:1006
+msgid "Browse 75+ Starter Sites"
+msgstr "Có 75+ mẫu trang web"
+
+#: dokan/products/new-product-single.php:220
+msgid "Cancel"
+msgstr "Hủy"
+
+#: inc/customizer/settings/typography.php:497
+#: inc/customizer/controls/typo/class-control-typo.php:336
+msgid "Capitalize"
+msgstr "Viết hoa"
+
+#: inc/woocommerce/woocommerce-config.php:791
+msgid "Cart"
+msgstr "Giỏ hàng"
+
+#: inc/customizer/settings/blog.php:576 inc/customizer/settings/blog.php:975
+msgid "Categories"
+msgstr "Thể loại"
+
+#: dokan/products/new-product-single.php:255
+#: dokan/products/new-product-single.php:288
+#: inc/customizer/settings/blog.php:994 inc/customizer/settings/blog.php:1053
+msgid "Category"
+msgstr "Danh mục"
+
+#: inc/customizer/settings/blog.php:373
+msgid "Category Color"
+msgstr "Màu danh mục"
+
+#: inc/customizer/settings/blog.php:390 inc/customizer/settings/blog.php:441
+msgid "Category Hover Color"
+msgstr "Màu danh mục khi di chuột"
+
+#: inc/customizer/settings/blog.php:321 inc/customizer/settings/blog.php:752
+msgid "Center"
+msgstr "Giữa"
+
+#: inc/customizer/settings/blog.php:780
+msgid "Center Center"
+msgstr "Giữa giữa"
+
+#: inc/customizer/settings/blog.php:779
+msgid "Center Left"
+msgstr "Giữa trái"
+
+#: inc/customizer/settings/blog.php:781
+msgid "Center Right"
+msgstr "Giữa trái"
+
+#: inc/customizer/settings/topbar.php:129
+msgid "Centered Content & Social"
+msgstr "Nội dung và nút xã hội ở trung tâm"
+
+#: inc/customizer/settings/topbar.php:321
+msgid ""
+"Choose a template created in Theme Panel > My Library to replace the content."
+msgstr ""
+"Chọn một mẫu được tạo trong Bảng điều khiển chủ đề> Thư viện của tôi để thay "
+"thế nội dung."
+
+#: inc/customizer/settings/footer-widgets.php:136
+#: inc/customizer/settings/topbar.php:384
+msgid "Choose a template created in Theme Panel > My Library."
+msgstr "Chọn một mẫu được tạo trong Bảng điều khiển chủ đề> Thư viện."
+
+#: dokan/products/new-product-single.php:191
+msgid ""
+"Choose Variable if your product has multiple attributes - like sizes, colors,"
+" quality etc"
+msgstr ""
+"Chọn Biến thể nếu sản phẩm của bạn có nhiều thuộc tính - như kích thước, màu "
+"sắc, chất lượng, v.v. "
+
+#: woocommerce/checkout/form-checkout.php:64
+msgid "Click here to enter your code"
+msgstr "Bấm vào đây để nhập mã của bạn"
+
+#: woocommerce/checkout/form-billing.php:28
+#: woocommerce/checkout/form-billing.php:38
+msgid "Click here to login"
+msgstr "Bấm vào đây để đăng nhập"
+
+#: inc/helpers.php:3579 partials/mobile/mobile-icon.php:42
+msgid "Close"
+msgstr "Đóng"
+
+#: inc/helpers.php:3580 partials/mobile/mobile-sidr-close.php:20
+msgid "Close Menu"
+msgstr "Đóng menu"
+
+#: inc/helpers.php:3512
+msgid "Collapse"
+msgstr "Collapse"
+
+#: inc/helpers.php:3513
+msgid "Collapse Reverse"
+msgstr "Collapse Reverse"
+
+#: inc/customizer/settings/footer-widgets.php:164
+msgid "Columns"
+msgstr "Cột"
+
+#: inc/helpers.php:2810 inc/customizer/settings/blog.php:577
+#: inc/customizer/settings/blog.php:976
+msgid "Comments"
+msgstr "Bình Luận"
+
+#: comments.php:85
+msgid "Comments are closed."
+msgstr "Bình luận bị đóng."
+
+#: inc/customizer/settings/blog.php:407
+msgid "Comments Color"
+msgstr "Màu nhận xét"
+
+#: inc/customizer/settings/blog.php:424
+msgid "Comments Hover Color"
+msgstr "Màu nhận xét khi di chuột"
+
+#: dokan/store-reviews.php:56 dokan/store.php:62
+msgid "Contact Vendor"
+msgstr "Liên hệ với nhà cung cấp"
+
+#: inc/customizer/settings/blog.php:856
+msgid "Contain"
+msgstr "Bao hàm"
+
+#: inc/helpers.php:2719 inc/helpers.php:2804
+#: inc/third/class-beaver-themer.php:127 inc/customizer/settings/topbar.php:306
+#: inc/customizer/settings/topbar.php:340
+msgid "Content"
+msgstr "Nội dung"
+
+#: inc/customizer/settings/blog.php:86 inc/customizer/settings/blog.php:624
+msgid "Content / Sidebar / Sidebar"
+msgstr "Nội dung / Thanh bên / Thanh bên"
+
+#: partials/entry/readmore.php:14 partials/search/readmore.php:14
+#: partials/single/next-prev.php:28
+msgid "Continue Reading"
+msgstr "Tiếp tục đọc"
+
+#: inc/customizer/settings/footer-bottom.php:94
+msgid "Copyright"
+msgstr "Bản quyền"
+
+#: inc/helpers.php:3581
+msgid "Copyright [woovina_date] - WooVina Theme by WooVina.com"
+msgstr "Bản quyền [woovina_date] - WooVina Theme by WooVina.com"
+
+#: inc/customizer/settings/blog.php:855
+msgid "Cover"
+msgstr "Bao phủ"
+
+#: woocommerce/checkout/form-billing.php:65
+msgid "Create an account?"
+msgstr "Tạo một tài khoản?"
+
+#: inc/customizer/controls/typography/class-control-typography.php:63
+msgid "Custom Fonts"
+msgstr "Tùy chỉnh Phông chữ"
+
+#: inc/customizer/settings/blog.php:353
+msgid "Custom Image Height (px)"
+msgstr "Chiều cao hình ảnh tùy chỉnh (px)"
+
+#: inc/customizer/settings/blog.php:335
+msgid "Custom Image Width (px)"
+msgstr "Chiều rộng hình ảnh tùy chỉnh (px)"
+
+#: inc/breadcrumbs.php:760 inc/breadcrumbs.php:1180
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "daily archives date format"
+
+#: inc/helpers.php:1839
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Lưu trữ hàng ngày: %s"
+
+#: inc/customizer/settings/blog.php:575 inc/customizer/settings/blog.php:974
+msgid "Date"
+msgstr "Ngày"
+
+#: inc/customizer/settings/blog.php:775 inc/customizer/settings/blog.php:805
+#: inc/customizer/settings/blog.php:828 inc/customizer/settings/blog.php:853
+#: inc/customizer/settings/typography.php:436
+#: inc/customizer/settings/typography.php:469
+#: inc/customizer/settings/typography.php:496
+#: inc/customizer/controls/typo/class-control-typo.php:255
+#: inc/customizer/controls/typo/class-control-typo.php:296
+#: inc/customizer/controls/typo/class-control-typo.php:319
+#: inc/customizer/controls/typo/class-control-typo.php:335
+#: inc/customizer/controls/typography/class-control-typography.php:57
+msgid "Default"
+msgstr "Mặc định"
+
+#: inc/helpers.php:3498
+msgid "Default Icon"
+msgstr "Icon mặc định"
+
+#: dokan/products/new-product-single.php:393
+msgid "Delete image"
+msgstr "Xóa hình ảnh"
+
+#: dokan/products/new-product-single.php:418
+msgid "Description"
+msgstr "Mô tả"
+
+#: functions.php:1002
+#, php-format
+msgid ""
+"Did you know WooVina comes with %1$s75+ Starter Sites%2$s and %3$s14+ Free "
+"Child Themes%4$s?<br>You can use our pre-built website templates to build "
+"your own website instead of starting everything from scratch!"
+msgstr ""
+"Bạn có biết WooVina đi kèm với%1$s75 + Trang web dành cho người mới bắt "
+"đầu%2$s và%3$s14 + Child Themes miễn phí%4$s? <br> Bạn có thể sử dụng các "
+"mẫu trang web được tạo sẵn của chúng tôi để xây dựng trang web của riêng bạn "
+"thay vì bắt đầu mọi thứ từ đầu!"
+
+#: inc/customizer/settings/typography.php:314
+msgid "Disable Elementor Awesome Font"
+msgstr "Tắt Elementor Font Awesome"
+
+#: inc/customizer/settings/typography.php:297
+msgid "Disable Elementor Google Fonts"
+msgstr "Tắt Elementor Google Fonts"
+
+#: inc/customizer/settings/typography.php:280
+msgid "Disable Google Fonts"
+msgstr "Bật font Google"
+
+#: inc/walker/init.php:83
+msgid "Disable link"
+msgstr "Vô hiệu hóa liên kết"
+
+#: dokan/products/new-product-single.php:218
+msgid "Discounted Price"
+msgstr "Giá chiết khấu"
+
+#: inc/walker/init.php:90
+msgid "Display Latest Posts"
+msgstr "Hiển thị bài viết mới nhất"
+
+#: inc/customizer/settings/blog.php:156 inc/customizer/settings/blog.php:694
+msgid "div"
+msgstr "div"
+
+#: inc/helpers.php:3620
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: inc/helpers.php:2925
+msgid "edit"
+msgstr "Chỉnh sửa"
+
+#: dokan/products/new-product-single.php:119
+msgid "Edit Product"
+msgstr "Sửa sản phẩm"
+
+#: inc/helpers.php:3514
+msgid "Elastic"
+msgstr "Elastic"
+
+#: inc/helpers.php:3515
+msgid "Elastic Reverse"
+msgstr "Elastic Reverse"
+
+#: inc/customizer/settings/blog.php:552 inc/customizer/settings/blog.php:952
+msgid "Elements Positioning"
+msgstr "Định vị các phần tử"
+
+#: inc/helpers.php:3680
+msgid "Email"
+msgstr "Email"
+
+#: inc/helpers.php:2969
+#, fuzzy
+msgid "Emails (required)"
+msgstr "Email (bắt buộc)"
+
+#: inc/customizer/settings/footer-bottom.php:53
+msgid "Enable Footer Bottom"
+msgstr "Bật chân trang dưới"
+
+#: inc/customizer/settings/footer-widgets.php:53
+msgid "Enable Footer Widgets"
+msgstr "Bật tiện ích chân trang"
+
+#: inc/walker/init.php:97
+msgid "Enable megamenu"
+msgstr "Bật megamenu"
+
+#: inc/customizer/settings/topbar.php:366
+msgid "Enable Social"
+msgstr "Bật menu xã hội"
+
+#: inc/customizer/settings/topbar.php:62
+msgid "Enable Top Bar"
+msgstr "Bật thanh trên cùng"
+
+#: inc/helpers.php:3102 inc/woocommerce/woocommerce-config.php:383
+#: inc/customizer/settings/blog.php:511
+msgid "End of content"
+msgstr "Kết thúc nội dung"
+
+#: inc/customizer/settings/blog.php:932
+msgid ""
+"Enter the max width your the content with the full width layout. Add 0 to "
+"disable the max width."
+msgstr ""
+"Nhập chiều rộng tối đa cho nội dung của bạn với bố cục chiều rộng đầy đủ. "
+"Thêm 0 để tắt chiều rộng tối đa."
+
+#: inc/customizer/settings/blog.php:277
+msgid "Equal Heights"
+msgstr "Độ cao bằng nhau"
+
+#: dokan/products/new-product-single.php:142
+msgid "Error!"
+msgstr "Lỗi!"
+
+#: inc/customizer/settings/blog.php:457
+msgid "Excerpt Length"
+msgstr "Độ dài trích đoạn"
+
+#: inc/customizer/settings/typography.php:444
+#: inc/customizer/controls/typo/class-control-typo.php:304
+msgid "Extra Bold: 800"
+msgstr "Thêm đậm: 800"
+
+#: inc/helpers.php:3608
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/helpers.php:2716 inc/helpers.php:2801
+msgid "Featured Image"
+msgstr "Ảnh nổi bật"
+
+#: inc/customizer/settings/blog.php:729
+msgid "Featured Image In Page Header"
+msgstr "Ảnh nổi bật trong tiêu đề trang"
+
+#: inc/helpers.php:3585 inc/woocommerce/woocommerce-config.php:864
+msgid "Filter"
+msgstr "Lọc"
+
+#: inc/customizer/settings/blog.php:263
+msgid "Fit Rows"
+msgstr "Fit Rows"
+
+#: inc/customizer/settings/blog.php:807
+msgid "Fixed"
+msgstr "Không thay đổi"
+
+#: inc/customizer/settings/footer-widgets.php:93
+msgid "Fixed Footer"
+msgstr "Chân trang cố định"
+
+#: inc/helpers.php:3644
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/customizer/settings/typography.php:649
+msgid "Font Color"
+msgstr "Màu chữ"
+
+#: inc/customizer/settings/typography.php:406
+#: inc/customizer/controls/typo/class-control-typo.php:56
+msgid "Font Family"
+msgstr "Phông chữ"
+
+#: inc/customizer/settings/typography.php:532
+#: inc/customizer/controls/typo/class-control-typo.php:57
+msgid "Font Size"
+msgstr "Cỡ chữ"
+
+#: inc/customizer/settings/topbar.php:435
+msgid "Font Size (px)"
+msgstr "Cỡ chữ (px)"
+
+#: inc/customizer/settings/typography.php:462
+#: inc/customizer/controls/typo/class-control-typo.php:59
+msgid "Font Style"
+msgstr "Kiểu chữ"
+
+#: inc/customizer/settings/typography.php:330
+msgid "Font Subsets"
+msgstr "Tập hợp phông chữ"
+
+#: inc/customizer/settings/typography.php:428
+#: inc/customizer/controls/typo/class-control-typo.php:58
+msgid "Font Weight"
+msgstr "Chữ đậm"
+
+#: functions.php:276 inc/third/class-beaver-themer.php:145
+msgid "Footer"
+msgstr "Chân trang"
+
+#: functions.php:638
+msgid "Footer 1"
+msgstr "Chân trang 1"
+
+#: functions.php:649
+msgid "Footer 2"
+msgstr "Chân trang 2"
+
+#: functions.php:660
+msgid "Footer 3"
+msgstr "Chân trang 3"
+
+#: functions.php:671
+msgid "Footer 4"
+msgstr "Chân trang 4"
+
+#: inc/customizer/settings/footer-bottom.php:40
+msgid "Footer Bottom"
+msgstr "Chân trang dưới"
+
+#: inc/customizer/settings/typography.php:217
+msgid "Footer Copyright"
+msgstr "Bản quyền chân trang"
+
+#: inc/customizer/settings/typography.php:227
+msgid "Footer Menu"
+msgstr "Menu chân trang"
+
+#: inc/customizer/settings/typography.php:206
+msgid "Footer Widget Heading"
+msgstr "Tiêu đề tiện ích chân trang"
+
+#: inc/customizer/settings/footer-widgets.php:40
+msgid "Footer Widgets"
+msgstr "Tiện ích chân trang"
+
+#: dokan/products/new-product-single.php:239
+msgid "From"
+msgstr "Từ"
+
+#: inc/customizer/controls/radio-image/class-control-radio-image.php:110
+msgid "Full Width"
+msgstr "Chiều rộng đầy đủ"
+
+#: inc/customizer/settings/blog.php:931
+msgid "Full Width Content"
+msgstr "Nội dung có chiều rộng đầy đủ"
+
+#: inc/customizer/settings/topbar.php:48
+#: inc/customizer/settings/typography.php:265
+msgid "General"
+msgstr "Tổng quan"
+
+#: inc/helpers.php:3640
+msgid "Github"
+msgstr "Github"
+
+#: inc/customizer/controls/typography/class-control-typography.php:84
+msgid "Google Fonts"
+msgstr "Phông chữ Google"
+
+#: inc/helpers.php:3612
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: inc/customizer/settings/blog.php:195
+msgid "Grid"
+msgstr "Lưới"
+
+#: inc/customizer/settings/blog.php:232
+msgid "Grid Columns"
+msgstr "Cột lưới"
+
+#: inc/customizer/settings/blog.php:256
+msgid "Grid Style"
+msgstr "Kiểu Lưới"
+
+#: inc/woocommerce/woocommerce-config.php:885
+msgid "Grid view"
+msgstr "Xem dạng lưới"
+
+#: inc/customizer/settings/blog.php:150 inc/customizer/settings/blog.php:688
+msgid "H1"
+msgstr "H1"
+
+#: inc/customizer/settings/blog.php:151 inc/customizer/settings/blog.php:689
+msgid "H2"
+msgstr "H2"
+
+#: inc/customizer/settings/blog.php:152 inc/customizer/settings/blog.php:690
+msgid "H3"
+msgstr "H3"
+
+#: inc/customizer/settings/blog.php:153 inc/customizer/settings/blog.php:691
+msgid "H4"
+msgstr "H4"
+
+#: inc/customizer/settings/blog.php:154 inc/customizer/settings/blog.php:692
+msgid "H5"
+msgstr "H5"
+
+#: inc/customizer/settings/blog.php:155 inc/customizer/settings/blog.php:693
+msgid "H6"
+msgstr "H6"
+
+#: woocommerce/checkout/form-checkout.php:64
+msgid "Have a coupon?"
+msgstr "Có phiếu giảm giá?"
+
+#: inc/third/class-beaver-themer.php:109
+msgid "Header"
+msgstr "Đầu trang"
+
+#: inc/third/class-gutenberg.php:72 inc/customizer/settings/typography.php:64
+msgid "Heading 1 (H1)"
+msgstr "Heading 1 (H1)"
+
+#: inc/third/class-gutenberg.php:81 inc/customizer/settings/typography.php:73
+msgid "Heading 2 (H2)"
+msgstr "Heading 2 (H2)"
+
+#: inc/third/class-gutenberg.php:90 inc/customizer/settings/typography.php:82
+msgid "Heading 3 (H3)"
+msgstr "Heading 3 (H3)"
+
+#: inc/third/class-gutenberg.php:99 inc/customizer/settings/typography.php:91
+msgid "Heading 4 (H4)"
+msgstr "Heading 4 (H4)"
+
+#: inc/customizer/settings/blog.php:144 inc/customizer/settings/blog.php:682
+msgid "Heading Tag"
+msgstr "Thẻ tiêu đề"
+
+#: dokan/products/new-product-single.php:131
+msgid "Hidden"
+msgstr "Ẩn"
+
+#: inc/walker/init.php:115
+msgid "Hide Mega menu heading?"
+msgstr "Ẩn tiêu đề menu Mega?"
+
+#: inc/customizer/settings/footer-bottom.php:79
+#: inc/customizer/settings/footer-widgets.php:79
+#: inc/customizer/settings/topbar.php:106
+msgid "Hide On Mobile"
+msgstr "Ẩn trên di động"
+
+#: inc/customizer/settings/footer-bottom.php:78
+#: inc/customizer/settings/footer-widgets.php:78
+#: inc/customizer/settings/topbar.php:105
+msgid "Hide On Tablet"
+msgstr "Ẩn trên máy tính bảng"
+
+#: inc/customizer/settings/footer-bottom.php:80
+#: inc/customizer/settings/footer-widgets.php:80
+#: inc/customizer/settings/topbar.php:107
+msgid "Hide On Tablet & Mobile"
+msgstr "Ẩn di động & máy tính bảng"
+
+#: inc/breadcrumbs.php:269
+msgid "Home"
+msgstr "Trang Chủ"
+
+#: inc/breadcrumbs.php:742
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "định dạng thời gian lưu trữ giờ"
+
+#. URI of the theme
+msgid "https://woovina.com/"
+msgstr "https://woovina.com/"
+
+#. Author URI of the theme
+#, fuzzy
+msgid "https://www.facebook.com/WooVinaTheme/"
+msgstr "https://woovina.com/#woovina"
+
+#: inc/woocommerce/woocommerce-config.php:707
+#: woocommerce/checkout/form-multistep-checkout.php:97
+msgid "I don&rsquo;t have an account"
+msgstr "I don&rsquo;t có một tài khoản"
+
+#: functions.php:1024
+#, php-format
+msgid ""
+"If you don't have any license key, you can %1$sget a FREE license here%2$s."
+msgstr ""
+"Nếu bạn không có bất kỳ khóa cấp phép nào, bạn có thể %1$s nhận giấy phép "
+"MIỄN PHÍ tại đây%2$s."
+
+#: woocommerce/checkout/form-multistep-checkout.php:26
+msgid ""
+"If you have already registered, please, enter your details in the boxes "
+"below. If you are a new customer, please, go to the Billing &amp; Shipping "
+"section."
+msgstr ""
+"Nếu bạn đã đăng ký, vui lòng nhập chi tiết của bạn vào các ô bên dưới. Nếu "
+"bạn là khách hàng mới, vui lòng chuyển đến phần Lập hóa đơn & amp; phần vận "
+"chuyển"
+
+#: inc/customizer/settings/blog.php:294
+msgid "Image Position"
+msgstr "Vị trí hình ảnh"
+
+#: inc/customizer/settings/blog.php:209
+msgid "Images Size"
+msgstr "Kích thước hình ảnh"
+
+#: inc/customizer/settings/typography.php:429
+msgid "Important: Not all fonts support every font-weight."
+msgstr ""
+"Quan trọng: Không phải tất cả các phông chữ đều hỗ trợ mọi độ đậm phông chữ."
+
+#: inc/customizer/settings/blog.php:485
+msgid "Infinite Scroll"
+msgstr "Cuộn vô hạn"
+
+#: inc/customizer/settings/blog.php:535
+msgid "Infinite Scroll: Error Text"
+msgstr "Cuộn vô hạn: Văn bản lỗi"
+
+#: inc/customizer/settings/blog.php:517
+msgid "Infinite Scroll: Last Text"
+msgstr "Cuộn vô hạn: Văn bản cuối cùng"
+
+#: inc/customizer/settings/blog.php:500
+msgid "Infinite Scroll: Spinners Color"
+msgstr "Cuộn vô hạn: Màu cuộn"
+
+#: inc/helpers.php:3628
+msgid "Instagram"
+msgstr "Instagram"
+
+#: partials/none.php:21
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr "Có vẻ như chúng tôi không thể tìm thấy những gì bạn đang tìm kiếm."
+
+#: inc/customizer/settings/typography.php:471
+#: inc/customizer/controls/typo/class-control-typo.php:321
+msgid "Italic"
+msgstr "Nghiêng"
+
+#. Name of the template
+msgid "Landing Page"
+msgstr "Trang đích"
+
+#: inc/customizer/settings/blog.php:219
+msgid "Large"
+msgstr "Lớn"
+
+#: inc/customizer/settings/blog.php:194
+msgid "Large Image"
+msgstr "Ảnh Lớn"
+
+#: inc/walker/menu-walker.php:296
+msgid "Latest in"
+msgstr "Mới nhất trong"
+
+#: inc/customizer/settings/blog.php:600
+msgid "Layout"
+msgstr "Sắp đặt"
+
+#: inc/customizer/settings/blog.php:299 inc/customizer/settings/blog.php:751
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:193
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:197
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:201
+msgid "Left"
+msgstr "Trái"
+
+#: inc/customizer/settings/topbar.php:127
+msgid "Left Content & Right Social"
+msgstr "Nội dung bên trái và nút xã hội bên phải"
+
+#: functions.php:614
+#: inc/customizer/controls/radio-image/class-control-radio-image.php:109
+msgid "Left Sidebar"
+msgstr "Thanh dọc trái"
+
+#: inc/customizer/settings/topbar.php:128
+msgid "Left Social & Right Content"
+msgstr "nút xã hội bên trái và nội dung bên phải"
+
+#: inc/customizer/controls/typo/class-control-typo.php:62
+msgid "Letter Spacing"
+msgstr "Giãn cách chữ"
+
+#: inc/customizer/settings/typography.php:615
+msgid "Letter Spacing (px)"
+msgstr "Khoảng cách chữ cái (px)"
+
+#: inc/customizer/settings/typography.php:438
+#: inc/customizer/controls/typo/class-control-typo.php:298
+msgid "Light: 200"
+msgstr "Nhẹ: 200"
+
+#: inc/customizer/settings/typography.php:571
+#: inc/customizer/controls/typo/class-control-typo.php:61
+msgid "Line Height"
+msgstr "Chiều cao giữa các dòng"
+
+#: inc/customizer/settings/topbar.php:278
+msgid "Link Color"
+msgstr "Màu liên kết"
+
+#: inc/customizer/settings/topbar.php:295
+msgid "Link Color: Hover"
+msgstr "Liên kết màu: di chuột"
+
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:65
+msgid "Link values together"
+msgstr "Liên kết các giá trị với nhau"
+
+#: inc/helpers.php:3632
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/customizer/settings/footer-bottom.php:230
+#: inc/customizer/settings/footer-widgets.php:343
+msgid "Links Color"
+msgstr "Màu đường dẫn"
+
+#: inc/customizer/settings/footer-bottom.php:247
+#: inc/customizer/settings/footer-widgets.php:360
+msgid "Links Color: Hover"
+msgstr "Màu đường dẫn: khi di chuột"
+
+#: inc/woocommerce/woocommerce-config.php:886
+msgid "List view"
+msgstr "Xem dạng danh sách"
+
+#: comments.php:94
+msgid "Log out &raquo;"
+msgstr "Thoát ra &raquo;"
+
+#: comments.php:94
+msgid "Log out of this account"
+msgstr "Đăng xuất khỏi tài khoản này"
+
+#: comments.php:94
+msgid "Logged in as"
+msgstr "Đăng nhập"
+
+#: inc/woocommerce/woocommerce-config.php:1933
+#: woocommerce/checkout/checkout-timeline.php:42
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: inc/customizer/settings/typography.php:100
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/woocommerce/woocommerce-config.php:1296
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: inc/customizer/settings/typography.php:498
+#: inc/customizer/controls/typo/class-control-typo.php:337
+msgid "Lowercase"
+msgstr "Chữ thường"
+
+#: functions.php:275
+msgid "Main"
+msgstr "Chính"
+
+#: inc/customizer/settings/typography.php:119
+msgid "Main Menu"
+msgstr "Menu chính"
+
+#: inc/customizer/settings/typography.php:128
+msgid "Main Menu: Dropdowns"
+msgstr "Menu chính:  Thả xuống"
+
+#: inc/customizer/settings/sidebar.php:262
+msgid "Margin Bottom (px)"
+msgstr "Margin Bottom (px)"
+
+#: inc/customizer/settings/blog.php:264
+msgid "Masonry"
+msgstr "Masonry"
+
+#: inc/customizer/settings/blog.php:217
+msgid "Medium"
+msgstr "Trung bình"
+
+#: inc/customizer/settings/blog.php:218
+msgid "Medium Large"
+msgstr "Trung bình lớn"
+
+#: inc/customizer/settings/typography.php:441
+#: inc/customizer/controls/typo/class-control-typo.php:301
+msgid "Medium: 500"
+msgstr "Trung bình: 500"
+
+#: inc/walker/init.php:120
+msgid "Mega Menu Widget Area"
+msgstr "Tiện ích Mega Menu"
+
+#: inc/walker/init.php:103
+msgid "Megamenu auto width?"
+msgstr "Chiều rộng tự động Megamenu?"
+
+#: inc/walker/init.php:108
+msgid "Megamenu columns (from 1 to 6)"
+msgstr "Cột Megamenu (từ 1 đến 6)"
+
+#: inc/helpers.php:3578 partials/mobile/mobile-icon.php:37
+msgid "Menu"
+msgstr "Menu"
+
+#: inc/helpers.php:2718 inc/helpers.php:2803
+#: inc/customizer/settings/blog.php:569 inc/customizer/settings/blog.php:968
+msgid "Meta"
+msgstr "Meta"
+
+#: inc/helpers.php:3516
+msgid "Minus"
+msgstr "Dấu trừ"
+
+#. Minute archive title. %s is the minute time format.
+#: inc/breadcrumbs.php:277
+#, php-format
+msgid "Minute %s"
+msgstr "Phút %s"
+
+#: inc/breadcrumbs.php:708
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "định dạng thời gian lưu trữ phút và giờ g:i a"
+
+#: inc/breadcrumbs.php:725
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "định dạng thời gian lưu trữ phút"
+
+#: functions.php:278
+msgid "Mobile Categories"
+msgstr "Mobile Categories"
+
+#: functions.php:277 inc/customizer/settings/typography.php:138
+msgid "Mobile Menu"
+msgstr "Menu di động"
+
+#: functions.php:279
+msgid "Mobile Navbar"
+msgstr "Thanh điều hướng di động"
+
+#: inc/breadcrumbs.php:759 inc/breadcrumbs.php:812 inc/breadcrumbs.php:1176
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "Định dạng ngày lưu trữ hàng tháng"
+
+#: inc/helpers.php:1844
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Lưu trữ hàng tháng: %s"
+
+#: inc/helpers.php:2967
+msgid "Name (required)"
+msgstr "Tên (bắt buộc)"
+
+#: inc/customizer/settings/topbar.php:410
+msgid "New Window"
+msgstr "Cửa sổ mới"
+
+#: inc/woocommerce/woocommerce-config.php:2214
+msgid "New!"
+msgstr "Mới!"
+
+#: inc/helpers.php:3068 inc/helpers.php:3122
+#: inc/woocommerce/woocommerce-config.php:402
+msgid "Newer Posts"
+msgstr "Bài đăng mới hơn"
+
+#: comments.php:68 comments.php:76 inc/woocommerce/woocommerce-config.php:708
+#: woocommerce/checkout/form-multistep-checkout.php:97
+msgid "Next"
+msgstr "Tiếp theo"
+
+#: partials/single/next-prev.php:25
+msgid "Next Post"
+msgstr "Bài tiếp theo"
+
+#: inc/customizer/settings/blog.php:486
+msgid "Next/Prev"
+msgstr "Tiếp theo / Trước đó"
+
+#: inc/helpers.php:2807
+msgid "Next/Prev Links"
+msgstr "Tiếp theo/Trước đó liên kết"
+
+#: inc/customizer/settings/blog.php:989
+msgid "Next/Prev Taxonomy"
+msgstr "Tiếp theo / Trước đó"
+
+#: inc/helpers.php:3107 inc/woocommerce/woocommerce-config.php:388
+#: inc/customizer/settings/blog.php:529
+msgid "No more pages to load"
+msgstr "Không còn trang nào để tải"
+
+#: woocommerce/cart/mini-cart.php:112
+msgid "No products in the cart."
+msgstr "Không có sản phẩm nào trong giỏ."
+
+#: dokan/store.php:104
+msgid "No products were found of this vendor!"
+msgstr "Không có sản phẩm được tìm thấy của nhà cung cấp này!"
+
+#: inc/customizer/settings/blog.php:829
+msgid "No-repeat"
+msgstr "Không - lặp lại"
+
+#: inc/customizer/settings/typography.php:500
+msgid "None"
+msgstr "Không chọn"
+
+#: inc/customizer/settings/typography.php:470
+#: inc/customizer/controls/typo/class-control-typo.php:320
+msgid "Normal"
+msgstr "Bình thường"
+
+#: inc/customizer/settings/typography.php:440
+#: inc/customizer/controls/typo/class-control-typo.php:300
+msgid "Normal: 400"
+msgstr "Bình Thường: 400"
+
+#: inc/customizer/settings/footer-widgets.php:100
+#: inc/customizer/settings/footer-widgets.php:121
+msgid "Off"
+msgstr "Tắt"
+
+#: inc/woocommerce/woocommerce-config.php:818
+msgid "Off-Canvas Filters"
+msgstr "Bộ lọc ngoại tuyến"
+
+#: inc/helpers.php:3071 inc/helpers.php:3123
+#: inc/woocommerce/woocommerce-config.php:403
+msgid "Older Posts"
+msgstr "Bài đăng cũ hơn"
+
+#: inc/customizer/settings/footer-widgets.php:99
+#: inc/customizer/settings/footer-widgets.php:120
+msgid "On"
+msgstr "Bật"
+
+#: inc/woocommerce/woocommerce-config.php:2140
+#: inc/woocommerce/woocommerce-config.php:2158
+#, php-format
+msgid "Only %s left in stock"
+msgstr "Chỉ còn %s trong kho"
+
+#: inc/third/class-pwa.php:46
+msgid ""
+"Oops! It looks like you&#8217;re offline. Please check the network "
+"connection."
+msgstr "Ôi! Có vẻ như bạn đang ngoại tuyến. Vui lòng kiểm tra kết nối mạng."
+
+#: inc/third/class-pwa.php:59
+msgid "Oops! Something went wrong. Please try again."
+msgstr "Ôi! Đã xảy ra lỗi. Vui lòng thử lại."
+
+#: inc/woocommerce/woocommerce-config.php:1946
+msgid "Or"
+msgstr "Hoặc"
+
+#: inc/woocommerce/woocommerce-config.php:1040
+msgid "Out of Stock"
+msgstr "Hết hàng"
+
+#: inc/woocommerce/woocommerce-config.php:1228
+msgid "Out of stock"
+msgstr "Hết hàng"
+
+#: inc/customizer/settings/blog.php:914
+msgid "Overlay Color"
+msgstr "Độ mờ màu"
+
+#: inc/customizer/settings/blog.php:892
+msgid "Overlay Opacity"
+msgstr "Độ mờ lớp phủ"
+
+#: inc/customizer/settings/blog.php:158 inc/customizer/settings/blog.php:696
+msgid "p"
+msgstr "p"
+
+#: inc/customizer/settings/footer-bottom.php:161
+#: inc/customizer/settings/footer-widgets.php:257
+#: inc/customizer/settings/sidebar.php:118
+#: inc/customizer/settings/sidebar.php:229
+#: inc/customizer/settings/topbar.php:192
+#: inc/customizer/settings/topbar.php:484
+msgid "Padding (px)"
+msgstr "Đệm (px)"
+
+#: inc/third/class-beaver-themer.php:93
+msgid "Page"
+msgstr "Trang"
+
+#. %s is the page number.
+#: inc/breadcrumbs.php:275
+#, php-format
+msgid "Page %s"
+msgstr "Trang %s"
+
+#: inc/third/class-beaver-themer.php:118
+msgid "Page Header"
+msgstr "Tiêu đề trang"
+
+#: inc/customizer/settings/blog.php:870
+msgid "Page Header Height (px)"
+msgstr "Chiều cao tiêu đề trang (px)"
+
+#: inc/customizer/settings/blog.php:709
+msgid "Page Header Title"
+msgstr "Tiêu đề trang"
+
+#: inc/customizer/settings/typography.php:147
+msgid "Page Title"
+msgstr "Tiêu đề trang"
+
+#: inc/helpers.php:1844
+msgctxt "Page title monthly archives date format"
+msgid "F Y"
+msgstr "Định dạng ngày lưu trữ hàng tháng của tiêu đề trang F Y"
+
+#: inc/customizer/settings/typography.php:157
+msgid "Page Title Subheading"
+msgstr "Tiêu đề phụ của trang"
+
+#: inc/helpers.php:1849
+msgctxt "Page title yearly archives date format"
+msgid "Y"
+msgstr "Tiêu đề trang lưu trữ định dạng ngày hàng năm Y"
+
+#: partials/page/article.php:18 partials/single/content.php:19
+msgid "Pages:"
+msgstr "Trang:"
+
+#: inc/customizer/settings/footer-widgets.php:114
+msgid "Parallax Footer Effect"
+msgstr "Hiệu ứng chân trang Parallax"
+
+#: woocommerce/checkout/checkout-timeline.php:64
+msgid "Payment Info"
+msgstr "Thông tin thanh toán"
+
+#: 404.php:104
+msgid "Perhaps you can try a new search."
+msgstr "Có lẽ bạn có thể thử một tìm kiếm mới."
+
+#: inc/helpers.php:2898
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/helpers.php:3616
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/customizer/settings/topbar.php:335
+msgid "Place your content here"
+msgstr "Đặt nội dung của bạn ở đây"
+
+#: woocommerce/quick-view-image.php:55
+msgid "Placeholder"
+msgstr "Trình giữ chỗ"
+
+#: inc/woocommerce/woocommerce-helpers.php:121
+#: woocommerce/loop/thumbnail/featured-image.php:53
+msgid "Placeholder Image"
+msgstr "Hình ảnh trình giữ chỗ"
+
+#: functions.php:1022
+msgid ""
+"Please activate your license to get feature updates, premium support and "
+"branding/copyright removal!"
+msgstr ""
+"Vui lòng kích hoạt giấy phép của bạn để nhận các bản cập nhật tính năng, hỗ "
+"trợ cao cấp và xóa thương hiệu / bản quyền!"
+
+#: dokan/products/new-product-single.php:283
+msgid "Please choose a category!"
+msgstr "Vui lòng chọn một danh mục!"
+
+#: dokan/products/new-product-single.php:179
+msgid "Please enter product title!"
+msgstr "Vui lòng nhập tiêu đề sản phẩm!"
+
+#: inc/customizer/settings/blog.php:768
+msgid "Position"
+msgstr "Vị trí"
+
+#: comments.php:99
+msgid "Post Comment"
+msgstr "Bình Luận"
+
+#: inc/customizer/settings/blog.php:716
+msgid "Post Title"
+msgstr "Tiêu đề bài đăng"
+
+#: woocommerce/checkout/form-multistep-checkout.php:96
+msgid "Prev"
+msgstr "Trước đó"
+
+#: comments.php:67 comments.php:75
+msgid "Previous"
+msgstr "Quay lại"
+
+#: partials/single/next-prev.php:24
+msgid "Previous Post"
+msgstr "Bài trước"
+
+#: dokan/products/new-product-single.php:207
+msgid "Price"
+msgstr "Giá"
+
+#: dokan/products/new-product-single.php:177
+msgid "Product name.."
+msgstr "Tên sản phẩm.."
+
+#: dokan/products/new-product-single.php:232
+msgid "Product price can't be less than the vendor fee!"
+msgstr "Giá sản phẩm không thể thấp hơn phí nhà cung cấp!"
+
+#: dokan/products/new-product-single.php:191
+msgid "Product Type"
+msgstr "Loại sản phẩm"
+
+#: inc/customizer/controls/text/class-control-text.php:119
+#: inc/customizer/controls/text/class-control-text.php:125
+#: inc/customizer/controls/text/class-control-text.php:131
+#: inc/customizer/controls/typo/class-control-typo.php:156
+#: inc/customizer/controls/typo/class-control-typo.php:225
+#: inc/customizer/controls/typo/class-control-typo.php:237
+msgid "px - em - rem"
+msgstr "px - em - rem"
+
+#: inc/woocommerce/woocommerce-config.php:1090
+msgid "Quick View"
+msgstr "Xem nhanh"
+
+#. %s: rating
+#: inc/woocommerce/woocommerce-helpers.php:221
+#: inc/woocommerce/woocommerce-helpers.php:227
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Đã xếp hạng %s trên 5"
+
+#: inc/helpers.php:2720
+msgid "Read More"
+msgstr "Đọc thêm"
+
+#: partials/none.php:11
+#, php-format
+msgid "Ready to publish your first post? %1$sGet started here%2$s."
+msgstr ""
+"Bạn đã sẵn sàng để đăng bài viết đầu tiên của bạn? %1$s Get đã bắt đầu ở đây "
+"%2$s."
+
+#: inc/helpers.php:1808
+msgid "Recent Posts"
+msgstr "Bài đăng gần đây"
+
+#: inc/woocommerce/woocommerce-config.php:1948
+msgid "Register"
+msgstr "Đăng ký"
+
+#: inc/helpers.php:2809
+msgid "Related Posts"
+msgstr "Bài viết liên quan"
+
+#: inc/customizer/settings/blog.php:1028
+msgid "Related Posts Columns"
+msgstr "Cột bài viết liên quan"
+
+#: inc/customizer/settings/blog.php:1008
+msgid "Related Posts Count"
+msgstr "Số bài viết liên quan"
+
+#: inc/customizer/settings/blog.php:1085
+msgid "Related Posts Image Height (px)"
+msgstr "Bài viết liên quan Chiều cao hình ảnh (px)"
+
+#: inc/customizer/settings/blog.php:1066
+msgid "Related Posts Image Width (px)"
+msgstr "Bài viết liên quan Chiều rộng hình ảnh (px)"
+
+#: inc/customizer/settings/blog.php:1048
+msgid "Related Posts Taxonomy"
+msgstr "Bài viết liên quan"
+
+#: woocommerce/cart/mini-cart.php:76
+msgid "Remove this item"
+msgstr "Xóa mục này"
+
+#: inc/customizer/settings/blog.php:821 inc/customizer/settings/blog.php:830
+msgid "Repeat"
+msgstr "Lặp lại"
+
+#: inc/customizer/settings/blog.php:831
+msgid "Repeat-x"
+msgstr "Lặp lại - x"
+
+#: inc/customizer/settings/blog.php:832
+msgid "Repeat-y"
+msgstr "Lặp lại - y"
+
+#: woocommerce/checkout/form-billing.php:28
+#: woocommerce/checkout/form-billing.php:38
+msgid "Returning customer?"
+msgstr "Phản hồi khách hàng?"
+
+#: inc/customizer/settings/blog.php:300 inc/customizer/settings/blog.php:753
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:191
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:195
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:199
+msgid "Right"
+msgstr "Phải"
+
+#: functions.php:603
+#: inc/customizer/controls/radio-image/class-control-radio-image.php:108
+msgid "Right Sidebar"
+msgstr "Thanh dọc phải"
+
+#: inc/helpers.php:3676
+msgid "RSS"
+msgstr "RSS"
+
+#: inc/woocommerce/woocommerce-config.php:1899
+msgid "Sale"
+msgstr "Giảm giá"
+
+#: inc/customizer/settings/topbar.php:411
+msgid "Same Window"
+msgstr "Cùng một cửa sổ"
+
+#: dokan/products/new-product-single.php:434
+#: dokan/products/new-product-single.php:435
+msgid "Save Product"
+msgstr "Lưu sản phẩm"
+
+#: dokan/products/new-product-single.php:219
+msgid "Schedule"
+msgstr "Lịch trình"
+
+#: inc/customizer/settings/blog.php:806
+msgid "Scroll"
+msgstr "Cuộn"
+
+#: searchform.php:31 partials/mobile/mobile-search.php:18
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: woocommerce/product-searchform.php:25
+msgid "Search for:"
+msgstr "Tìm kiếm:"
+
+#: woocommerce/product-searchform.php:36
+msgid "Search products&hellip;"
+msgstr "Tìm kiếm sản phẩm & hellip;"
+
+#. %s is the search query. The HTML entities are opening and closing curly quotes.
+#: inc/breadcrumbs.php:273
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Kết quả tìm kiếm cho &#8220;%s&#8221;"
+
+#: inc/helpers.php:1821
+msgid "Search Results Found"
+msgstr "Đã tìm thấy kết quả tìm kiếm"
+
+#: functions.php:626
+msgid "Search Results Sidebar"
+msgstr "Kết quả tìm kiếm bên"
+
+#: partials/header/style/medium-header-search.php:24
+#: partials/header/style/vertical-header-search.php:24
+msgid "Search..."
+msgstr "Tìm kiếm..."
+
+#: inc/customizer/customizer-helpers.php:45
+#: inc/customizer/controls/dropdown-pages/class-control-dropdown-pages.php:61
+msgid "Select"
+msgstr "Lựa chọn"
+
+#: inc/walker/init.php:68
+msgid "Select A Template"
+msgstr "Lựa chon một bản mẫu"
+
+#: searchform.php:21 woocommerce/product-searchform.php:28
+#: partials/header/search-overlay.php:24 partials/header/search-replace.php:22
+msgid "Select category"
+msgstr "Chọn danh mục"
+
+#: inc/woocommerce/woocommerce-config.php:1233
+msgid "Select Options"
+msgstr "Lựa chọn các tùy chọn"
+
+#: dokan/products/new-product-single.php:308
+msgid "Select product category"
+msgstr "Chọn danh mục sản phẩm"
+
+#: dokan/products/new-product-single.php:334
+msgid "Select product tags"
+msgstr "Chọn thẻ sản phẩm"
+
+#: inc/customizer/settings/footer-widgets.php:135
+#: inc/customizer/settings/topbar.php:320
+msgid "Select Template"
+msgstr "Chọn mẫu"
+
+#: inc/walker/init.php:122
+msgid "Select Widget Area"
+msgstr "Lựa chọn tiền ích"
+
+#: inc/woocommerce/woocommerce-config.php:1218
+msgid "Selected:"
+msgstr "Đã chọn:"
+
+#: inc/customizer/settings/typography.php:442
+#: inc/customizer/controls/typo/class-control-typo.php:302
+msgid "Semibold: 600"
+msgstr "Hơi đậm: 600"
+
+#: woocommerce/checkout/checkout-timeline.php:57
+msgid "Shipping"
+msgstr "Vận chuyển"
+
+#: dokan/products/new-product-single.php:413
+msgid "Short Description"
+msgstr "Mô tả ngắn"
+
+#: inc/customizer/settings/footer-bottom.php:95
+#: inc/customizer/settings/topbar.php:341
+#, php-format
+msgid "Shortcodes allowed, %1$ssee the list%2$s."
+msgstr "Đã cho phép mã ngắn, %1$s  xem danh sách %2$s."
+
+#: inc/customizer/settings/footer-bottom.php:77
+#: inc/customizer/settings/footer-widgets.php:77
+#: inc/customizer/settings/topbar.php:104
+msgid "Show On All Devices"
+msgstr "Hiển thị trên tất cả thiết bị"
+
+#: inc/third/class-beaver-themer.php:136 inc/customizer/settings/sidebar.php:40
+msgid "Sidebar"
+msgstr "Thanh bên"
+
+#: inc/customizer/settings/blog.php:85 inc/customizer/settings/blog.php:623
+msgid "Sidebar / Content / Sidebar"
+msgstr "Thanh bên/ Nội dung/ Thanh bên"
+
+#: inc/customizer/settings/blog.php:84 inc/customizer/settings/blog.php:622
+msgid "Sidebar / Sidebar / Content"
+msgstr "Thanh bên / Thanh bên / Nội dung"
+
+#: inc/customizer/settings/typography.php:195
+msgid "Sidebar Widget Heading"
+msgstr "Tiêu đề tiện ích thanh bên"
+
+#: inc/customizer/settings/blog.php:586
+msgid "Single Post"
+msgstr "Bài đăng đơn"
+
+#: inc/customizer/settings/blog.php:846
+msgid "Size"
+msgstr "Cỡ"
+
+#: inc/helpers.php:3648
+msgid "Skype"
+msgstr "Skype"
+
+#: inc/helpers.php:3517
+msgid "Slider"
+msgstr "Thanh trượt"
+
+#: inc/helpers.php:3518
+msgid "Slider Reverse"
+msgstr "Trượt trượt"
+
+#: inc/customizer/settings/topbar.php:352
+msgid "Social"
+msgstr "Nút xã hội"
+
+#: inc/customizer/settings/topbar.php:383
+msgid "Social Alternative"
+msgstr "Nút xã hội thay thế"
+
+#: inc/customizer/settings/topbar.php:403
+msgid "Social Link Target"
+msgstr "Mục tiêu liên kết xã hội"
+
+#: inc/customizer/settings/topbar.php:513
+msgid "Social Links Color"
+msgstr "Màu liên kết nút xã hội"
+
+#: inc/customizer/settings/topbar.php:529
+msgid "Social Links Color: Hover"
+msgstr "Màu liên kết nút xã hội: di chuột"
+
+#: inc/helpers.php:2806
+msgid "Social Share"
+msgstr "Chia sẻ xã hội"
+
+#: inc/woocommerce/woocommerce-config.php:2182
+#, php-format
+msgid "Sold by: <a href=\"%s\">%s</a>"
+msgstr "Được bán bởi: <a href=\"%s\">%s</a>"
+
+#: partials/none.php:13
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+"Rất tiếc, nhưng không có gì phù hợp với cụm từ tìm kiếm của bạn. Vui lòng "
+"thử lại với các từ khóa khác."
+
+#: inc/customizer/settings/blog.php:157 inc/customizer/settings/blog.php:695
+msgid "span"
+msgstr "span"
+
+#: inc/helpers.php:3519
+msgid "Spin"
+msgstr "Spin"
+
+#: inc/helpers.php:3520
+msgid "Spin Reverse"
+msgstr "Spin Reverse"
+
+#: inc/helpers.php:3521
+msgid "Spring"
+msgstr "Mùa xuân"
+
+#: inc/helpers.php:3522
+msgid "Spring Reverse"
+msgstr "Đảo ngược mùa xuân"
+
+#: inc/helpers.php:3525
+msgid "Squeeze"
+msgstr "Bóp"
+
+#: inc/helpers.php:3523
+msgid "Stand"
+msgstr "Đứng"
+
+#: inc/helpers.php:3524
+msgid "Stand Reverse"
+msgstr "Đứng ngược"
+
+#: inc/customizer/settings/blog.php:484
+msgid "Standard"
+msgstr "Tiêu chuẩn"
+
+#: inc/customizer/controls/typography/class-control-typography.php:73
+msgid "Standard Fonts"
+msgstr "Phông chữ chuẩn"
+
+#: dokan/store-reviews.php:45 dokan/store.php:51
+msgid "Store Category"
+msgstr "Danh mục cửa hàng"
+
+#: dokan/store-reviews.php:48 dokan/store.php:54
+msgid "Store Location"
+msgstr "Vị trí cửa hàng"
+
+#: dokan/store-reviews.php:52 dokan/store.php:58
+msgid "Store Time"
+msgstr "Thời gian mở cửa"
+
+#: inc/customizer/settings/topbar.php:120
+msgid "Style"
+msgstr "Kiểu"
+
+#: woocommerce/product-searchform.php:37
+msgctxt "submit button"
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: dokan/products/new-product-single.php:150
+msgid "Success!"
+msgstr "Thành công!"
+
+#: inc/customizer/settings/blog.php:995 inc/customizer/settings/blog.php:1054
+msgid "Tag"
+msgstr "Thẻ"
+
+#: inc/helpers.php:2805 dokan/products/new-product-single.php:314
+msgid "Tags"
+msgstr "Thẻ"
+
+#: inc/walker/init.php:66
+msgid "Template"
+msgstr "Bản mẫu"
+
+#: inc/customizer/settings/footer-bottom.php:213
+#: inc/customizer/settings/footer-widgets.php:309
+#: inc/customizer/settings/topbar.php:261
+msgid "Text Color"
+msgstr "Màu chữ"
+
+#: inc/customizer/settings/typography.php:489
+#: inc/customizer/controls/typo/class-control-typo.php:60
+msgid "Text Transform"
+msgstr "Chữ chuyển đổi"
+
+#: functions.php:1000
+msgid "Thank you for installing WooVina theme!"
+msgstr "Cảm ơn bạn đã cài đặt chủ đề WooVina!"
+
+#: functions.php:1021
+msgid "Thank you for using WooVina theme!"
+msgstr "Cảm ơn bạn đã sử dụng chủ đề WooVina!"
+
+#: dokan/products/new-product-single.php:150
+msgid "The product has been saved successfully."
+msgstr "Sản phẩm đã được lưu thành công."
+
+#: inc/walker/init.php:66
+msgid "Theme Panel > My Library"
+msgstr "Bảng điều khiển chủ đề> Thư viện của tôi"
+
+#: partials/none.php:15
+msgid "There aren't any posts currently published in this category."
+msgstr "Hiện không có bài đăng nào được xuất bản trong danh mục này."
+
+#: partials/none.php:19
+msgid "There aren't any posts currently published under this tag."
+msgstr "Hiện không có bài đăng nào được xuất bản trong thẻ này."
+
+#: partials/none.php:17
+msgid "There aren't any posts currently published under this taxonomy."
+msgstr "Hiện không có bài đăng nào được xuất bản theo phân loại này."
+
+#: inc/customizer/settings/typography.php:437
+#: inc/customizer/controls/typo/class-control-typo.php:297
+msgid "Thin: 100"
+msgstr "Mỏng: 100"
+
+#: inc/helpers.php:1932
+msgid "This author has written"
+msgstr "Tác giả này đã viết"
+
+#: inc/customizer/settings/footer-widgets.php:94
+msgid ""
+"This option add a height to your content to keep your footer at the bottom "
+"of your page."
+msgstr ""
+"Tùy chọn này thêm chiều cao vào nội dung của bạn để giữ chân trang ở cuối "
+"trang của bạn."
+
+#: 404.php:103
+msgid "This page could not be found!"
+msgstr "Rất tiếc. Không thể tìm thấy trang này!"
+
+#: comments.php:44
+#, php-format
+msgid "This Post Has %s Comments"
+msgstr "Bài này có %s bình luận"
+
+#: comments.php:42
+msgid "This Post Has One Comment"
+msgstr "Bài này có một bình luận"
+
+#: inc/customizer/settings/blog.php:196 inc/customizer/settings/blog.php:216
+msgid "Thumbnail"
+msgstr "Ảnh nhỏ"
+
+#: inc/helpers.php:2717 inc/helpers.php:2802
+#: dokan/products/new-product-single.php:176
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: inc/customizer/settings/blog.php:746
+msgid "Title/Breadcrumb Position"
+msgstr "Tiêu đề / Đường dẫn vị trí"
+
+#: inc/customizer/settings/sidebar.php:284
+msgid "Titles Border Color"
+msgstr "Mài viền dưới tiêu đề"
+
+#: inc/customizer/settings/sidebar.php:300
+msgid "Titles Margin Bottom (px)"
+msgstr "Khoảng cách dưới tiêu đề (px)"
+
+#: dokan/products/new-product-single.php:246
+msgid "To"
+msgstr "Đến"
+
+#: inc/customizer/settings/blog.php:320
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:190
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:194
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:198
+msgid "Top"
+msgstr "Trên"
+
+#: functions.php:274 inc/third/class-beaver-themer.php:100
+#: inc/customizer/settings/topbar.php:40
+#: inc/customizer/settings/typography.php:109
+msgid "Top Bar"
+msgstr "Thanh trên cùng"
+
+#: inc/customizer/settings/topbar.php:79
+msgid "Top Bar Full Width"
+msgstr "Chiều rộng toàn bộ thanh trên cùng"
+
+#: inc/customizer/settings/blog.php:777
+msgid "Top Center"
+msgstr "Trên giữa"
+
+#: inc/customizer/settings/blog.php:776
+msgid "Top Left"
+msgstr "Trên trái"
+
+#: inc/customizer/settings/blog.php:778
+msgid "Top Right"
+msgstr "Trên phải"
+
+#: inc/helpers.php:3672
+msgid "Tripadvisor"
+msgstr "Tripadvisor"
+
+#: inc/helpers.php:3636
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/helpers.php:3604
+msgid "Twitter"
+msgstr "Twitter"
+
+#: partials/header/search-replace.php:32
+msgid "Type then hit enter to search..."
+msgstr "Nhập rồi nhấn enter để tìm kiếm ..."
+
+#: inc/helpers.php:1568 partials/mobile/mobile-fullscreen-search.php:28
+msgid "Type your search"
+msgstr "Nhập tìm kiếm của bạn"
+
+#: partials/header/search-overlay.php:35
+msgid "Type your text and hit enter to search"
+msgstr "Nhập văn bản của bạn và nhấn enter để tìm kiếm"
+
+#: inc/customizer/settings/typography.php:257
+msgid "Typography"
+msgstr "Typography"
+
+#: dokan/products/new-product-single.php:361
+msgid "Upload a product cover image"
+msgstr "Tải lên ảnh bìa sản phẩm"
+
+#: inc/customizer/settings/typography.php:499
+#: inc/customizer/controls/typo/class-control-typo.php:338
+msgid "Uppercase"
+msgstr "Chữ Hoa"
+
+#: dokan/store-reviews.php:91
+msgid "Vendor Review"
+msgstr "Đánh giá nhà cung cấp"
+
+#: inc/customizer/settings/blog.php:315
+msgid "Vertical Position"
+msgstr "Vị trí dọc"
+
+#: inc/woocommerce/woocommerce-config.php:699
+msgid "View cart"
+msgstr "Xem giỏ hàng"
+
+#: dokan/products/new-product-single.php:126
+msgid "View Product"
+msgstr "Xem sản phẩm"
+
+#: dokan/products/new-product-single.php:153
+msgid "View Product &rarr;"
+msgstr "Xem sản phẩm &rarr;"
+
+#: inc/woocommerce/woocommerce-config.php:721
+msgid "View products"
+msgstr "Xem sản phẩm"
+
+#: woocommerce/result-count.php:60
+msgid "View:"
+msgstr "Xem:"
+
+#: inc/helpers.php:3656
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: inc/helpers.php:3660
+msgid "Vine"
+msgstr "Vine"
+
+#: inc/customizer/settings/footer-bottom.php:70
+#: inc/customizer/settings/footer-widgets.php:70
+#: inc/customizer/settings/topbar.php:97
+msgid "Visibility"
+msgstr "Hiển thị"
+
+#: partials/single/author-bio.php:36 partials/single/author-bio.php:47
+msgid "Visit Author Page"
+msgstr "Truy cập trang tác giả"
+
+#: inc/helpers.php:3624
+msgid "VK"
+msgstr "VK"
+
+#: inc/helpers.php:3526
+msgid "Vortex"
+msgstr "Vortex"
+
+#: inc/helpers.php:3527
+msgid "Vortex Reverse"
+msgstr "Đảo ngược xoáy"
+
+#: 404.php:104
+msgid "We are sorry. But the page you are looking for is not available."
+msgstr ""
+"Chúng tôi xin lỗi. Tuy nhiên, trang bạn đang tìm kiếm hiện không tồn tại."
+
+#: inc/helpers.php:2971
+msgid "Website"
+msgstr "Website"
+
+#. Weekly archive title. %s is the week date format.
+#: inc/breadcrumbs.php:279
+#, php-format
+msgid "Week %s"
+msgstr "Tuần %s"
+
+#: inc/breadcrumbs.php:788
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "Định dạng ngày lưu trữ hàng tuần"
+
+#: inc/woocommerce/woocommerce-config.php:1287
+msgid "Welcome!"
+msgstr "Chào mừng bạn!"
+
+#: inc/customizer/settings/sidebar.php:150
+msgid "Widgets"
+msgstr "Tiện ích"
+
+#: functions.php:640
+msgid "Widgets in this area are used in the first footer region."
+msgstr "Widget trong lĩnh vực này được sử dụng trong khu vực chân đầu tiên."
+
+#: functions.php:673
+msgid "Widgets in this area are used in the fourth footer region."
+msgstr "Widget trong lĩnh vực này được sử dụng trong khu vực chân thứ tư."
+
+#: functions.php:616
+msgid "Widgets in this area are used in the left sidebar region."
+msgstr "Widget trong khu vực này được sử dụng trong khu vực bên trái."
+
+#: inc/woocommerce/woocommerce-config.php:819
+msgid ""
+"Widgets in this area are used in the off canvas sidebar. To enable the Off "
+"Canvas filter, go to the WooCommerce > Archives section of the customizer "
+"and enable the Display Filter Button option."
+msgstr ""
+"Các widget trong khu vực này được sử dụng trong thanh bên ngoài của canvas. "
+"Để bật bộ lọc Tắt Canvas, đi tới phần WooCommerce> Lưu trữ của tùy biến và "
+"bật tùy chọn Hiển thị nút bộ lọc."
+
+#: functions.php:605
+msgid "Widgets in this area are used in the right sidebar region."
+msgstr "Widget trong khu vực này được sử dụng trong khu vực bên phải."
+
+#: functions.php:628
+msgid "Widgets in this area are used in the search result page."
+msgstr "Widget trong khu vực này được sử dụng trong trang kết quả tìm kiếm."
+
+#: functions.php:651
+msgid "Widgets in this area are used in the second footer region."
+msgstr "Widget trong lĩnh vực này được sử dụng trong khu vực chân thứ hai."
+
+#: functions.php:662
+msgid "Widgets in this area are used in the third footer region."
+msgstr "Widget trong lĩnh vực này được sử dụng trong khu vực chân thứ ba."
+
+#: inc/woocommerce/woocommerce-config.php:2059
+msgid "WooCommerce Product Add To Cart"
+msgstr "Thêm sản phẩm vào giỏ hang WooCommerce"
+
+#: inc/woocommerce/woocommerce-config.php:2049
+msgid "WooCommerce Product Price"
+msgstr "Giá sản phẩm WooCommerce"
+
+#: inc/woocommerce/woocommerce-config.php:531
+msgid "WooCommerce Product Sidebar"
+msgstr "WooCommerce Product Sidebar"
+
+#: inc/woocommerce/woocommerce-config.php:2038
+msgid "WooCommerce Product Title"
+msgstr "Tieu đề sản phẩm WooCommerce"
+
+#: inc/woocommerce/woocommerce-config.php:521
+msgid "WooCommerce Sidebar"
+msgstr "WooCommerce Sidebar"
+
+#. Name of the theme
+#: inc/helpers.php:3451
+msgid "WooVina"
+msgstr "WooVina"
+
+#. Description of the theme
+msgid ""
+"WooVina is an intuitive &amp; flexible, free WordPress theme offering deep "
+"integration with WooCommerce. Lightweight and highly extendable, it will "
+"enable you to create almost any type of ecommerce website. Very fast, "
+"responsive, RTL &amp; translation ready, best SEO practices, unique "
+"WooCommerce features to increase conversion and much more. You can even edit "
+"the settings on tablet &amp; mobile so your site looks good on every device. "
+"Work with the most popular page builders as Elementor, Beaver Builder, "
+"Visual Composer, Divi, SiteOrigin, etc... Developers will love his "
+"extensible codebase making it a joy to customize and extend. Best friend of "
+"Elementor &amp; WooCommerce, it's the perfect platform for your next "
+"WooCommerce project. Check the demos to realize that it's the only theme you "
+"will ever need: https://woovina.com/demos"
+msgstr ""
+"WooVina là một chủ đề WordPress miễn phí trực quan và linh hoạt, cung cấp "
+"khả năng tích hợp sâu với WooCommerce. Nhẹ và có khả năng mở rộng cao, nó sẽ "
+"cho phép bạn tạo hầu hết mọi loại trang web thương mại điện tử. Rất nhanh, "
+"đáp ứng, RTL & dịch đã sẵn sàng, các phương pháp SEO tốt nhất, các tính năng "
+"WooCommerce độc ​​đáo để tăng chuyển đổi và hơn thế nữa. Bạn thậm chí có thể "
+"chỉnh sửa cài đặt trên máy tính bảng và thiết bị di động để trang web của "
+"bạn trông đẹp trên mọi thiết bị. Làm việc với các trình tạo trang phổ biến "
+"nhất như Elementor, Beaver Builder, Visual Composer, Divi, SiteOrigin, v.v. "
+"Bạn thân nhất của Elementor & WooCommerce, đó là nền tảng hoàn hảo cho dự án "
+"WooCommerce của bạn. Kiểm tra các bản demo để nhận ra rằng đó là chủ đề duy "
+"nhất bạn cần: https://woovina.com/demos"
+
+#. Author of the theme
+msgid "WooVina.com"
+msgstr "WooVina.com"
+
+#: inc/helpers.php:3664
+msgid "Xing"
+msgstr "Xing"
+
+#: inc/woocommerce/woocommerce-config.php:276
+msgid "Year,Month,Week,Day,Hour,Minute,Second"
+msgstr "Năm,Tháng,Tuần,Ngày,Giờ,Phút,Giây"
+
+#: inc/breadcrumbs.php:758 inc/breadcrumbs.php:787 inc/breadcrumbs.php:811
+#: inc/breadcrumbs.php:835 inc/breadcrumbs.php:1172
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Định dạng ngày lưu trữ hàng năm"
+
+#: inc/helpers.php:1849
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Lưu trữ hang năm: %s"
+
+#: inc/woocommerce/woocommerce-config.php:275
+msgid "Years,Months,Weeks,Days,Hours,Minutes,Seconds"
+msgstr "Năm,Tháng,Tuần,Ngày,Giờ,Phút,Giây"
+
+#: inc/helpers.php:3668
+msgid "Yelp"
+msgstr "Yelp"
+
+#: partials/single/related-posts.php:19
+msgid "You Might Also Like"
+msgstr "Bạn cũng có thể thích"
+
+#: comments.php:93
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr "Bạn phải là %1$slogged trong%2$s để gửi bình luận."
+
+#: woocommerce/checkout/form-multistep-checkout.php:53
+msgid "You must be logged in before proceeding to checkout."
+msgstr "Bạn phải đăng nhập trước khi tiến hành thanh toán."
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr "Bạn phải đăng nhập để thanh toán."
+
+#: inc/helpers.php:1927
+msgid "You searched for:"
+msgstr "Bạn tìm kiếm cho:"
+
+#: inc/woocommerce/woocommerce-config.php:1802
+msgid "Your cart"
+msgstr "Giỏ hàng của bạn"
+
+#: comments.php:97
+msgid "Your Comment Here..."
+msgstr "Bình luận của bạn ở đây..."
+
+#: inc/helpers.php:2937
+msgid "Your comment is awaiting moderation."
+msgstr "Bình luận của bạn đang chờ kiểm duyệt."
+
+#: woocommerce/checkout/form-checkout.php:61
+msgid "Your order"
+msgstr "Đơn đặt hàng của bạn"
+
+#: inc/helpers.php:3652
+msgid "Youtube"
+msgstr "Youtube"
+
+#: dokan/products/new-product-single.php:240
+#: dokan/products/new-product-single.php:247
+msgid "YYYY-MM-DD"
+msgstr "YYYY-MM-DD"

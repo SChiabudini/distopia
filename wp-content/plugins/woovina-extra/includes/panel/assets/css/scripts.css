@@ -1,0 +1,78 @@
+.clr:after { content: ''; display: block; height: 0; clear: both; visibility: hidden; zoom: 1; }
+
+.wrap .woovina-desc { padding: 10px 15px; margin: 20px 8px; }
+.wrap .woovina-desc p { font-size: 14px; margin: 0; }
+
+.woovina-modules .modules-top { display: block; margin: 15px 0.5%; }
+.woovina-modules .modules-top p.submit { display: inline-block; margin: 0; }
+.woovina-modules .modules-top p.submit input:active { vertical-align: baseline !important; }
+.woovina-modules .modules-top .wvn-all-wrap { display: inline-block; margin-left: 15px; }
+.woovina-modules .modules-top .wvn-all-wrap p { display: inline-block; font-size: 15px; line-height: 1.5; margin: 0; }
+.woovina-modules .modules-top .wvn-all-wrap #wvn-switch { float: none; display: inline-block; margin-left: 8px; }
+.woovina-modules .btn-switcher { float: right; border: 1px solid rgba(0,0,0,.1); border-radius: 10px; list-style: none; margin: 0; padding: 0; }
+.woovina-modules .btn-switcher li { float: left; border-right: 1px solid rgba(0,0,0,.1); margin: 0; }
+.woovina-modules .btn-switcher li:last-child { border-right: none; }
+.woovina-modules .btn-switcher li a { display: inline-block; background-color: #f5f5f5; color: #555; font-size: 12px; font-weight: 600; width: 50px; height: 28px; line-height: 28px; text-transform: uppercase; text-decoration: none; letter-spacing: 1px; text-align: center; -webkit-box-shadow: none; box-shadow: none; }
+.woovina-modules .btn-switcher li a:hover { background-color: #eee; }
+.woovina-modules .btn-switcher li.active a,
+.woovina-modules .btn-switcher li.active a:hover { background-color: #3498DB; color: #fff; }
+.woovina-modules .btn-switcher li:first-child a { border-top-left-radius: 10px; border-bottom-left-radius: 10px; }
+.woovina-modules .btn-switcher li:last-child a { border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
+.is-fadeout { animation: fade linear 200ms 1 forwards; }
+.is-fadein { animation: fade linear 200ms 1 reverse forwards; }
+@keyframes fade { from { opacity: 1; } to { opacity: 0; } }
+
+.woovina-modules .modules-inner { display: -webkit-box; display: -ms-flexbox; display: flex; flex-wrap: wrap; margin-top: 30px; }
+.woovina-modules .column-wrap { display: -webkit-box; display: -ms-flexbox; display: flex; position: relative; background: #fff; border: 1px solid #ccc; width: 24%; min-height: 150px; margin: 0 0.5% 1% 0.5%;  padding: 25px 25px 20px; overflow: hidden; box-sizing: border-box; }
+.woovina-modules .column-wrap.hidden { display: none !important; }
+.woovina-modules .type { position: absolute; top: 0; right: 0; color: #fff; font-size: 12px; font-weight: 700; width: 50px; height: 30px; line-height: 30px; text-transform: uppercase; letter-spacing: 1px; border-bottom-left-radius: 5px; text-align: center; }
+.woovina-modules .type.js { background-color: #fea952;  }
+.woovina-modules .type.css { background-color: #67ce6b; }
+.woovina-modules .column-inner { display: -webkit-box; display: -ms-flexbox; display: flex; flex-direction: column; width: 100%; }
+.woovina-modules .info { display: block; position: relative; font-size: 18px; color: #333; margin: 0 0 20px; padding-bottom: 20px; border-bottom: 1px solid #eaeaea; }
+.woovina-modules .desc { flex: 1 0 auto; display: block; margin: 0 0 20px; font-size: 16px; line-height: 1.6; font-weight: 400; color: #777; }
+.woovina-modules .bottom-column { padding: 20px 0 0; border-top: 1px solid #eaeaea; margin: 0; }
+.woovina-modules .bottom-column .title { float: left; margin-top: 3px; font-size: 12px; font-weight: 600; line-height: 16px; text-transform: uppercase; letter-spacing: 0.6px; }
+.woovina-modules #wvn-switch { float: right; }
+.woovina-modules #wvn-switch input { position: absolute; left: -9999px; }
+.woovina-modules #wvn-switch label { position: relative; padding-left: 4em; padding-top: .25em; cursor: pointer; }
+.woovina-modules #wvn-switch label:before,
+.woovina-modules #wvn-switch label:after { content: ''; position: absolute; height: 1.80em; -webkit-transition: all .5s ease; -o-transition: all .5s ease; transition: all .5s ease; }
+.woovina-modules #wvn-switch label:before { left: 0; top: 0; width: 3.70em; background-color: #dfd9ea; border-radius: 1.5em; z-index: 0; }
+.woovina-modules #wvn-switch label:after { left: .15em; top: .1em; background-color: #fff; border-radius: 50%; width: 1.60em; height: 1.60em; }
+.woovina-modules #wvn-switch input:checked + label:before { background-color: #72da67; border-color: #72da67; }
+.woovina-modules #wvn-switch input:checked + label:after { left: 1.95em; }
+.woovina-modules p.submit { margin: 15px 0 0 0.5%; padding: 0; clear: both; }
+
+/* RTL */
+body.rtl .woovina-modules p.submit { margin: 0; }
+body.rtl .woovina-modules .modules-top .wvn-all-wrap { margin-right: 15px; margin-left: 0; }
+body.rtl .woovina-modules .modules-top .wvn-all-wrap #wvn-switch { margin-right: 8px; margin-left: 0; }
+body.rtl .woovina-modules .btn-switcher { float: left; }
+body.rtl .woovina-modules .btn-switcher li { float: right; border-left: 1px solid rgba(0,0,0,.1); border-right: none; }
+body.rtl .woovina-modules .btn-switcher li:last-child { border-left: none; }
+body.rtl .woovina-modules .btn-switcher li:first-child a { border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-top-left-radius: 0; border-bottom-left-radius: 0; }
+body.rtl .woovina-modules .btn-switcher li:last-child a { border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 0; border-bottom-right-radius: 0; }
+body.rtl .woovina-modules .type { left: 0; right: auto; border-bottom-right-radius: 5px; border-bottom-left-radius: 0; }
+body.rtl .woovina-modules .bottom-column .title { float: right; }
+body.rtl .woovina-modules #wvn-switch { float: left; }
+body.rtl .woovina-modules p.submit { margin: 15px 0.5% 0 0; }
+
+
+@media screen and (max-width: 1280px) {
+    .woovina-modules .column-wrap { width: 32.33%; }
+}
+
+@media screen and (max-width: 1100px) {
+    .woovina-modules .column-wrap { width: 49%; }
+}
+
+@media screen and (max-width: 767px) {
+    .woovina-modules .modules-top .wvn-all-wrap { display: block; margin: 10px 0 0; }
+    .woovina-modules .modules-top { position: relative; }
+    .woovina-modules .btn-switcher { position: absolute; top: 3px; right: 0; }
+}
+
+@media screen and (max-width: 600px) {
+    .woovina-modules .column-wrap { width: 100%; }
+}

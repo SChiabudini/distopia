@@ -1,0 +1,416 @@
+// Perspective
+@mixin perspective($args) {
+    -webkit-perspective: $args;
+    perspective: $args;
+}
+
+// Transform
+@mixin transform($args) {
+    -webkit-transform: $args;
+    transform: $args;
+}
+
+// Transform style
+@mixin transform-style($args) {
+    -webkit-transform-style: $args;
+    transform-style: $args;
+}
+
+// Transition
+@mixin transition($args) {
+    -webkit-transition: $args;
+    transition: $args;
+}
+
+// Backface
+@mixin backface-visibility($args) {
+    -webkit-backface-visibility: $args;
+    backface-visibility: $args;
+}
+
+/*------------------------------------------------------------------
+Flip Box
+-------------------------------------------------------------------*/
+.wew-flip-box {
+    position: relative;
+    height: 280px;
+    @include perspective(1000px);
+    @include transform-style(preserve-3d);
+
+    .elementor-icon {
+        color: #fff;
+    }
+
+    .elementor-view-framed .elementor-icon {
+        color: #fff;
+        border-color: #fff;
+    }
+
+    .elementor-view-stacked .elementor-icon {
+        color: #fff;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    .elementor-icon-wrap {
+        margin-bottom: 20px;
+    }
+
+    .wew-flip-box-button {
+        background-color: #fff;
+        color: #333;
+
+        &:hover {
+            background-color: #eee;
+        }
+    }
+}
+
+.wew-flip-box-front {
+    background-color: #13aff0;
+}
+
+.wew-flip-box-back {
+    display: block;
+    background-color: #fe8a52;
+}
+
+.wew-flip-box-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    @include transition(all .6s ease-in-out);
+}
+
+.wew-flip-box-layer-overlay {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+    padding: 35px;
+    text-align: center;
+}
+
+.wew-flip-box-layer-title {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 600;
+
+    &:not(:last-child) {
+        margin: 0 0 20px 0;
+        padding: 0;
+    }
+}
+
+.wew-flip-box-layer-desc {
+    font-size: 14px;
+    color: #fff;
+
+    &:not(:last-child) {
+        margin: 0 0 20px 0;
+        padding: 0;
+    }
+}
+
+.wew-flip-box-image {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 20px 0;
+
+    img {
+        width: 50%;
+    }
+}
+
+.wew-flip-box-3d-yes {
+    .wew-flip-box-layer-inner {
+        @include transform(translateZ(90px) scale(.91));
+    }
+
+    .wew-flip-box-layer-overlay {
+        @include transform(translateZ(.1px));
+        @include transform-style(preserve-3d);
+    }
+}
+
+.wew-flip-box-effect-flip {
+    .wew-flip-box {
+        @include perspective(1000px);
+        @include transform-style(preserve-3d);
+
+        &:hover .wew-flip-box-back {
+            @include transform(none);
+        }
+    }
+
+    .wew-flip-box-layer {
+        @include transform-style(preserve-3d);
+        @include backface-visibility(hidden);
+    }
+
+    .wew-flip-box-front {
+        @include transform(none);
+        z-index: 1;
+    }
+
+    &.wew-flip-box-direction-right {
+        .wew-flip-box-back {
+            @include transform(rotateX(0) rotateY(-180deg));
+        }
+
+        .wew-flip-box:hover .wew-flip-box-front {
+            @include transform(rotateX(0) rotateY(180deg));
+        }
+    }
+
+    &.wew-flip-box-direction-left {
+        .wew-flip-box-back {
+            @include transform(rotateX(0) rotateY(180deg));
+        }
+
+        .wew-flip-box:hover .wew-flip-box-front {
+            @include transform(rotateX(0) rotateY(-180deg));
+        }
+    }
+
+    &.wew-flip-box-direction-up {
+        .wew-flip-box-back {
+            @include transform(rotateX(-180deg) rotateY(0));
+        }
+
+        .wew-flip-box:hover .wew-flip-box-front {
+            @include transform(rotateX(180deg) rotateY(0));
+        }
+    }
+
+    &.wew-flip-box-direction-down {
+        .wew-flip-box-back {
+            @include transform(rotateX(180deg) rotateY(0));
+        }
+
+        .wew-flip-box:hover .wew-flip-box-front {
+            @include transform(rotateX(-180deg) rotateY(0));
+        }
+    }
+}
+
+.wew-flip-box-effect-push {
+    .wew-flip-box-front {
+        @include transform(none);
+    }
+
+    .wew-flip-box {
+        overflow: hidden;
+
+        &:hover .wew-flip-box-back {
+            @include transform(none);
+        }
+    }
+
+    &.wew-flip-box-direction-right {
+        .wew-flip-box:hover .wew-flip-box-front {
+            @include transform(translateX(100%) translateY(0));
+        }
+
+        .wew-flip-box-back {
+            @include transform(translateX(-100%) translateY(0));
+        }
+    }
+
+    &.wew-flip-box-direction-left {
+        .wew-flip-box:hover .wew-flip-box-front {
+            @include transform(translateX(-100%) translateY(0));
+        }
+
+        .wew-flip-box-back {
+            @include transform(translateX(100%) translateY(0));
+        }
+    }
+
+    &.wew-flip-box-direction-up {
+        .wew-flip-box:hover .wew-flip-box-front {
+            @include transform(translateX(0) translateY(-100%));
+        }
+
+        .wew-flip-box-back {
+            @include transform(translateX(0) translateY(100%));
+        }
+    }
+
+    &.wew-flip-box-direction-down {
+        .wew-flip-box:hover .wew-flip-box-front {
+            @include transform(translateX(0) translateY(100%));
+        }
+
+        .wew-flip-box-back {
+            @include transform(translateX(0) translateY(-100%));
+        }
+    }
+}
+
+.wew-flip-box-effect-slide {
+    .wew-flip-box {
+        overflow: hidden;
+    }
+
+    .wew-flip-box:hover .wew-flip-box-back {
+        @include transform(none);
+    }
+
+    &.wew-flip-box-direction-right .wew-flip-box-back {
+        @include transform(translateX(-100%) translateY(0));
+    }
+
+    &.wew-flip-box-direction-left .wew-flip-box-back {
+        @include transform(translateX(100%) translateY(0));
+    }
+
+    &.wew-flip-box-direction-up .wew-flip-box-back {
+        @include transform(translateX(0) translateY(100%));
+    }
+
+    &.wew-flip-box-direction-down .wew-flip-box-back {
+        @include transform(translateX(0) translateY(-100%));
+    }
+}
+
+.wew-flip-box-effect-zoom-out .wew-flip-box {
+    .wew-flip-box-front {
+        -webkit-transition: opacity .35s, width .1ms, -webkit-transform .7s;
+        transition: opacity .35s, width .1ms, -webkit-transform .7s;
+        transition: transform .7s, opacity .35s, width .1ms;
+        transition: transform .7s, opacity .35s, width .1ms, -webkit-transform .7s;
+        opacity: 1;
+        z-index: 1;
+        width: 100%;
+        @include transform(scale(1));
+    }
+
+    &:hover .wew-flip-box-front {
+        width: 0;
+        opacity: 0;
+        -webkit-transition: opacity .7s .1s, width .1ms .7s, -webkit-transform .8s;
+        transition: opacity .7s .1s, width .1ms .7s, -webkit-transform .8s;
+        transition: transform .8s, opacity .7s .1s, width .1ms .7s;
+        transition: transform .8s, opacity .7s .1s, width .1ms .7s, -webkit-transform .8s;
+        @include transform(scale(.7));
+    }
+}
+
+.wew-flip-box-effect-zoom-in .wew-flip-box {
+    .wew-flip-box-back {
+        -webkit-transition: opacity .5s .2s, -webkit-transform .7s;
+        transition: opacity .5s .2s, -webkit-transform .7s;
+        transition: transform .7s, opacity .5s .2s;
+        transition: transform .7s, opacity .5s .2s, -webkit-transform .7s;
+        opacity: 0;
+        @include transform(scale(.7));
+    }
+
+    &:hover .wew-flip-box-back {
+        -webkit-transition: opacity .5s, -webkit-transform .7s;
+        transition: opacity .5s, -webkit-transform .7s;
+        transition: transform .7s, opacity .5s;
+        transition: transform .7s, opacity .5s, -webkit-transform .7s;
+        opacity: 1;
+        @include transform(scale(1));
+    }
+}
+
+.wew-flip-box-effect-fade .wew-flip-box {
+    .wew-flip-box-back {
+        opacity: 0;
+    }
+
+    &:hover .wew-flip-box-back {
+        opacity: 1;
+    }
+}
+
+.elementor-widget-wew-flip-box.wew-flip-box-flipped .elementor-widget-container {
+    .wew-flip-box-front {
+        display: none;
+    }
+
+    .wew-flip-box-back {
+        @include transform(none);
+        opacity: 1;
+    }
+}
+
+/* RTL */
+body.rtl {
+    .wew-flip-box-effect-flip {
+        &.wew-flip-box-direction-right .wew-flip-box-back {
+            @include transform(rotateX(0) rotateY(180deg));
+
+            &:hover .wew-flip-box-front {
+                @include transform(rotateX(0) rotateY(-180deg));
+            }
+        }
+
+        &.wew-flip-box-direction-left .wew-flip-box-back {
+            @include transform(rotateX(0) rotateY(-180deg));
+
+            &:hover .wew-flip-box-front {
+                @include transform(rotateX(0) rotateY(180deg));
+            }
+        }
+    }
+
+    .wew-flip-box-effect-push {
+        &.wew-flip-box-direction-right {
+            .wew-flip-box:hover .wew-flip-box-front {
+                @include transform(translateX(-100%) translateY(0));
+            }
+
+            .wew-flip-box-back {
+                @include transform(translateX(100%) translateY(0));
+            }
+        }
+
+        &.wew-flip-box-direction-left {
+            .wew-flip-box:hover .wew-flip-box-front {
+                @include transform(translateX(100%) translateY(0));
+            }
+
+            .wew-flip-box-back {
+                @include transform(translateX(-100%) translateY(0));
+            }
+        }
+    }
+
+    .wew-flip-box-effect-slide {
+        &.wew-flip-box-direction-right .wew-flip-box-back {
+            @include transform(translateX(100%) translateY(0));
+        }
+
+        &.wew-flip-box-direction-left .wew-flip-box-back {
+            @include transform(translateX(-100%) translateY(0));
+        }
+    }
+}
+
+/*------------------------------------------------------------------
+Responsive
+-------------------------------------------------------------------*/
+@media (max-device-width: 1024px) {
+    .wew-flip-box {
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,149 @@
+.woovina-search-pro {
+  display: block;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  /*------ Reset ------*/ }
+  .woovina-search-pro input[type="search"], .woovina-search-pro button {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+    background: none;
+    line-height: 1;
+    min-width: 0;
+    font-size: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none; }
+    .woovina-search-pro input[type="search"]:focus, .woovina-search-pro button:focus {
+      outline: 0;
+      color: inherit; }
+  .woovina-search-pro button {
+    background-color: #818a91;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 0; }
+  .woovina-search-pro__container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    overflow: hidden;
+    border: 0 solid transparent;
+    min-height: 50px; }
+    .woovina-search-pro__container:not(.woovina-search-pro--full-screen) {
+      background: #eceeef; }
+  .woovina-search-pro__input {
+    -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
+    color: #55595c;
+    -webkit-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    transition: color 0.2s; }
+    .woovina-search-pro__input::-webkit-input-placeholder {
+      color: inherit;
+      font-family: inherit;
+      opacity: 0.6; }
+    .woovina-search-pro__input:-ms-input-placeholder {
+      color: inherit;
+      font-family: inherit;
+      opacity: 0.6; }
+    .woovina-search-pro__input:-moz-placeholder {
+      color: inherit;
+      font-family: inherit;
+      opacity: 0.6; }
+    .woovina-search-pro__input::-ms-input-placeholder {
+      color: inherit;
+      font-family: inherit;
+      opacity: 0.6; }
+    .woovina-search-pro__input::placeholder {
+      color: inherit;
+      font-family: inherit;
+      opacity: 0.6; }
+  .woovina-search-pro__submit {
+    color: #fff;
+    -webkit-transition: color 0.2s, background 0.2s;
+    -o-transition: color 0.2s, background 0.2s;
+    transition: color 0.2s, background 0.2s; }
+  .woovina-search-pro--button-type-text .woovina-search-pro__submit {
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0; }
+  .woovina-search-pro--skin-minimal .woovina-search-pro__icon {
+    opacity: 0.6;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    color: #55595c; }
+  .woovina-search-pro--skin-full_screen .woovina-search-pro input[type="search"].woovina-search-pro__input {
+    font-size: 50px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #fff;
+    line-height: 1.5;
+    color: #fff; }
+  .woovina-search-pro--skin-full_screen .woovina-search-pro__toggle {
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    color: #494c4f; }
+    .woovina-search-pro--skin-full_screen .woovina-search-pro__toggle i {
+      position: relative;
+      display: block;
+      border: solid 0;
+      -webkit-transition: 0.2s;
+      -o-transition: 0.2s;
+      transition: 0.2s;
+      width: 33px;
+      height: 33px;
+      background-color: rgba(0, 0, 0, 0.05);
+      border-radius: 3px; }
+      .woovina-search-pro--skin-full_screen .woovina-search-pro__toggle i:before {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        font-size: 0.55em; }
+  .woovina-search-pro--skin-full_screen .woovina-search-pro__container {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    padding: 0 15%;
+    background-color: rgba(0, 0, 0, 0.8); }
+    .woovina-search-pro--skin-full_screen .woovina-search-pro__container:not(.woovina-search-pro--full-screen) {
+      overflow: hidden;
+      opacity: 0;
+      -webkit-transform: scale(0);
+          -ms-transform: scale(0);
+              transform: scale(0); }
+      .woovina-search-pro--skin-full_screen .woovina-search-pro__container:not(.woovina-search-pro--full-screen) .dialog-lightbox-close-button {
+        display: none; }

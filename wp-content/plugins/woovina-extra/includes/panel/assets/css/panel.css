@@ -1,0 +1,126 @@
+.clr:after { content: ''; display: block; height: 0; clear: both; visibility: hidden; zoom: 1; }
+a:focus, .button, .wp-core-ui .button-link:focus,
+.wp-core-ui .button-secondary:focus, .wp-core-ui .button.focus,
+.wp-core-ui .button:focus { -webkit-box-shadow: none !important; box-shadow: none !important; }
+body .button.wvn-button { background-color: #f68e13; color: #fff; height: auto; font-size: 12px; line-height: 1; font-weight: 600; text-transform: uppercase; margin: 0; padding: 14px 20px; border: 0; cursor: pointer; text-align: center; letter-spacing: .1em; border-radius: 3px; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; -ms-transition: all .3s ease; transition: all .3s ease; }
+body .button.wvn-button:hover,
+body .button.wvn-button:focus,
+body .button.wvn-button:active { background-color: #0b7cac; color: #fff; }
+body .button.wvn-button:active { -webkit-transform: none; -ms-transform: none; transform: none; }
+
+/* Settings Wrap */
+.wrap.woovina-theme-panel { margin-right: 40px; }
+.woovina-settings .left { float: left; width: 75%; margin-top: 20px; }
+.woovina-settings .right { float: right; width: 23%; margin-top: 30px; }
+.woovina-settings .woovina-title { font-size: 26px; line-height: 1.6; margin: 0 0 3px 8px; }
+.woovina-settings .woovina-desc { margin: 0 0 30px 8px; font-size: 15px; }
+.woovina-settings .divider { display: block; height: 1px; margin: 40px 0 33px; border-bottom: 1px solid #ccc; }
+
+/* Customizer panels */
+.woovina-panels .column-wrap { float: left; position: relative; width: 32.33%; margin: 0 0.5% 1% 0.5%; overflow: hidden; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.woovina-panels .column-name { display: block; background-color: #fff; border: 2px solid #eee; padding: 25px 25px 20px; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -o-transition: all .3s ease; -ms-transition: all .3s ease; transition: all .3s ease; }
+.woovina-panels .column-name:hover { border-color: #ddd; }
+.woovina-panels .column-name h3.title { float: left; display: block; position: relative; font-size: 18px; color: #333; margin: 0; z-index: 2; }
+.woovina-panels .column-name .desc { display: block; position: relative; font-size: 17px; line-height: 1.6; font-weight: 400; color: #777; z-index: 2; }
+.woovina-panels input[type=checkbox] { float: right; width: 22px; height: 22px; min-width: 22px; margin: 0; }
+.woovina-panels input[type=checkbox]:checked:before { width: 22px; font-size: 27px; }
+.woovina-panels p.submit { display: inline-block; width: 100%; margin: 10px 0 0 0.5%; padding: 0; clear: both; }
+
+/* Customizer options */
+.woovina-options .options-inner { display: -webkit-box; display: -ms-flexbox; display: flex; flex-wrap: wrap; margin-top: 30px; }
+.woovina-options .column-wrap { display: -webkit-box; display: -ms-flexbox; display: flex; position: relative; background: #fff; border: 1px solid #ccc; width: 24%; min-height: 150px; margin: 0 0.5% 1% 0.5%;  padding: 25px 25px 20px; overflow: hidden; box-sizing: border-box; }
+.woovina-options .column-wrap.hidden { display: none !important; }
+.woovina-options .column-inner { display: -webkit-box; display: -ms-flexbox; display: flex; flex-direction: column; }
+.woovina-options .title { display: block; position: relative; font-size: 17px; color: #333; margin: 0 0 20px; padding-bottom: 20px; border-bottom: 1px solid #eaeaea; text-transform: capitalize; }
+.woovina-options .desc { flex: 1 0 auto; display: block; margin: 0 0 20px; font-size: 14px; line-height: 1.6; font-weight: 400; color: #777; }
+.woovina-options .bottom-column { padding: 20px 0 0; border-top: 1px solid #eaeaea; margin: 0; }
+.woovina-options .bottom-column .option-link { font-size: 12px; font-weight: 600; line-height: 1.6; text-transform: uppercase; letter-spacing: .6px; text-decoration: none; }
+
+/* Sidebar */
+.woovina-bloc { display: inline-block; position: relative; width: 100%; background-color: #fff; margin: 0 auto 24px auto; border-radius: 3px; border: 1px solid #e5e5e5; -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04); box-shadow: 0 1px 1px rgba(0,0,0,.04); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; overflow: hidden; }
+.woovina-bloc h3 { display: block; font-size: 14px; font-weight: 600; padding: 12px 10px; background-color: #f68e13; color: #fff; text-transform: uppercase; letter-spacing: .4px; margin: 0 0 22px; text-align: center; }
+.woovina-bloc .content-wrap { position: relative; padding: 0 30px 25px; z-index: 2; text-align: center; }
+.woovina-bloc p.content { font-size: 14px; color: #5a5a5a; margin: 0; }
+body .woovina-bloc .button.wvn-button { margin: 22px 0 10px; }
+.woovina-bloc p.bottom-text { color: #5a5a5a; font-size: 12px; font-weight: 600; font-style: italic; margin: 0; }
+.woovina-bloc i { position: absolute; bottom: -30px; right: -26px; width: auto; height: auto; font-size: 120px; opacity: .07; z-index: 1; }
+
+.woovina-bloc.woovina-review { margin-bottom: 15px; }
+
+.woovina-button { margin-bottom: 20px; }
+body .woovina-button .button.wvn-button.wvn-yt-btn { background-color: #e62117; width: 100%; }
+body .woovina-button .button.wvn-button.wvn-yt-btn:hover { background-color: #b31217; }
+body .woovina-button .button.wvn-button.wvn-yt-btn i { font-size: 18px; margin-right: 8px; vertical-align: middle; }
+
+.woovina-kinsta .wvn-img { padding: 30px 30px 0; margin: 0 0 18px; text-align: center; }
+.woovina-kinsta .wvn-img img { max-width: 200px; }
+body .woovina-kinsta .button.wvn-button { background-color: #5333ed; }
+body .woovina-kinsta .button.wvn-button:hover { background-color: #7e5ffa; }
+
+#wpbody-content .woovina-doc { min-width: 100%; padding: 0; }
+.woovina-doc a { text-decoration: none; }
+body .postbox.woovina-doc .hndle { cursor: inherit; }
+.woovina-doc .hndle a { float: right; font-size: 13px; }
+.woovina-doc .inside { margin: 15px 0 3px; }
+.woovina-doc .inside ul { list-style: disc; margin: 0 0 0 20px; }
+
+.woovina-support p { font-size: 14px; line-height: 1.7; font-style: italic; margin-top: 0; }
+.woovina-support .wvn-button { float: right; margin: 15px 0 0; }
+
+/* Push monkey tab */
+.push-monkey-tab { position: relative; }
+.push-monkey-tab:before { content: ''; display: block; background: url('../img/push-monkey.png') no-repeat; background-size: 100% auto; position: absolute; right: 10px; top: -36px; width: 96px; height: 38px; }
+.woovina-settings .pm-right { width: 42%; }
+.woovina-settings .pm-left { width: 57%; }
+.woovina-settings .push-monkey p { font-size: 15px; line-height: 1.8; margin: 0 0 20px 8px; }
+.woovina-settings .push-monkey table { margin: 0 0 10px 8px; }
+
+/* RTL */
+body.rtl .wrap.woovina-theme-panel { margin-left: 40px; margin-right: 0; }
+body.rtl .woovina-settings .left { float: right; }
+body.rtl .woovina-settings .right { float: left; }
+body.rtl .woovina-settings .woovina-title { margin: 0 8px 3px 0; }
+body.rtl .woovina-settings .woovina-desc { margin: 0 8px 30px 0; }
+body.rtl .woovina-panels .column-wrap { float: right; }
+body.rtl .woovina-panels .column-name h3.title { float: right; }
+body.rtl .woovina-panels input[type=checkbox] { float: left; }
+body.rtl .woovina-panels p.submit { margin: 10px 0.5% 0 0; }
+body.rtl .woovina-bloc i { left: -26px; right: auto; }
+body.rtl .woovina-doc .hndle a { float: left; }
+body.rtl .woovina-doc .inside ul { margin: 0 20px 0 0; }
+body.rtl .woovina-support .wvn-button { float: left; }
+body.rtl .woovina-button .button.wvn-button.wvn-yt-btn i { margin-left: 8px; margin-right: 0; }
+
+@media screen and (max-width: 1280px) {
+	.wrap.woovina-theme-panel { margin-right: 20px; }
+	.woovina-settings .left,
+	.woovina-settings .right { float: none; width: 100%; }
+    .woovina-options .column-wrap { width: 32.33%; }
+    .woovina-bloc { margin-bottom: 15px; }
+    .woovina-bloc,
+    .woovina-support { width: 49%; }
+    .woovina-review { float: left; }
+    .woovina-kinsta,
+    .woovina-support { float: right; }
+    .woovina-button { display: none; }
+    #wpbody-content .woovina-doc { float: left; min-width: 49%; clear: both; }
+	body.rtl .wrap.woovina-theme-panel { margin-left: 20px; margin-right: 0; }
+    body.rtl .woovina-support { float: right; }
+    body.rtl #wpbody-content .woovina-doc { float: left; }
+}
+
+@media screen and (max-width: 1100px) {
+    .woovina-panels .column-wrap,
+    .woovina-options .column-wrap { width: 49%; }
+}
+
+@media screen and (max-width: 600px) {
+    .woovina-panels .column-wrap,
+    .woovina-options .column-wrap { width: 100%; }
+}
+
+@media screen and (max-width: 480px) {
+    .woovina-support,
+    .woovina-bloc,
+    #wpbody-content .woovina-doc { float: none !important; width: 100%; min-width: 100%; }
+}

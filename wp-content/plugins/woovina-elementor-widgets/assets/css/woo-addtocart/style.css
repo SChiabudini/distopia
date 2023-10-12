@@ -1,0 +1,83 @@
+/*------------------------------------------------------------------
+Woo Add To Cart
+-------------------------------------------------------------------*/
+.wew-addtocart .elementor-align-icon-left {
+  margin-right: 4px; }
+
+.wew-addtocart .elementor-align-icon-right {
+  margin-left: 4px; }
+
+.wew-addtocart.loading {
+  opacity: 1; }
+  .wew-addtocart.loading:after {
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: '\f110';
+    position: inherit;
+    top: auto;
+    right: auto;
+    margin-left: 6px;
+    vertical-align: top;
+    font-weight: 400;
+    -ms-animation: spin 2s infinite linear;
+    -webkit-animation: spin 2s infinite linear;
+    -o-animation: spin 2s infinite linear;
+    -moz-animation: spin 2s infinite linear;
+    animation: spin 2s infinite linear;
+    color: inherit;
+    opacity: 1; }
+
+.wew-align-left {
+  text-align: left; }
+
+.wew-align-center {
+  text-align: center; }
+
+.wew-align-right {
+  text-align: right; }
+
+.wew-align-justify .wew-addtocart {
+  width: 100%; }
+
+.wew-addtocart-wrap .added_to_cart {
+  font-size: 12px;
+  font-weight: 600;
+  padding-bottom: 1px;
+  border-bottom: 2px solid;
+  margin-left: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px; }
+
+/* RTL */
+body.rtl .wew-wew-addtocart .elementor-align-icon-left {
+  margin-left: 4px;
+  margin-right: 0; }
+
+body.rtl .wew-wew-addtocart .elementor-align-icon-right {
+  margin-right: 4px;
+  margin-left: 0; }
+
+/*------------------------------------------------------------------
+Responsive
+-------------------------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+  .wew-tablet-align-left {
+    text-align: left; }
+  .wew-tablet-align-center {
+    text-align: center; }
+  .wew-tablet-align-right {
+    text-align: right; } }
+
+@media only screen and (max-width: 767px) {
+  .wew-mobile-align-left {
+    text-align: left; }
+  .wew-mobile-align-center {
+    text-align: center; }
+  .wew-mobile-align-right {
+    text-align: right; } }

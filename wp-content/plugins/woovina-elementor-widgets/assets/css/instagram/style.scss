@@ -1,0 +1,587 @@
+// Placeholder
+%showItem {
+    opacity: 1;
+    visibility: visible;
+}
+
+// Display flex
+@mixin flex() {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+// Flex wrap
+@mixin wrap() {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+// Justify content
+@mixin justify($args) {
+    -webkit-justify-content: $args;
+    justify-content: $args;
+}
+
+// Align center
+@mixin align() {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+// Flex basis
+@mixin basis($args) {
+    -webkit-flex-basis: $args;
+    -ms-flex-preferred-size: $args;
+    flex-basis: $args;
+}
+
+// Flex basis
+@mixin grow($args) {
+    -webkit-box-flex: $args;
+    -webkit-flex-grow: $args;
+    -ms-flex-positive: $args;
+    flex-grow: $args;
+}
+
+// Transform
+@mixin transform($args) {
+    -webkit-transform: $args;
+    -moz-transform: $args;
+    -ms-transform: $args;
+    -o-transform: $args;
+    transform: $args;
+}
+
+// Transition
+@mixin transition($args) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    -o-transition: $args;
+    transition: $args;
+}
+
+/*------------------------------------------------------------------
+Instagram Feed
+-------------------------------------------------------------------*/
+.default-style {
+    .wew-instagram-top {
+        @include flex();
+        @include align();
+        margin-bottom: 24px;
+    }
+
+    .wew-instagram-picture {
+        margin-right: 30px;
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 50%;
+        }
+    }
+
+    .wew-instagram-username {
+        margin-bottom: 20px;
+
+        h2 {
+            font-size: 32px;
+            line-height: 40px;
+            font-weight: 400;
+            margin: 0;
+        }
+
+        .wew-instagram-follow {
+            margin-left: 20px;
+        }
+
+        .wew-instagram-subscribe {
+            display: inline-block;
+            background-color: #3897f0;
+            color: #fff;
+            border-radius: 3px;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 26px;
+            padding: 0 24px;
+
+            &:hover {
+                background-color: #73b5f3;
+            }
+        }
+    }
+
+    .wew-instagram-posts {
+        @include flex();
+        list-style: none;
+        margin: 0 0 20px;
+        padding: 0;
+
+        li {
+            font-size: 16px;
+            margin-right: 40px;
+            line-height: 1.4;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+
+    .wew-instagram-bio {
+        display: block;
+        font-size: 16px;
+        line-height: 1.6;
+
+        h2 {
+            display: inline;
+            font-size: inherit;
+            margin: 0;
+        }
+    }
+}
+
+body.single-post.content-max-width .default-style ul.wew-instagram-posts {
+    margin: 0 0 20px;
+}
+
+.single-post.content-max-width .wew-instagram-wrap h2,
+.single-post.content-max-width .wew-instagram-wrap ul {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+// Instagram user infos widget style
+.wew-instagram-wrap.widget-style {
+    border: 1px solid #eaeaea;
+
+    .wew-instagram-top {
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    .wew-instagram-header {
+        @include flex();
+        @include align();
+        position: relative;
+        background-color: #285989;
+
+        &:hover {
+            background-color: #416c97;
+        }
+
+        img {
+            display: block;
+            width: 34px;
+            height: 34px;
+        }
+
+        .wew-instagram-name {
+            margin-left: 14px;
+            padding-right: 40px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #fff;
+        }
+
+        .wew-instagram-header-logo {
+            display: block;
+            position: absolute;
+            top: 8px;
+            right: 12px;
+            width: 18px;
+            height: 18px;
+            background: url('../../img/instagram.svg') no-repeat;
+        }
+    }
+
+    .wew-instagram-panel {
+        @include flex();
+        @include align();
+        @include justify(space-between);
+        padding: 10px;
+    }
+
+    .wew-instagram-posts {
+        @include flex();
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+        text-align: center;
+
+        li {
+            margin-right: 15px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        span {
+            display: block;
+            font-size: 14px;
+            line-height: 1;
+            font-weight: bold;
+        }
+    }
+
+    .wew-instagram-subscribe {
+        display: inline-block;
+        background-color: #285989;
+        color: #fff;
+        font-size: 12px;
+        line-height: 1;
+        padding: 8px 12px;
+        border-radius: 3px;
+
+        &:hover {
+            background-color: #416c97;
+        }
+    }
+
+    .wew-instagram-bio {
+        font-size: 12px;
+        padding: 0 10px 10px;
+
+        h2 {
+            display: inline;
+            font-size: inherit;
+        }
+    }
+}
+
+// Instagram items
+.wew-instagram-items { 
+    @include flex();
+    @include wrap();
+
+    .wew-instagram-item {
+        width: calc(100% / 4);
+    }
+}
+
+.wew-instagram-wrap.widget-style .wew-instagram-items {
+    margin: 0 !important;
+}
+
+.wew-instagram-url {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-bottom: 56.25%;
+
+    &:hover {
+        .wew-instagram-image:after {
+            @extend %showItem;
+        }
+
+        .wew-instagram-data-inner {
+            @extend %showItem;
+            top: 50%;
+        }
+    }
+}
+
+.wew-instagram-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        visibility: hidden;
+        z-index: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0;
+        @include transition(all .4s ease-in-out);
+        background-color: rgba(33, 150, 243, 0.9);
+    }
+
+    img {
+        height: auto;
+        width: 100%;
+        max-height: none;
+        max-width: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        @include transform(translate(-50%,-50%));
+    }
+
+    &.wew-fit-height img {
+        height: 100%;
+        width: auto;
+    }
+}
+
+.wew-instagram-data {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.wew-instagram-data-inner {
+    position: absolute;
+    top: 60%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 80%;
+    color: #fff;
+    font-size: 16px;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    @include transform(translateY(-50%));
+    @include transition(all .4s ease-in-out);
+    text-align: center;
+}
+
+.wew-instagram-counter {
+    display: inline-block;
+}
+
+.wew-instagram-comments {
+    margin-left: 2em;
+}
+
+.wew-instagram-data.no-likes .wew-instagram-comments {
+    margin-left: 0;
+}
+
+.wew-instagram-icon {
+    font-size: 1em;
+
+    svg,
+    em {
+        vertical-align: middle;
+    }
+
+    svg {
+        height: 2em;
+        fill: #fff;
+    }
+
+    em {
+        margin-left: .3em;
+    }
+}
+
+.wew-instagram-caption {
+    display: block;
+    margin-top: 1em;
+}
+
+/* RTL */
+body.rtl {
+    .default-style {
+        .woovina-instagram-picture {
+            margin-left: 30px;
+            margin-right: 0;
+        }
+
+        .woovina-instagram-username .woovina-instagram-follow {
+            margin-right: 20px;
+            margin-left: 0;
+        }
+
+        .woovina-instagram-posts li {
+            margin-left: 40px;
+            margin-right: 0;
+
+            &:last-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .widget-style {
+        .woovina-instagram-header {
+            .woovina-instagram-name {
+                margin-right: 14px;
+                margin-left: 0;
+                padding-left: 40px;
+                padding-right: 0;
+            }
+
+            .woovina-instagram-header-logo {
+                left: 12px;
+                right: auto;
+            }
+        }
+
+        .woovina-instagram-posts li {
+            margin-left: 15px;
+            margin-right: 0;
+
+            &:last-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .woovina-instagram-comments {
+        margin-right: 2em;
+        margin-left: 0;
+    }
+
+    .woovina-instagram-data.no-likes .woovina-instagram-comments {
+        margin-right: 0;
+    }
+
+    .woovina-instagram-icon em {
+        margin-right: .3em;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 735px) {
+    body.rtl {
+        .default-style {
+            .woovina-instagram-picture {
+                margin-left: 28px;
+                margin-right: 0;
+            }
+            
+            .woovina-instagram-username .woovina-instagram-follow {
+                margin-right: 0;
+            }
+
+            .woovina-instagram-posts li {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+/*------------------------------------------------------------------
+Responsive
+-------------------------------------------------------------------*/
+@media (min-width: 736px) {
+    .default-style {
+        .wew-instagram-top {
+            margin-bottom: 44px;
+        }
+
+        .wew-instagram-hide {
+            display: none;
+        }
+
+        .wew-instagram-picture {
+            @include basis(0);
+            @include grow(1);
+        }
+
+        .wew-instagram-infos {
+            @include basis(30px);
+            @include grow(2);
+        }
+
+        .wew-instagram-username {
+            @include flex();
+            @include align();
+        }
+    }
+}
+
+@media (max-width: 735px) {
+    .default-style {
+        .wew-instagram-picture {
+            height: 77px;
+            width: 77px;
+            margin-right: 28px;
+        }
+
+        .wew-instagram-infos {
+            @include basis(0);
+            @include grow(1);
+        }
+
+        .wew-instagram-username {
+            margin-bottom: 0;
+        }
+
+        .wew-instagram-username h2,
+        .wew-instagram-username .wew-instagram-follow {
+            display: block;
+            width: 100%;
+        }
+
+        .wew-instagram-username h2 {
+            font-size: 22px;
+            line-height: 26px;
+            margin-bottom: 12px;
+        }
+
+        .wew-instagram-username .wew-instagram-follow {
+            margin-top: 3px;
+            margin-left: 0;
+        }
+
+        .wew-instagram-top {
+            .wew-instagram-posts,
+            .wew-instagram-bio {
+                display: none;
+            }
+        }
+
+        .wew-instagram-bio {
+            font-size: 14px;
+            border-bottom: 1px solid #efefef;
+            margin-bottom: 12px;
+            padding: 0 0 20px;
+        }
+
+        .wew-instagram-posts {
+            @include justify(space-around);
+            margin-bottom: 12px;
+
+            li {
+                font-size: 14px;
+                margin-right: 0;
+                text-align: center;
+
+                span {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .wew-instagram-items .wew-instagram-item {
+        width: calc(100% / 3);
+    }
+}
+
+@media (max-width: 480px) {
+    .wew-instagram-items .wew-instagram-item {
+        width: calc(100% / 1);
+    }
+}

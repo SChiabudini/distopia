@@ -1,0 +1,230 @@
+// Display flex
+@mixin flex() {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+// Flex Direction
+@mixin flex-direction($args) {
+    -webkit-flex-direction: $args;
+    flex-direction: $args;
+}
+
+// Flex basis
+@mixin grow($args) {
+    -webkit-box-flex: $args;
+    -webkit-flex-grow: $args;
+    -ms-flex-positive: $args;
+    flex-grow: $args;
+}
+
+// Transition
+@mixin transition($args) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    -o-transition: $args;
+    transition: $args;
+}
+
+/*------------------------------------------------------------------
+Info Box
+-------------------------------------------------------------------*/
+.wew-info-box-wrap {
+    display: block;
+    text-align: center;
+    @include transition(all .3s ease-in-out);
+}
+
+.wew-info-box {
+    @include flex();
+    @include flex-direction(column);
+
+    .wew-info-box-icon-wrap {
+        margin-bottom: 15px;
+    }
+
+    .wew-info-box-icon {
+        display: inline-block;
+        line-height: 1;
+        color: #818a91;
+        font-size: 50px;
+        @include transition(all .5s);
+
+        i {
+            width: 1em;
+            height: 1em;
+            text-align: center;
+        }
+    }
+
+    img {
+        display: block;
+    }
+
+    .wew-info-box-content {
+        @include grow(1);
+    }
+
+    .wew-info-box-divider-wrap {
+        font-size: 0;
+        line-height: 0;
+    }
+
+    .wew-info-box-divider {
+        display: inline-block;
+    }
+}
+
+.wew-info-box-left {
+    .wew-info-box-wrap {
+        text-align: left;
+    }
+
+    .wew-info-box {
+        @include flex-direction(row);
+
+        .wew-info-box-icon-wrap {
+            @include flex();
+            flex-shrink: 0;
+            margin-right: 20px;
+            margin-bottom: 0;
+        }
+
+        .wew-info-box-icon,
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.wew-info-box-top .wew-info-box img {
+    margin: 0 auto;
+}
+
+.wew-info-box-right {
+    .wew-info-box-wrap {
+        text-align: right;
+    }
+    
+    .wew-info-box {
+        @include flex-direction(row-reverse);
+
+        .wew-info-box-icon-wrap {
+            @include flex();
+            flex-shrink: 0;
+            margin-left: 20px;
+            margin-bottom: 0;
+        }
+
+        .wew-info-box-icon,
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.wew-info-box-btn-wrap {
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .wew-info-box-tablet-top {
+        .wew-info-box {
+            @include flex-direction(column);
+
+            .wew-info-box-icon-wrap {
+                display: inline-block;
+            }
+
+            .wew-info-box-icon {
+                margin-right: auto;
+            }
+        }
+    }
+
+    .wew-info-box-tablet-left {
+        .wew-info-box {
+            @include flex-direction(row);
+
+            .wew-info-box-icon-wrap {
+                @include flex();
+                flex-shrink: 0;
+                margin-right: 20px;
+            }
+
+            .wew-info-box-icon,
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .wew-info-box-tablet-right {
+        .wew-info-box {
+            @include flex-direction(row-reverse);
+
+            .wew-info-box-icon-wrap {
+                @include flex();
+                flex-shrink: 0;
+                margin-left: 20px;
+            }
+
+            .wew-info-box-icon,
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 767px) {
+    .wew-info-box-mobile-top {
+        .wew-info-box {
+            @include flex-direction(column);
+
+            .wew-info-box-icon-wrap {
+                display: inline-block;
+            }
+
+            .wew-info-box-icon {
+                margin-right: auto;
+            }
+        }
+    }
+
+    .wew-info-box-mobile-left {
+        .wew-info-box {
+            @include flex-direction(row);
+
+            .wew-info-box-icon-wrap {
+                @include flex();
+                flex-shrink: 0;
+                margin-right: 20px;
+            }
+
+            .wew-info-box-icon,
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .wew-info-box-mobile-right {
+        .wew-info-box {
+            @include flex-direction(row-reverse);
+
+            .wew-info-box-icon-wrap {
+                @include flex();
+                flex-shrink: 0;
+                margin-left: 20px;
+            }
+
+            .wew-info-box-icon,
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

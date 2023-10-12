@@ -1,0 +1,167 @@
+/**
+ * Social Icons Widget
+ */
+.woovina-social-icons {
+	display: inline-block;
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	&.rotate a:hover {
+		transform: rotate(360deg);
+	}
+
+	&.zoomout a:hover {
+		transform: scale(0.8);
+	}
+
+	&.float a:hover {
+		transform: translateY(-3px);
+	}
+
+	li {
+	    display: inline-block;
+		margin: 3px;
+		padding: 0;
+
+		a {
+		    display: block;
+		    padding: 0;
+		    text-align: center;
+		}
+	}
+
+	&.style-light li a,
+	&.style-dark li a,
+	&.style-colored li a {
+	    width: 55px;
+	    height: 55px;
+	    line-height: 55px;
+	    font-size: 16px;
+		border-radius: 2px;
+	}
+
+	&.style-light li {
+		a {
+		    color: $color-13;
+		    border: 1px solid $border-color;
+		}
+
+		&.woovina-twitter a:hover { color: #46d4fe !important; border-color: #46d4fe !important; }
+		&.woovina-facebook a:hover { color: #37589b !important; border-color: #37589b !important; }
+		&.woovina-google-plus a:hover { color: #de5a49 !important; border-color: #de5a49 !important; }
+		&.woovina-pinterest a:hover { color: #cb2027 !important; border-color: #cb2027 !important; }
+		&.woovina-dribbble a:hover { color: #ea4c89 !important; border-color: #ea4c89 !important; }
+		&.woovina-vk a:hover { color: #597BA5 !important; border-color: #597BA5 !important; }
+		&.woovina-instagram a:hover { color: #3F729B !important; border-color: #3F729B !important; }
+		&.woovina-linkedin a:hover { color: #3399CC !important; border-color: #3399CC !important; }
+		&.woovina-tumblr a:hover { color: #2C4762 !important; border-color: #2C4762 !important; }
+		&.woovina-github a:hover { color: #60b044 !important; border-color: #60b044 !important; }
+		&.woovina-flickr a:hover { color: #fa4086 !important;border-color: #fa4086 !important; }
+		&.woovina-skype a:hover { color: #00AFF0 !important; border-color: #00AFF0 !important; }
+		&.woovina-trello a:hover { color: #0079bf !important; border-color: #0079bf !important; }
+		&.woovina-foursquare a:hover { color: #2d5be3 !important; border-color: #2d5be3 !important; }
+		&.woovina-youtube a:hover { color: #C4302B !important; border-color: #C4302B !important; }
+		&.woovina-vimeo a:hover { color: #1ab7ea !important; border-color: #1ab7ea !important; }
+		&.woovina-vine a:hover { color: #00bf8f !important; border-color: #00bf8f !important; }
+		&.woovina-xing a:hover { color: #006464 !important; border-color: #006464 !important; }
+		&.woovina-yelp a:hover { color: #C41200 !important; border-color: #C41200 !important; }
+		&.woovina-tripadvisor a:hover { color: #589442 !important; border-color: #589442 !important; }
+		&.woovina-rss a:hover { color: #ff7900 !important; border-color: #ff7900 !important; }
+		&.woovina-email a:hover { color: #f68e13 !important; border-color: #f68e13 !important; }
+	}
+
+	&.style-dark li {
+		a {
+		    color: $color-2;
+		    border: 1px solid $color-2;
+		}
+
+		&.woovina-twitter a:hover { color: #46d4fe !important; border-color: #46d4fe !important; }
+		&.woovina-facebook a:hover { color: #37589b !important; border-color: #37589b !important; }
+		&.woovina-google-plus a:hover { color: #de5a49 !important; border-color: #de5a49 !important; }
+		&.woovina-pinterest a:hover { color: #cb2027 !important; border-color: #cb2027 !important; }
+		&.woovina-dribbble a:hover { color: #ea4c89 !important; border-color: #ea4c89 !important; }
+		&.woovina-vk a:hover { color: #597BA5 !important; border-color: #597BA5 !important; }
+		&.woovina-instagram a:hover { color: #3F729B !important; border-color: #3F729B !important; }
+		&.woovina-linkedin a:hover { color: #3399CC !important; border-color: #3399CC !important; }
+		&.woovina-tumblr a:hover { color: #2C4762 !important; border-color: #2C4762 !important; }
+		&.woovina-github a:hover { color: #60b044 !important; border-color: #60b044 !important; }
+		&.woovina-flickr a:hover { color: #fa4086 !important;border-color: #fa4086 !important; }
+		&.woovina-skype a:hover { color: #00AFF0 !important; border-color: #00AFF0 !important; }
+		&.woovina-trello a:hover { color: #0079bf !important; border-color: #0079bf !important; }
+		&.woovina-foursquare a:hover { color: #2d5be3 !important; border-color: #2d5be3 !important; }
+		&.woovina-youtube a:hover { color: #C4302B !important; border-color: #C4302B !important; }
+		&.woovina-vimeo a:hover { color: #1ab7ea !important; border-color: #1ab7ea !important; }
+		&.woovina-vine a:hover { color: #00bf8f !important; border-color: #00bf8f !important; }
+		&.woovina-xing a:hover { color: #006464 !important; border-color: #006464 !important; }
+		&.woovina-yelp a:hover { color: #C41200 !important; border-color: #C41200 !important; }
+		&.woovina-tripadvisor a:hover { color: #589442 !important; border-color: #589442 !important; }
+		&.woovina-rss a:hover { color: #ff7900 !important; border-color: #ff7900 !important; }
+		&.woovina-email a:hover { color: #f68e13 !important; border-color: #f68e13 !important; }
+	}
+
+	&.style-colored li {
+		a {
+		    color: $color-1;
+
+		    &:hover {
+		    	color: $color-1;
+		    }
+		}
+
+		&.woovina-twitter a { background-color: #46d4fe; }
+		&.woovina-twitter a:hover { background-color: #39b4d8; }
+		&.woovina-facebook a { background-color: #37589b; }
+		&.woovina-facebook a:hover{ background-color: #2d477c; }
+		&.woovina-google-plus a { background-color: #de5a49; }
+		&.woovina-google-plus a:hover { background-color: #bb4c3e; }
+		&.woovina-pinterest a { background-color: #cb2027; }
+		&.woovina-pinterest a:hover { background-color: #a91d23; }
+		&.woovina-dribbble a { background-color: #ea4c89; }
+		&.woovina-dribbble a:hover { background-color: #c64174; }
+		&.woovina-vk a { background-color: #597BA5; }
+		&.woovina-vk a:hover { background-color: #486384; }
+		&.woovina-instagram a { background-color: #3F729B; }
+		&.woovina-instagram a:hover { background-color: #315a7c; }
+		&.woovina-linkedin a { background-color: #3399CC; }
+		&.woovina-linkedin a:hover { background-color: #2678a1; }
+		&.woovina-tumblr a { background-color: #2C4762; }
+		&.woovina-tumblr a:hover { background-color: #1d3042; }
+		&.woovina-github a { background-color: #60b044; }
+		&.woovina-github a:hover { background-color: #4f9237; }
+		&.woovina-flickr a { background-color: #fa4086; }
+		&.woovina-flickr a:hover { background-color: #c63169; }
+		&.woovina-skype a { background-color: #00AFF0; }
+		&.woovina-skype a:hover { background-color: #0291c6; }
+		&.woovina-trello a { background-color: #0079bf; }
+		&.woovina-trello a:hover { background-color: #0079bf; }
+		&.woovina-foursquare a { background-color: #2d5be3; }
+		&.woovina-foursquare a:hover { background-color: #2d5be3; }
+		&.woovina-youtube a { background-color: #C4302B; }
+		&.woovina-youtube a:hover { background-color: #982420; }
+		&.woovina-vimeo a { background-color: #1ab7ea; }
+		&.woovina-vimeo a:hover { background-color: #1494bd; }
+		&.woovina-vine a { background-color: #00bf8f; }
+		&.woovina-vine a:hover { background-color: #01906c; }
+		&.woovina-xing a { background-color: #006464; }
+		&.woovina-xing a:hover { background-color: #014646; }
+		&.woovina-yelp a { background-color: #C41200; }
+		&.woovina-yelp a:hover { background-color: #940f01; }
+		&.woovina-tripadvisor a { background-color: #589442; }
+		&.woovina-tripadvisor a:hover { background-color: #426f32; }
+		&.woovina-rss a { background-color: #ff7900; }
+		&.woovina-rss a:hover { background-color: #d46603; }
+		&.woovina-email a { background-color: #f68e13; }
+		&.woovina-email a:hover { background-color: #0f8dc2; }
+	}
+
+	&.style-simple li {
+		margin: 0 6px;
+
+	    a {
+		    font-size: 16px;
+		}
+	}
+}

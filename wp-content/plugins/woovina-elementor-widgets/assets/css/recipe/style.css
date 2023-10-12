@@ -1,0 +1,112 @@
+/*------------------------------------------------------------------
+Recipe
+-------------------------------------------------------------------*/
+.wew-recipe-wrap {
+  border: 1px solid #eaeaea; }
+  .wew-recipe-wrap ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .wew-recipe-wrap .wew-recipe-header {
+    padding: 30px; }
+  .wew-recipe-wrap .wew-recipe-image {
+    float: right;
+    width: 200px;
+    max-width: 100%;
+    margin-left: 30px; }
+  .wew-recipe-wrap .wew-recipe-header-content {
+    overflow: hidden; }
+  .wew-recipe-wrap .wew-recipe-title {
+    display: block;
+    font-size: 28px;
+    margin: 0 0 10px; }
+  .wew-recipe-wrap .wew-recipe-meta {
+    display: inline-block;
+    margin-bottom: 15px; }
+    .wew-recipe-wrap .wew-recipe-meta li {
+      float: left; }
+  .wew-recipe-wrap .wew-recipe-meta-item {
+    position: relative; }
+    .wew-recipe-wrap .wew-recipe-meta-item:after {
+      content: '/';
+      margin-right: 6px; }
+    .wew-recipe-wrap .wew-recipe-meta-item:last-child:after {
+      content: '';
+      margin-right: 0; }
+  .wew-recipe-wrap .wew-recipe-section {
+    padding: 30px;
+    border-top: 1px solid #eaeaea; }
+  .wew-recipe-wrap h3 {
+    font-size: 20px; }
+  .wew-recipe-wrap .wew-recipe-details {
+    width: 100%;
+    padding: 20px 30px;
+    text-align: center; }
+    .wew-recipe-wrap .wew-recipe-details li {
+      display: inline-block;
+      min-width: 125px;
+      padding: 10px 20px;
+      text-align: left; }
+    .wew-recipe-wrap .wew-recipe-details-icon {
+      color: #13aff0;
+      margin-right: 8px; }
+    .wew-recipe-wrap .wew-recipe-details-content {
+      display: inline-block; }
+    .wew-recipe-wrap .wew-recipe-details-icon, .wew-recipe-wrap .wew-recipe-details-content, .wew-recipe-wrap .wew-recipe-details-title, .wew-recipe-wrap .wew-recipe-details-value {
+      vertical-align: middle; }
+    .wew-recipe-wrap .wew-recipe-details-title, .wew-recipe-wrap .wew-recipe-details-value {
+      display: block; }
+    .wew-recipe-wrap .wew-recipe-details-title {
+      font-weight: 600; }
+  .wew-recipe-wrap .wew-recipe-ingredients li {
+    position: relative;
+    margin: 0 0 5px; }
+    .wew-recipe-wrap .wew-recipe-ingredients li:last-child {
+      margin-bottom: 0; }
+    .wew-recipe-wrap .wew-recipe-ingredients li i {
+      margin-right: 4px; }
+  .wew-recipe-wrap ol {
+    list-style: decimal;
+    margin: 0 0 0 15px;
+    padding: 0; }
+  .wew-recipe-wrap .wew-recipe-notes-text p:last-child {
+    margin: 0; }
+
+/* RTL */
+body.rtl .wew-recipe-wrap .wew-recipe-image {
+  float: left;
+  margin-right: 30px;
+  margin-left: 0; }
+
+body.rtl .wew-recipe-wrap .wew-recipe-meta li {
+  float: right; }
+
+body.rtl .wew-recipe-wrap .wew-recipe-meta-item:after {
+  margin-left: 6px;
+  margin-right: 0; }
+
+body.rtl .wew-recipe-wrap .wew-recipe-meta-item:last-child:after {
+  margin-left: 0; }
+
+body.rtl .wew-recipe-wrap .wew-recipe-details li {
+  text-align: right; }
+
+body.rtl .wew-recipe-wrap .wew-recipe-details-icon {
+  margin-left: 8px;
+  margin-right: 0; }
+
+body.rtl .wew-recipe-wrap .wew-recipe-ingredients li i {
+  margin-left: 4px;
+  margin-right: 0; }
+
+body.rtl .wew-recipe-wrap ol {
+  margin: 0 15px 0 0; }
+
+/*------------------------------------------------------------------
+Responsive
+-------------------------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+  .wew-recipe-wrap .wew-recipe-image {
+    float: none;
+    width: 100%;
+    margin: 0 0 20px; } }

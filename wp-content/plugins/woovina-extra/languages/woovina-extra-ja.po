@@ -1,0 +1,2117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooVina version 2.6\n"
+"POT-Creation-Date: 2019-12-23 04:58+0000\n"
+"PO-Revision-Date: 2019-12-29 16:26+0900\n"
+"Language-Team: WooVina Team <https://woovina.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;"
+"translate_nooped_plural;esc_html__;esc_html_e;esc_html_x;esc_attr__;"
+"esc_attr_e;esc_attr_x;number_format_i18n;date_i18n;esc_attr\n"
+"Last-Translator: \n"
+"Language: ja\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:103
+msgid "This page could not be found!"
+msgstr "ページが見つかりません。"
+
+#: 404.php:104
+msgid "We are sorry. But the page you are looking for is not available."
+msgstr "お探しのページはご利用できません。"
+
+#: 404.php:104
+msgid "Perhaps you can try a new search."
+msgstr "別のキーワードで検索を行ってください。"
+
+#: 404.php:106
+msgid "Back To Homepage"
+msgstr "ホームページに戻る"
+
+#: comments.php:42
+msgid "This Post Has One Comment"
+msgstr "ひとつの返信があります"
+
+#: comments.php:44
+#, php-format
+msgid "This Post Has %s Comments"
+msgstr "%s つの返信があります"
+
+#: comments.php:67 comments.php:75
+msgid "Previous"
+msgstr "前"
+
+#: comments.php:68 comments.php:76 inc/woocommerce/woocommerce-config.php:700
+#: woocommerce/checkout/form-multistep-checkout.php:97
+msgid "Next"
+msgstr "次"
+
+#: comments.php:85
+msgid "Comments are closed."
+msgstr "返信できません。"
+
+#: comments.php:93
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr "コメントをするためにはログインが必要です。"
+
+#: comments.php:94
+msgid "Logged in as"
+msgstr "としてログインする"
+
+#: comments.php:94
+msgid "Log out of this account"
+msgstr "このアカウントからログアウトする"
+
+#: comments.php:94
+msgid "Log out &raquo;"
+msgstr "ログアウト"
+
+#: comments.php:97
+msgid "Your Comment Here..."
+msgstr "あなたのコメント"
+
+#: comments.php:99
+msgid "Post Comment"
+msgstr "投稿する"
+
+#: functions.php:289 inc/third/class-beaver-themer.php:100
+#: inc/customizer/settings/topbar.php:40
+#: inc/customizer/settings/typography.php:109
+msgid "Top Bar"
+msgstr "トップ"
+
+#: functions.php:290
+msgid "Main"
+msgstr "メイン"
+
+#: functions.php:291 inc/third/class-beaver-themer.php:145
+msgid "Footer"
+msgstr "フッター"
+
+#: functions.php:292 inc/customizer/settings/typography.php:138
+msgid "Mobile Menu"
+msgstr "モバイルメニュー"
+
+#: functions.php:293
+msgid "Mobile Categories"
+msgstr "モバイルカテゴリー"
+
+#: functions.php:294
+msgid "Mobile Navbar"
+msgstr "モバイルナビバー"
+
+#: functions.php:613
+#: inc/customizer/controls/radio-image/class-control-radio-image.php:108
+msgid "Right Sidebar"
+msgstr "右サイドバー"
+
+#: functions.php:615
+msgid "Widgets in this area are used in the right sidebar region."
+msgstr "こちらのウィジェットは右サイドバーに追加されます。"
+
+#: functions.php:624
+#: inc/customizer/controls/radio-image/class-control-radio-image.php:109
+msgid "Left Sidebar"
+msgstr "左サイドバー"
+
+#: functions.php:626
+msgid "Widgets in this area are used in the left sidebar region."
+msgstr "こちらのウィジェットは左サイドバーに追加されます。"
+
+#: functions.php:636
+msgid "Search Results Sidebar"
+msgstr "検索結果サイドバー"
+
+#: functions.php:638
+msgid "Widgets in this area are used in the search result page."
+msgstr "こちらのウィジェットは検索結果ページに追加されます。"
+
+#: functions.php:648
+msgid "Footer 1"
+msgstr "フッター1"
+
+#: functions.php:650
+msgid "Widgets in this area are used in the first footer region."
+msgstr "こちらのウィジェットはフッター1に追加されます。"
+
+#: functions.php:659
+msgid "Footer 2"
+msgstr "フッター2"
+
+#: functions.php:661
+msgid "Widgets in this area are used in the second footer region."
+msgstr "こちらのウィジェットはフッター2に追加されます。"
+
+#: functions.php:670
+msgid "Footer 3"
+msgstr "フッター3"
+
+#: functions.php:672
+msgid "Widgets in this area are used in the third footer region."
+msgstr "こちらのウィジェットはフッター3に追加されます。"
+
+#: functions.php:681
+msgid "Footer 4"
+msgstr "フッター4"
+
+#: functions.php:683
+msgid "Widgets in this area are used in the fourth footer region."
+msgstr "こちらのウィジェットはフッター4に追加されます。"
+
+#: functions.php:1220
+msgid "Welcome to WooVina Theme!"
+msgstr "WooVinaテーマへようこそ！"
+
+#: functions.php:1221
+msgid ""
+"Please activate your license to get feature updates, premium support and "
+"remove Powered By link."
+msgstr ""
+"機能アップデートやプレミアムサポートを受ける、またPowered By linkを消すため"
+"に、ライセンスを有効化してください。"
+
+#: functions.php:1223
+#, php-format
+msgid ""
+"If you don't have any license key, you can %1$sget a FREE license here%2$s."
+msgstr "ライセンスキーをお持ちでなければこちらから無料で取得できます。"
+
+#: functions.php:1227
+msgid "Activate Now"
+msgstr "有効化する"
+
+#: functions.php:1246
+msgid "Thanks for activated FREE License!"
+msgstr "無料ライセンスをご登録いただきありがとうございます。"
+
+#: functions.php:1247
+msgid ""
+"Activate PRO License to access WooVina PRO demos and remove Powered by "
+"WooVina Theme from the footer."
+msgstr ""
+"WooVina PRO用デモの利用、またPowered By WooVina Themeをフッターから消すために"
+"はPROライセンスを有効化してください。"
+
+#: functions.php:1248
+msgid ""
+"Upgrade your WooVina License today with very discount price <strong>$39</"
+"strong>!"
+msgstr "期間限定で <strong>$39</strong> でライセンスのアップグレードできます。"
+
+#: functions.php:1249
+msgid "Upgrade License"
+msgstr "ライセンスのアップグレード"
+
+#: functions.php:1274
+msgid "Your License Has Expired!"
+msgstr "ライセンスの期限が切れました。"
+
+#: functions.php:1275
+msgid ""
+"Whoops! It looks like your WooVina Pro license has expired! This means that "
+"you no longer has have access to the Pro Demos."
+msgstr ""
+"WooVina PROライセンスの期限が切れました。PRO用デモをご利用いただくことができ"
+"ません。"
+
+#: functions.php:1276
+msgid "You can renew your license by click on the below button!"
+msgstr "下のボタンをクリックするとライセンスを更新することができます。"
+
+#: functions.php:1277
+msgid "Renew License Now"
+msgstr "今すぐライセンスを更新"
+
+#: searchform.php:21 woocommerce/product-searchform.php:28
+#: partials/header/search-overlay.php:24 partials/header/search-replace.php:22
+msgid "Select category"
+msgstr "カテゴリーを選択"
+
+#: searchform.php:31 partials/mobile/mobile-search.php:18
+msgid "Search"
+msgstr "検索"
+
+#: inc/breadcrumbs.php:268
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr "パンクズエリアラベル"
+
+#: inc/breadcrumbs.php:269
+msgid "Home"
+msgstr "ホーム"
+
+#: inc/breadcrumbs.php:270
+msgid "404 Not Found"
+msgstr "404 エラー"
+
+#: inc/breadcrumbs.php:271
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: inc/breadcrumbs.php:273
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221; の検索結果"
+
+#: inc/breadcrumbs.php:275
+#, php-format
+msgid "Page %s"
+msgstr "ページ"
+
+#: inc/breadcrumbs.php:277
+#, php-format
+msgid "Minute %s"
+msgstr "分"
+
+#: inc/breadcrumbs.php:279
+#, php-format
+msgid "Week %s"
+msgstr "週"
+
+#: inc/breadcrumbs.php:717
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "g:i a"
+
+#: inc/breadcrumbs.php:734
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "i"
+
+#: inc/breadcrumbs.php:751
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "g a"
+
+#: inc/breadcrumbs.php:767 inc/breadcrumbs.php:796 inc/breadcrumbs.php:823
+#: inc/breadcrumbs.php:850 inc/breadcrumbs.php:1190
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/breadcrumbs.php:768 inc/breadcrumbs.php:824 inc/breadcrumbs.php:1194
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "F"
+
+#: inc/breadcrumbs.php:769 inc/breadcrumbs.php:1198
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "j"
+
+#: inc/breadcrumbs.php:797
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "W"
+
+#: inc/helpers.php:1568 partials/mobile/mobile-fullscreen-search.php:28
+msgid "Type your search"
+msgstr "検索キーワードを入力"
+
+#: inc/helpers.php:1808
+msgid "Recent Posts"
+msgstr "最近の投稿"
+
+#: inc/helpers.php:1821
+msgid "Search Results Found"
+msgstr "検索結果が見つかりました"
+
+#: inc/helpers.php:1839
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "日別アーカイブ:"
+
+#: inc/helpers.php:1844
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "月別アーカイブ:"
+
+#: inc/helpers.php:1844
+msgctxt "Page title monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/helpers.php:1849
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "年別アーカイブ:"
+
+#: inc/helpers.php:1849
+msgctxt "Page title yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/helpers.php:1871
+msgid "404: Page Not Found"
+msgstr "404 エラー（ページが見つかりません）"
+
+#: inc/helpers.php:1889 inc/customizer/settings/blog.php:40
+#: inc/customizer/settings/blog.php:715
+msgid "Blog"
+msgstr "ブログ"
+
+#: inc/helpers.php:1927
+msgid "You searched for:"
+msgstr "検索キーワード:"
+
+#: inc/helpers.php:1932
+msgid "This author has written"
+msgstr "この著作者に関する記事"
+
+#: inc/helpers.php:1932
+msgid "articles"
+msgstr "記事"
+
+#: inc/helpers.php:2716 inc/helpers.php:2801
+msgid "Featured Image"
+msgstr "イメージ"
+
+#: inc/helpers.php:2717 inc/helpers.php:2802
+msgid "Title"
+msgstr "タイトル"
+
+#: inc/helpers.php:2718 inc/helpers.php:2803
+#: inc/customizer/settings/blog.php:569 inc/customizer/settings/blog.php:968
+msgid "Meta"
+msgstr "メタ"
+
+#: inc/helpers.php:2719 inc/helpers.php:2804
+#: inc/third/class-beaver-themer.php:127 inc/customizer/settings/topbar.php:306
+#: inc/customizer/settings/topbar.php:340
+msgid "Content"
+msgstr "コンテンツ"
+
+#: inc/helpers.php:2720
+msgid "Read More"
+msgstr "さらに読む"
+
+#: inc/helpers.php:2805
+msgid "Tags"
+msgstr "タグ"
+
+#: inc/helpers.php:2806
+msgid "Social Share"
+msgstr "シェア"
+
+#: inc/helpers.php:2807
+msgid "Next/Prev Links"
+msgstr "次／前　リンク"
+
+#: inc/helpers.php:2808
+msgid "Author Box"
+msgstr "著作者ボックス"
+
+#: inc/helpers.php:2809
+msgid "Related Posts"
+msgstr "関連する投稿"
+
+#: inc/helpers.php:2810 inc/customizer/settings/blog.php:577
+#: inc/customizer/settings/blog.php:976
+msgid "Comments"
+msgstr "コメント"
+
+#: inc/helpers.php:2898
+msgid "Pingback:"
+msgstr "ピンバック"
+
+#: inc/helpers.php:2898
+msgid "(Edit)"
+msgstr "(編集)"
+
+#: inc/helpers.php:2916
+#, php-format
+msgid "%s "
+msgstr "%s "
+
+#: inc/helpers.php:2925
+msgid "edit"
+msgstr "編集"
+
+#: inc/helpers.php:2937
+msgid "Your comment is awaiting moderation."
+msgstr "コメントが修正を必要としています。"
+
+#: inc/helpers.php:2967
+msgid "Name (required)"
+msgstr "お名前（必須）"
+
+#: inc/helpers.php:2969
+msgid "Emails (required)"
+msgstr "メールアドレス（必須）"
+
+#: inc/helpers.php:2971
+msgid "Website"
+msgstr "ホームページ"
+
+#: inc/helpers.php:3068 inc/helpers.php:3122
+#: inc/woocommerce/woocommerce-config.php:396
+msgid "Newer Posts"
+msgstr "最新の投稿"
+
+#: inc/helpers.php:3071 inc/helpers.php:3123
+#: inc/woocommerce/woocommerce-config.php:397
+msgid "Older Posts"
+msgstr "以前の投稿"
+
+#: inc/helpers.php:3102 inc/woocommerce/woocommerce-config.php:377
+#: inc/customizer/settings/blog.php:511
+msgid "End of content"
+msgstr "（コンテンツ終わり）"
+
+#: inc/helpers.php:3107 inc/woocommerce/woocommerce-config.php:382
+#: inc/customizer/settings/blog.php:529
+msgid "No more pages to load"
+msgstr "これ以上のページが読み込まれません"
+
+#: inc/helpers.php:3451
+msgid "WooVina"
+msgstr "WooVina"
+
+#: inc/helpers.php:3498
+msgid "Default Icon"
+msgstr "デフォルトアイコン"
+
+#: inc/helpers.php:3499
+msgid "3D X"
+msgstr "3D X軸"
+
+#: inc/helpers.php:3500
+msgid "3D X Reverse"
+msgstr "3D X軸反転"
+
+#: inc/helpers.php:3501
+msgid "3D Y"
+msgstr "3D Y軸"
+
+#: inc/helpers.php:3502
+msgid "3D Y Reverse"
+msgstr "3D Y軸反転"
+
+#: inc/helpers.php:3503
+msgid "3D XY"
+msgstr "3D XY軸"
+
+#: inc/helpers.php:3504
+msgid "3D XY Reverse"
+msgstr "3D XY軸反転"
+
+#: inc/helpers.php:3505
+msgid "Arrow"
+msgstr "Arrow"
+
+#: inc/helpers.php:3506
+msgid "Arrow Reverse"
+msgstr "Arrow反転"
+
+#: inc/helpers.php:3507
+msgid "Arrowalt"
+msgstr "Arrowalt"
+
+#: inc/helpers.php:3508
+msgid "Arrowalt Reverse"
+msgstr "Arrowalt反転"
+
+#: inc/helpers.php:3509
+msgid "Arrowturn"
+msgstr "Arrowturn"
+
+#: inc/helpers.php:3510
+msgid "Arrowturn Reverse"
+msgstr "Arrowturn反転"
+
+#: inc/helpers.php:3511
+msgid "Boring"
+msgstr "Boring"
+
+#: inc/helpers.php:3512
+msgid "Collapse"
+msgstr "Collapse"
+
+#: inc/helpers.php:3513
+msgid "Collapse Reverse"
+msgstr "Collapse反転"
+
+#: inc/helpers.php:3514
+msgid "Elastic"
+msgstr "Elastic"
+
+#: inc/helpers.php:3515
+msgid "Elastic Reverse"
+msgstr "Elastic反転"
+
+#: inc/helpers.php:3516
+msgid "Minus"
+msgstr "マイナス"
+
+#: inc/helpers.php:3517
+msgid "Slider"
+msgstr "Slider"
+
+#: inc/helpers.php:3518
+msgid "Slider Reverse"
+msgstr "Slider反転"
+
+#: inc/helpers.php:3519
+msgid "Spin"
+msgstr "Spin"
+
+#: inc/helpers.php:3520
+msgid "Spin Reverse"
+msgstr "Spin反転"
+
+#: inc/helpers.php:3521
+msgid "Spring"
+msgstr "Spring"
+
+#: inc/helpers.php:3522
+msgid "Spring Reverse"
+msgstr "Spring反転"
+
+#: inc/helpers.php:3523
+msgid "Stand"
+msgstr "Stand"
+
+#: inc/helpers.php:3524
+msgid "Stand Reverse"
+msgstr "Stand反転"
+
+#: inc/helpers.php:3525
+msgid "Squeeze"
+msgstr "Squeeze"
+
+#: inc/helpers.php:3526
+msgid "Vortex"
+msgstr "Vortex"
+
+#: inc/helpers.php:3527
+msgid "Vortex Reverse"
+msgstr "Vortex反転"
+
+#: inc/helpers.php:3578 partials/mobile/mobile-icon.php:37
+msgid "Menu"
+msgstr "メニュー"
+
+#: inc/helpers.php:3579 partials/mobile/mobile-icon.php:42
+msgid "Close"
+msgstr "閉じる"
+
+#: inc/helpers.php:3580 partials/mobile/mobile-sidr-close.php:20
+msgid "Close Menu"
+msgstr "メニューを閉じる"
+
+#: inc/helpers.php:3581
+msgid "Copyright [woovina_date] - WooVina Theme by WooVina.com"
+msgstr "Copyright [woovina_date] - WooVina Theme by WooVina.com"
+
+#: inc/helpers.php:3585 inc/woocommerce/woocommerce-config.php:852
+msgid "Filter"
+msgstr "フィルター"
+
+#: inc/helpers.php:3604
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/helpers.php:3608
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/helpers.php:3612
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: inc/helpers.php:3616
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/helpers.php:3620
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: inc/helpers.php:3624
+msgid "VK"
+msgstr "VK"
+
+#: inc/helpers.php:3628
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/helpers.php:3632
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/helpers.php:3636
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/helpers.php:3640
+msgid "Github"
+msgstr "Github"
+
+#: inc/helpers.php:3644
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/helpers.php:3648
+msgid "Skype"
+msgstr "Skype"
+
+#: inc/helpers.php:3652
+msgid "Youtube"
+msgstr "Youtube"
+
+#: inc/helpers.php:3656
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: inc/helpers.php:3660
+msgid "Vine"
+msgstr "Vine"
+
+#: inc/helpers.php:3664
+msgid "Xing"
+msgstr "Xing"
+
+#: inc/helpers.php:3668
+msgid "Yelp"
+msgstr "Yelp"
+
+#: inc/helpers.php:3672
+msgid "Tripadvisor"
+msgstr "Tripadvisor"
+
+#: inc/helpers.php:3676
+msgid "RSS"
+msgstr "RSS"
+
+#: inc/helpers.php:3680
+msgid "Email"
+msgstr "Email"
+
+#: partials/none.php:11
+#, php-format
+msgid "Ready to publish your first post? %1$sGet started here%2$s."
+msgstr "最初の投稿を公開する準備はできましたか？ここから始めよう"
+
+#: partials/none.php:13
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr "検索結果が得られませんでした。別のキーワードで再度お試しください。"
+
+#: partials/none.php:15
+msgid "There aren't any posts currently published in this category."
+msgstr "このカテゴリーでの投稿はありません。"
+
+#: partials/none.php:17
+msgid "There aren't any posts currently published under this taxonomy."
+msgstr "この分類での投稿はありません。"
+
+#: partials/none.php:19
+msgid "There aren't any posts currently published under this tag."
+msgstr "このタグでの投稿はありません。"
+
+#: partials/none.php:21
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr "あなたが探しているものを私たちは見つけることができそうです。"
+
+#. Name of the template
+msgid "Landing Page"
+msgstr "Landing Page"
+
+#: woocommerce/compare.php:78
+msgid "Close window [X]"
+msgstr "ウィンドウを閉じる [X]"
+
+#: woocommerce/compare.php:105
+msgid "No products added in the compare table."
+msgstr "テーブルに追加された商品はありません。"
+
+#: woocommerce/compare.php:116
+msgid "Remove"
+msgstr "削除"
+
+#: woocommerce/product-searchform.php:25
+msgid "Search for:"
+msgstr "検索:"
+
+#: woocommerce/product-searchform.php:36
+msgid "Search products&hellip;"
+msgstr "製品とヘルプを探す"
+
+#: woocommerce/product-searchform.php:37
+msgctxt "submit button"
+msgid "Search"
+msgstr "検索"
+
+#: woocommerce/quick-view-image.php:55
+msgid "Placeholder"
+msgstr "Placeholder"
+
+#: woocommerce/result-count.php:60
+msgid "View:"
+msgstr "閲覧:"
+
+#: woocommerce/result-count.php:63
+msgid "All"
+msgstr "全て"
+
+#: inc/customizer/customizer-helpers.php:45
+#: inc/customizer/controls/dropdown-pages/class-control-dropdown-pages.php:61
+msgid "Select"
+msgstr "選択"
+
+#: inc/third/class-beaver-themer.php:93
+msgid "Page"
+msgstr "ページ"
+
+#: inc/third/class-beaver-themer.php:95
+msgid "Before Page"
+msgstr "ページ前"
+
+#: inc/third/class-beaver-themer.php:96
+msgid "After Page"
+msgstr "ページ後"
+
+#: inc/third/class-beaver-themer.php:102
+msgid "Before Top Bar"
+msgstr "トップバー前"
+
+#: inc/third/class-beaver-themer.php:103
+msgid "Before Top Bar Inner"
+msgstr "トップバー前（内部）"
+
+#: inc/third/class-beaver-themer.php:104
+msgid "After Top Bar Inner"
+msgstr "トップバー後（内部）"
+
+#: inc/third/class-beaver-themer.php:105
+msgid "After Top Bar"
+msgstr "トップバー後"
+
+#: inc/third/class-beaver-themer.php:109
+msgid "Header"
+msgstr "ヘッダー"
+
+#: inc/third/class-beaver-themer.php:111
+msgid "Before Header"
+msgstr "ヘッダー前"
+
+#: inc/third/class-beaver-themer.php:112
+msgid "Before Header Inner"
+msgstr "ヘッダー前（内部）"
+
+#: inc/third/class-beaver-themer.php:113
+msgid "After Header Inner"
+msgstr "ヘッダー後（内部）"
+
+#: inc/third/class-beaver-themer.php:114
+msgid "After Header"
+msgstr "ヘッダー後"
+
+#: inc/third/class-beaver-themer.php:118
+msgid "Page Header"
+msgstr "ページヘッダー"
+
+#: inc/third/class-beaver-themer.php:120
+msgid "Before Page Header"
+msgstr "ページヘッダー前"
+
+#: inc/third/class-beaver-themer.php:121
+msgid "Before Page Header Inner"
+msgstr "ページヘッダー前（内部）"
+
+#: inc/third/class-beaver-themer.php:122
+msgid "After Page Header Inner"
+msgstr "ページヘッダー後（内部）"
+
+#: inc/third/class-beaver-themer.php:123
+msgid "After Page Header"
+msgstr "ヘージヘッダー後"
+
+#: inc/third/class-beaver-themer.php:129
+msgid "Before Content"
+msgstr "コンテンツ前"
+
+#: inc/third/class-beaver-themer.php:130
+msgid "Before Content Inner"
+msgstr "コンテンツ前（内部）"
+
+#: inc/third/class-beaver-themer.php:131
+msgid "After Content Inner"
+msgstr "コンテンツ後（内部）"
+
+#: inc/third/class-beaver-themer.php:132
+msgid "After Content"
+msgstr "コンテンツ後"
+
+#: inc/third/class-beaver-themer.php:136 inc/customizer/settings/sidebar.php:40
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: inc/third/class-beaver-themer.php:138
+msgid "Before Sidebar"
+msgstr "サイドバー前"
+
+#: inc/third/class-beaver-themer.php:139
+msgid "Before Sidebar Inner"
+msgstr "サイドバー前（内部）"
+
+#: inc/third/class-beaver-themer.php:140
+msgid "After Sidebar Inner"
+msgstr "サイドバー後（内部）"
+
+#: inc/third/class-beaver-themer.php:141
+msgid "After Sidebar"
+msgstr "サイドバー後"
+
+#: inc/third/class-beaver-themer.php:147
+msgid "Before Footer"
+msgstr "フッター"
+
+#: inc/third/class-beaver-themer.php:148
+msgid "Before Footer Inner"
+msgstr "フッター前（内部）"
+
+#: inc/third/class-beaver-themer.php:149
+msgid "After Footer Inner"
+msgstr "フッター後（内部）"
+
+#: inc/third/class-beaver-themer.php:150
+msgid "After Footer"
+msgstr "フッター後"
+
+#: inc/walker/init.php:70
+msgid "Template"
+msgstr "テンプレート"
+
+#: inc/walker/init.php:70
+msgid "Theme Panel > My Library"
+msgstr "テーマパネル＞マイライブラリー"
+
+#: inc/walker/init.php:72
+msgid "Select A Template"
+msgstr "テンプレートを選択"
+
+#: inc/walker/init.php:87
+msgid "Disable link"
+msgstr "リンクを無効化"
+
+#: inc/walker/init.php:94
+msgid "Display Latest Posts"
+msgstr "最新の投稿を表示"
+
+#: inc/walker/init.php:101
+msgid "Enable megamenu"
+msgstr "Megaメニューを有効化"
+
+#: inc/walker/init.php:107
+msgid "Megamenu auto width?"
+msgstr "Megaメニュー自動幅調整"
+
+#: inc/walker/init.php:112
+msgid "Megamenu columns (from 1 to 6)"
+msgstr "Megaメニュー"
+
+#: inc/walker/init.php:119
+msgid "Hide Mega menu heading?"
+msgstr "Megaメニューを隠す"
+
+#: inc/walker/init.php:124
+msgid "Mega Menu Widget Area"
+msgstr "Megaメニューウィジェット領域"
+
+#: inc/walker/init.php:126
+msgid "Select Widget Area"
+msgstr "ウィジェット領域を選択"
+
+#: inc/walker/menu-walker.php:296
+msgid "Latest in"
+msgstr "最新"
+
+#: inc/woocommerce/woocommerce-config.php:269
+msgid "Years,Months,Weeks,Days,Hours,Minutes,Seconds"
+msgstr "Years,Months,Weeks,Days,Hours,Minutes,Seconds"
+
+#: inc/woocommerce/woocommerce-config.php:270
+msgid "Year,Month,Week,Day,Hour,Minute,Second"
+msgstr "Year,Month,Week,Day,Hour,Minute,Second"
+
+#: inc/woocommerce/woocommerce-config.php:515
+msgid "WooCommerce Sidebar"
+msgstr "WooCommerce サイドバー"
+
+#: inc/woocommerce/woocommerce-config.php:525
+msgid "WooCommerce Product Sidebar"
+msgstr "WooCommerce プロダクトサイドバー"
+
+#: inc/woocommerce/woocommerce-config.php:692
+msgid "View cart"
+msgstr "カートを見る"
+
+#: inc/woocommerce/woocommerce-config.php:699
+#: woocommerce/checkout/form-multistep-checkout.php:97
+msgid "I don&rsquo;t have an account"
+msgstr "アカウントを持っていない"
+
+#: inc/woocommerce/woocommerce-config.php:779
+msgid "Cart"
+msgstr "カート"
+
+#: inc/woocommerce/woocommerce-config.php:806
+msgid "Off-Canvas Filters"
+msgstr "キャンバス外フィルター"
+
+#: inc/woocommerce/woocommerce-config.php:807
+msgid ""
+"Widgets in this area are used in the off canvas sidebar. To enable the Off "
+"Canvas filter, go to the WooCommerce > Archives section of the customizer "
+"and enable the Display Filter Button option."
+msgstr ""
+"この領域のウィジェットはキャンバス外サイドバーで使われます。キャンバス外フィ"
+"ルターを有効にするためにはWooCommerce > アーカイブ設定の「表示フィルターオプ"
+"ション」を有効にしてください。"
+
+#: inc/woocommerce/woocommerce-config.php:873
+msgid "Grid view"
+msgstr "グリッド表示"
+
+#: inc/woocommerce/woocommerce-config.php:874
+msgid "List view"
+msgstr "リスト表示"
+
+#: inc/woocommerce/woocommerce-config.php:1028
+msgid "Out of Stock"
+msgstr "在庫切れ"
+
+#: inc/woocommerce/woocommerce-config.php:1078
+msgid "Quick View"
+msgstr "クイックビュー"
+
+#: inc/woocommerce/woocommerce-config.php:1206
+msgid "Selected:"
+msgstr "選択:"
+
+#: inc/woocommerce/woocommerce-config.php:1216
+msgid "Out of stock"
+msgstr "在庫切れ"
+
+#: inc/woocommerce/woocommerce-config.php:1221
+msgid "Select Options"
+msgstr "選択オプション"
+
+#: inc/woocommerce/woocommerce-config.php:1275
+msgid "Welcome!"
+msgstr "ようこそ！"
+
+#: inc/woocommerce/woocommerce-config.php:1284
+msgid "Logout"
+msgstr "ログアウト"
+
+#: inc/woocommerce/woocommerce-config.php:1764
+msgid "Your cart"
+msgstr "あなたのカート"
+
+#: inc/woocommerce/woocommerce-config.php:1861
+msgid "Sale"
+msgstr "セール"
+
+#: inc/woocommerce/woocommerce-config.php:1895
+#: woocommerce/checkout/checkout-timeline.php:42
+msgid "Login"
+msgstr "ログイン"
+
+#: inc/woocommerce/woocommerce-config.php:1908
+msgid "Or"
+msgstr "Or"
+
+#: inc/woocommerce/woocommerce-config.php:1910
+msgid "Register"
+msgstr "登録"
+
+#: inc/woocommerce/woocommerce-config.php:2000
+msgid "WooCommerce Product Title"
+msgstr "WooCommerce プロダクト/タイトル"
+
+#: inc/woocommerce/woocommerce-config.php:2011
+msgid "WooCommerce Product Price"
+msgstr "WooCommerce プロダクト/値段"
+
+#: inc/woocommerce/woocommerce-config.php:2021
+msgid "WooCommerce Product Add To Cart"
+msgstr "WooCommerce プロダクト/カートに追加"
+
+#: inc/woocommerce/woocommerce-config.php:2103
+#: inc/woocommerce/woocommerce-config.php:2121
+#, php-format
+msgid "Only %s left in stock"
+msgstr "在庫 %s 件のみ"
+
+#: inc/woocommerce/woocommerce-config.php:2106
+#: inc/woocommerce/woocommerce-config.php:2124
+#, php-format
+msgid "%s in stock"
+msgstr "在庫 %s 件"
+
+#: inc/woocommerce/woocommerce-config.php:2145
+#, php-format
+msgid "Sold by: <a href=\"%s\">%s</a>"
+msgstr "並び順:"
+
+#: inc/woocommerce/woocommerce-config.php:2160
+#, php-format
+msgid "%s Sold "
+msgstr "販売数"
+
+#: inc/woocommerce/woocommerce-config.php:2177
+msgid "New!"
+msgstr "新着"
+
+#: inc/woocommerce/woocommerce-helpers.php:110
+#: woocommerce/loop/thumbnail/featured-image.php:53
+msgid "Placeholder Image"
+msgstr "Placeholder Image"
+
+#. %s: rating
+#: inc/woocommerce/woocommerce-helpers.php:212
+#: inc/woocommerce/woocommerce-helpers.php:218
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "%s 点（5点中）評価"
+
+#: partials/entry/meta.php:42 partials/single/meta.php:48
+#: partials/entry/thumbnail-style/comments.php:16
+msgid "0 Comments"
+msgstr "0件の返信"
+
+#: partials/entry/meta.php:42 partials/single/meta.php:48
+#: partials/entry/thumbnail-style/comments.php:16
+msgid "1 Comment"
+msgstr "1件の返信"
+
+#: partials/entry/meta.php:42 partials/single/meta.php:48
+#: partials/entry/thumbnail-style/comments.php:16
+msgid "% Comments"
+msgstr "% 件のコメント"
+
+#: partials/entry/readmore.php:14 partials/search/readmore.php:14
+#: partials/single/next-prev.php:28
+msgid "Continue Reading"
+msgstr "続きを読む"
+
+#: partials/header/search-overlay.php:35
+msgid "Type your text and hit enter to search"
+msgstr "キーワードを入力して検索してください"
+
+#: partials/header/search-replace.php:32
+msgid "Type then hit enter to search..."
+msgstr "キーワードを入力して検索"
+
+#: partials/page/article.php:18 partials/single/content.php:19
+msgid "Pages:"
+msgstr "ページ数:"
+
+#: partials/single/author-bio.php:36 partials/single/author-bio.php:47
+msgid "Visit Author Page"
+msgstr "著作者ページを訪問"
+
+#: partials/single/next-prev.php:24
+msgid "Previous Post"
+msgstr "前の投稿"
+
+#: partials/single/next-prev.php:25
+msgid "Next Post"
+msgstr "次の投稿"
+
+#: partials/single/related-posts.php:19
+msgid "You Might Also Like"
+msgstr "おすすめ商品:"
+
+#: woocommerce/cart/mini-cart.php:76
+msgid "Remove this item"
+msgstr "こちらを除く"
+
+#: woocommerce/cart/mini-cart.php:112
+msgid "No products in the cart."
+msgstr "カートに商品がありません"
+
+#: woocommerce/checkout/checkout-timeline.php:50
+msgid "Billing"
+msgstr "請求"
+
+#: woocommerce/checkout/checkout-timeline.php:57
+msgid "Shipping"
+msgstr "配送"
+
+#: woocommerce/checkout/checkout-timeline.php:64
+msgid "Payment Info"
+msgstr "支払い方法"
+
+#: woocommerce/checkout/form-multistep-checkout.php:26
+msgid ""
+"If you have already registered, please, enter your details in the boxes "
+"below. If you are a new customer, please, go to the Billing &amp; Shipping "
+"section."
+msgstr ""
+"すでにご登録済みの場合は詳細を下記にご入力ください。新規のお客様の場合は、請"
+"求 &amp; 配送 をご確認ください。"
+
+#: woocommerce/checkout/form-multistep-checkout.php:53
+msgid "You must be logged in before proceeding to checkout."
+msgstr "チェックアウトへ進む前にログインをしてください。"
+
+#: woocommerce/checkout/form-multistep-checkout.php:93
+msgid "Back to cart"
+msgstr "カートへ戻る"
+
+#: woocommerce/checkout/form-multistep-checkout.php:96
+msgid "Prev"
+msgstr "前"
+
+#: inc/customizer/settings/blog.php:48
+msgid "Blog Entries"
+msgstr "ブログエントリー"
+
+#: inc/customizer/settings/blog.php:62
+msgid "Archives & Entries Layout"
+msgstr "アーカイブとエントリーのレイアウト"
+
+#: inc/customizer/settings/blog.php:78 inc/customizer/settings/blog.php:616
+msgid "Both Sidebars: Style"
+msgstr "両方のサイドバー:スタイル"
+
+#: inc/customizer/settings/blog.php:84 inc/customizer/settings/blog.php:622
+msgid "Sidebar / Sidebar / Content"
+msgstr "サイドバー/サイドバー/コンテンツ"
+
+#: inc/customizer/settings/blog.php:85 inc/customizer/settings/blog.php:623
+msgid "Sidebar / Content / Sidebar"
+msgstr "サイドバー/コンテンツ/サイドバー"
+
+#: inc/customizer/settings/blog.php:86 inc/customizer/settings/blog.php:624
+msgid "Content / Sidebar / Sidebar"
+msgstr "コンテンツ/サイドバー/サイドバー"
+
+#: inc/customizer/settings/blog.php:100 inc/customizer/settings/blog.php:638
+msgid "Both Sidebars: Content Width (%)"
+msgstr "両方のサイドバー:コンテンツ幅 (%)"
+
+#: inc/customizer/settings/blog.php:122 inc/customizer/settings/blog.php:660
+msgid "Both Sidebars: Sidebars Width (%)"
+msgstr "両方のサイドバー:サイドバー幅 (%)"
+
+#: inc/customizer/settings/blog.php:144 inc/customizer/settings/blog.php:682
+msgid "Heading Tag"
+msgstr "Heading Tag"
+
+#: inc/customizer/settings/blog.php:150 inc/customizer/settings/blog.php:688
+msgid "H1"
+msgstr "H1"
+
+#: inc/customizer/settings/blog.php:151 inc/customizer/settings/blog.php:689
+msgid "H2"
+msgstr "H2"
+
+#: inc/customizer/settings/blog.php:152 inc/customizer/settings/blog.php:690
+msgid "H3"
+msgstr "H3"
+
+#: inc/customizer/settings/blog.php:153 inc/customizer/settings/blog.php:691
+msgid "H4"
+msgstr "H4"
+
+#: inc/customizer/settings/blog.php:154 inc/customizer/settings/blog.php:692
+msgid "H5"
+msgstr "H5"
+
+#: inc/customizer/settings/blog.php:155 inc/customizer/settings/blog.php:693
+msgid "H6"
+msgstr "H6"
+
+#: inc/customizer/settings/blog.php:156 inc/customizer/settings/blog.php:694
+msgid "div"
+msgstr "div"
+
+#: inc/customizer/settings/blog.php:157 inc/customizer/settings/blog.php:695
+msgid "span"
+msgstr "span"
+
+#: inc/customizer/settings/blog.php:158 inc/customizer/settings/blog.php:696
+msgid "p"
+msgstr "p"
+
+#: inc/customizer/settings/blog.php:172
+msgid "Add Overlay On image Hover"
+msgstr "image Hoverにオーバーレイ効果"
+
+#: inc/customizer/settings/blog.php:188
+msgid "Blog Style"
+msgstr "ブログスタイル"
+
+#: inc/customizer/settings/blog.php:194
+msgid "Large Image"
+msgstr "イメージ大"
+
+#: inc/customizer/settings/blog.php:195
+msgid "Grid"
+msgstr "グリッド"
+
+#: inc/customizer/settings/blog.php:196 inc/customizer/settings/blog.php:216
+msgid "Thumbnail"
+msgstr "サムネイル"
+
+#: inc/customizer/settings/blog.php:209
+msgid "Images Size"
+msgstr "イメージサイズ"
+
+#: inc/customizer/settings/blog.php:217
+msgid "Medium"
+msgstr "中"
+
+#: inc/customizer/settings/blog.php:218
+msgid "Medium Large"
+msgstr "中/大"
+
+#: inc/customizer/settings/blog.php:219
+msgid "Large"
+msgstr "大"
+
+#: inc/customizer/settings/blog.php:232
+msgid "Grid Columns"
+msgstr "グリッドのカラム"
+
+#: inc/customizer/settings/blog.php:256
+msgid "Grid Style"
+msgstr "グリッドのスタイル"
+
+#: inc/customizer/settings/blog.php:263
+msgid "Fit Rows"
+msgstr "行を合わせる"
+
+#: inc/customizer/settings/blog.php:264
+msgid "Masonry"
+msgstr "Masonry"
+
+#: inc/customizer/settings/blog.php:277
+msgid "Equal Heights"
+msgstr "等しい高さ"
+
+#: inc/customizer/settings/blog.php:294
+msgid "Image Position"
+msgstr "イメージ位置"
+
+#: inc/customizer/settings/blog.php:299 inc/customizer/settings/blog.php:751
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:193
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:197
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:201
+msgid "Left"
+msgstr "左"
+
+#: inc/customizer/settings/blog.php:300 inc/customizer/settings/blog.php:753
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:191
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:195
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:199
+msgid "Right"
+msgstr "右"
+
+#: inc/customizer/settings/blog.php:315
+msgid "Vertical Position"
+msgstr "垂直位置"
+
+#: inc/customizer/settings/blog.php:320
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:190
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:194
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:198
+msgid "Top"
+msgstr "上段"
+
+#: inc/customizer/settings/blog.php:321 inc/customizer/settings/blog.php:752
+msgid "Center"
+msgstr "中央"
+
+#: inc/customizer/settings/blog.php:322
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:192
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:196
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:200
+msgid "Bottom"
+msgstr "下段"
+
+#: inc/customizer/settings/blog.php:335
+msgid "Custom Image Width (px)"
+msgstr "カスタムイメージ幅 (px)"
+
+#: inc/customizer/settings/blog.php:353
+msgid "Custom Image Height (px)"
+msgstr "カスタムイメージ高さ (px)"
+
+#: inc/customizer/settings/blog.php:373
+msgid "Category Color"
+msgstr "カテゴリ色"
+
+#: inc/customizer/settings/blog.php:390 inc/customizer/settings/blog.php:441
+msgid "Category Hover Color"
+msgstr "カテゴリHover色"
+
+#: inc/customizer/settings/blog.php:407
+msgid "Comments Color"
+msgstr "コメント色"
+
+#: inc/customizer/settings/blog.php:424
+msgid "Comments Hover Color"
+msgstr "コメントHover色"
+
+#: inc/customizer/settings/blog.php:457
+msgid "Excerpt Length"
+msgstr "説明文長さ"
+
+#: inc/customizer/settings/blog.php:458
+msgid "Add 500 to display full content"
+msgstr "500文字程度を入力してください"
+
+#: inc/customizer/settings/blog.php:478
+msgid "Blog Pagination Style"
+msgstr "ブログページングスタイル"
+
+#: inc/customizer/settings/blog.php:484
+msgid "Standard"
+msgstr "標準"
+
+#: inc/customizer/settings/blog.php:485
+msgid "Infinite Scroll"
+msgstr "無限スクロール"
+
+#: inc/customizer/settings/blog.php:486
+msgid "Next/Prev"
+msgstr "次/前"
+
+#: inc/customizer/settings/blog.php:500
+msgid "Infinite Scroll: Spinners Color"
+msgstr "無限スクロール:スピナーの色"
+
+#: inc/customizer/settings/blog.php:517
+msgid "Infinite Scroll: Last Text"
+msgstr "無限スクロール:最後のテキスト"
+
+#: inc/customizer/settings/blog.php:535
+msgid "Infinite Scroll: Error Text"
+msgstr "無限スクロール:エラーテキスト"
+
+#: inc/customizer/settings/blog.php:552 inc/customizer/settings/blog.php:952
+msgid "Elements Positioning"
+msgstr "要素の配置"
+
+#: inc/customizer/settings/blog.php:574 inc/customizer/settings/blog.php:973
+msgid "Author"
+msgstr "著作者"
+
+#: inc/customizer/settings/blog.php:575 inc/customizer/settings/blog.php:974
+msgid "Date"
+msgstr "日付"
+
+#: inc/customizer/settings/blog.php:576 inc/customizer/settings/blog.php:975
+msgid "Categories"
+msgstr "カテゴリ"
+
+#: inc/customizer/settings/blog.php:586
+msgid "Single Post"
+msgstr "シングルポスト"
+
+#: inc/customizer/settings/blog.php:600
+msgid "Layout"
+msgstr "レイアウト"
+
+#: inc/customizer/settings/blog.php:709
+msgid "Page Header Title"
+msgstr "ページヘッダータイトル"
+
+#: inc/customizer/settings/blog.php:716
+msgid "Post Title"
+msgstr "投稿タイトル"
+
+#: inc/customizer/settings/blog.php:729
+msgid "Featured Image In Page Header"
+msgstr "ページヘッダー用イメージ"
+
+#: inc/customizer/settings/blog.php:746
+msgid "Title/Breadcrumb Position"
+msgstr "タイトル/パンクズ位置"
+
+#: inc/customizer/settings/blog.php:768
+msgid "Position"
+msgstr "位置"
+
+#: inc/customizer/settings/blog.php:775 inc/customizer/settings/blog.php:805
+#: inc/customizer/settings/blog.php:828 inc/customizer/settings/blog.php:853
+#: inc/customizer/settings/typography.php:402
+#: inc/customizer/settings/typography.php:435
+#: inc/customizer/settings/typography.php:462
+#: inc/customizer/controls/typo/class-control-typo.php:255
+#: inc/customizer/controls/typo/class-control-typo.php:296
+#: inc/customizer/controls/typo/class-control-typo.php:319
+#: inc/customizer/controls/typo/class-control-typo.php:335
+#: inc/customizer/controls/typography/class-control-typography.php:57
+msgid "Default"
+msgstr "デフォルト"
+
+#: inc/customizer/settings/blog.php:776
+msgid "Top Left"
+msgstr "上段-左"
+
+#: inc/customizer/settings/blog.php:777
+msgid "Top Center"
+msgstr "上段-センター"
+
+#: inc/customizer/settings/blog.php:778
+msgid "Top Right"
+msgstr "上段-右"
+
+#: inc/customizer/settings/blog.php:779
+msgid "Center Left"
+msgstr "中段-左"
+
+#: inc/customizer/settings/blog.php:780
+msgid "Center Center"
+msgstr "中段-センター"
+
+#: inc/customizer/settings/blog.php:781
+msgid "Center Right"
+msgstr "中段-右"
+
+#: inc/customizer/settings/blog.php:782
+msgid "Bottom Left"
+msgstr "下段-左"
+
+#: inc/customizer/settings/blog.php:783
+msgid "Bottom Center"
+msgstr "下段-センター"
+
+#: inc/customizer/settings/blog.php:784
+msgid "Bottom Right"
+msgstr "下段-右"
+
+#: inc/customizer/settings/blog.php:798
+msgid "Attachment"
+msgstr "添付"
+
+#: inc/customizer/settings/blog.php:806
+msgid "Scroll"
+msgstr "スクロール"
+
+#: inc/customizer/settings/blog.php:807
+msgid "Fixed"
+msgstr "固定"
+
+#: inc/customizer/settings/blog.php:821 inc/customizer/settings/blog.php:830
+msgid "Repeat"
+msgstr "繰り返し"
+
+#: inc/customizer/settings/blog.php:829
+msgid "No-repeat"
+msgstr "繰り返さない"
+
+#: inc/customizer/settings/blog.php:831
+msgid "Repeat-x"
+msgstr "繰り返し-x"
+
+#: inc/customizer/settings/blog.php:832
+msgid "Repeat-y"
+msgstr "繰り返し-y"
+
+#: inc/customizer/settings/blog.php:846
+msgid "Size"
+msgstr "サイズ"
+
+#: inc/customizer/settings/blog.php:854
+msgid "Auto"
+msgstr "自動"
+
+#: inc/customizer/settings/blog.php:855
+msgid "Cover"
+msgstr "覆う"
+
+#: inc/customizer/settings/blog.php:856
+msgid "Contain"
+msgstr "内包する"
+
+#: inc/customizer/settings/blog.php:870
+msgid "Page Header Height (px)"
+msgstr "ページヘッダー高さ(px)"
+
+#: inc/customizer/settings/blog.php:892
+msgid "Overlay Opacity"
+msgstr "オーバーレイ不透明度"
+
+#: inc/customizer/settings/blog.php:914
+msgid "Overlay Color"
+msgstr "オーバーレイ色"
+
+#: inc/customizer/settings/blog.php:931
+msgid "Full Width Content"
+msgstr "コンテンツ最大幅"
+
+#: inc/customizer/settings/blog.php:932
+msgid ""
+"Enter the max width your the content with the full width layout. Add 0 to "
+"disable the max width."
+msgstr ""
+"コンテンツ最大幅にした上で最大幅を入力してください。0を入力すると最大幅が無効"
+"化されます。"
+
+#: inc/customizer/settings/blog.php:989
+msgid "Next/Prev Taxonomy"
+msgstr "次/前 Taxonomy"
+
+#: inc/customizer/settings/blog.php:994 inc/customizer/settings/blog.php:1053
+msgid "Category"
+msgstr "カテゴリー"
+
+#: inc/customizer/settings/blog.php:995 inc/customizer/settings/blog.php:1054
+msgid "Tag"
+msgstr "タグ"
+
+#: inc/customizer/settings/blog.php:1008
+msgid "Related Posts Count"
+msgstr "関連投稿の数"
+
+#: inc/customizer/settings/blog.php:1028
+msgid "Related Posts Columns"
+msgstr "関連投稿のカラム"
+
+#: inc/customizer/settings/blog.php:1048
+msgid "Related Posts Taxonomy"
+msgstr "関連投稿のTaxonomy"
+
+#: inc/customizer/settings/blog.php:1066
+msgid "Related Posts Image Width (px)"
+msgstr "関連投稿のイメージ横幅(px)"
+
+#: inc/customizer/settings/blog.php:1085
+msgid "Related Posts Image Height (px)"
+msgstr "関連投稿のイメージ縦幅(px)"
+
+#: inc/customizer/settings/footer-bottom.php:40
+msgid "Footer Bottom"
+msgstr "フッター"
+
+#: inc/customizer/settings/footer-bottom.php:53
+msgid "Enable Footer Bottom"
+msgstr "フッターボタンを有効化する"
+
+#: inc/customizer/settings/footer-bottom.php:70
+#: inc/customizer/settings/footer-widgets.php:70
+#: inc/customizer/settings/topbar.php:97
+msgid "Visibility"
+msgstr "可視化"
+
+#: inc/customizer/settings/footer-bottom.php:77
+#: inc/customizer/settings/footer-widgets.php:77
+#: inc/customizer/settings/topbar.php:104
+msgid "Show On All Devices"
+msgstr "すべてのデバイスで表示する"
+
+#: inc/customizer/settings/footer-bottom.php:78
+#: inc/customizer/settings/footer-widgets.php:78
+#: inc/customizer/settings/topbar.php:105
+msgid "Hide On Tablet"
+msgstr "タブレットでは隠す"
+
+#: inc/customizer/settings/footer-bottom.php:79
+#: inc/customizer/settings/footer-widgets.php:79
+#: inc/customizer/settings/topbar.php:106
+msgid "Hide On Mobile"
+msgstr "モバイルでは隠す"
+
+#: inc/customizer/settings/footer-bottom.php:80
+#: inc/customizer/settings/footer-widgets.php:80
+#: inc/customizer/settings/topbar.php:107
+msgid "Hide On Tablet & Mobile"
+msgstr "タブレットとモバイルで隠す"
+
+#: inc/customizer/settings/footer-bottom.php:94
+msgid "Copyright"
+msgstr "Copyright"
+
+#: inc/customizer/settings/footer-bottom.php:95
+#: inc/customizer/settings/topbar.php:341
+#, php-format
+msgid "Shortcodes allowed, %1$ssee the list%2$s."
+msgstr "ショートコードが利用できます。リストを参照してください"
+
+#: inc/customizer/settings/footer-bottom.php:161
+#: inc/customizer/settings/footer-widgets.php:257
+#: inc/customizer/settings/sidebar.php:118
+#: inc/customizer/settings/sidebar.php:229
+#: inc/customizer/settings/topbar.php:192
+#: inc/customizer/settings/topbar.php:484
+msgid "Padding (px)"
+msgstr "Padding (px)"
+
+#: inc/customizer/settings/footer-bottom.php:196
+#: inc/customizer/settings/footer-widgets.php:292
+#: inc/customizer/settings/sidebar.php:53
+#: inc/customizer/settings/sidebar.php:164
+#: inc/customizer/settings/topbar.php:227
+msgid "Background Color"
+msgstr "背景色"
+
+#: inc/customizer/settings/footer-bottom.php:213
+#: inc/customizer/settings/footer-widgets.php:309
+#: inc/customizer/settings/topbar.php:261
+msgid "Text Color"
+msgstr "テキスト色"
+
+#: inc/customizer/settings/footer-bottom.php:230
+#: inc/customizer/settings/footer-widgets.php:343
+msgid "Links Color"
+msgstr "リンク色"
+
+#: inc/customizer/settings/footer-bottom.php:247
+#: inc/customizer/settings/footer-widgets.php:360
+msgid "Links Color: Hover"
+msgstr "リンク色:Hover"
+
+#: inc/customizer/settings/footer-widgets.php:40
+msgid "Footer Widgets"
+msgstr "フッターウィジェット"
+
+#: inc/customizer/settings/footer-widgets.php:53
+msgid "Enable Footer Widgets"
+msgstr "フッターウィジットを有効化する"
+
+#: inc/customizer/settings/footer-widgets.php:93
+msgid "Fixed Footer"
+msgstr "固定フッター"
+
+#: inc/customizer/settings/footer-widgets.php:94
+msgid ""
+"This option add a height to your content to keep your footer at the bottom "
+"of your page."
+msgstr "このオプションによりフッターをページ下段に固定することができます。"
+
+#: inc/customizer/settings/footer-widgets.php:99
+#: inc/customizer/settings/footer-widgets.php:120
+msgid "On"
+msgstr "On"
+
+#: inc/customizer/settings/footer-widgets.php:100
+#: inc/customizer/settings/footer-widgets.php:121
+msgid "Off"
+msgstr "Off"
+
+#: inc/customizer/settings/footer-widgets.php:114
+msgid "Parallax Footer Effect"
+msgstr "パララックスフッター効果"
+
+#: inc/customizer/settings/footer-widgets.php:115
+msgid "Add a parallax effect to your footer."
+msgstr "パララックスフッター効果を追加する"
+
+#: inc/customizer/settings/footer-widgets.php:135
+#: inc/customizer/settings/topbar.php:320
+msgid "Select Template"
+msgstr "テンプレートを選択する"
+
+#: inc/customizer/settings/footer-widgets.php:136
+#: inc/customizer/settings/topbar.php:384
+msgid "Choose a template created in Theme Panel > My Library."
+msgstr "Theme Panel > My Libraryから作成されたテンプレートを選択"
+
+#: inc/customizer/settings/footer-widgets.php:164
+msgid "Columns"
+msgstr "カラム"
+
+#: inc/customizer/settings/footer-widgets.php:190
+msgid "Add Container"
+msgstr "コンテナーを追加する"
+
+#: inc/customizer/settings/footer-widgets.php:326
+msgid "Borders Color"
+msgstr "ボーダー色"
+
+#: inc/customizer/settings/sidebar.php:150
+msgid "Widgets"
+msgstr "ウィジット"
+
+#: inc/customizer/settings/sidebar.php:262
+msgid "Margin Bottom (px)"
+msgstr "Margin Bottom (px)"
+
+#: inc/customizer/settings/sidebar.php:284
+msgid "Titles Border Color"
+msgstr "タイトルボーター色"
+
+#: inc/customizer/settings/sidebar.php:300
+msgid "Titles Margin Bottom (px)"
+msgstr "Titles Margin Bottom (px)"
+
+#: inc/customizer/settings/topbar.php:48
+#: inc/customizer/settings/typography.php:265
+msgid "General"
+msgstr "一般"
+
+#: inc/customizer/settings/topbar.php:62
+msgid "Enable Top Bar"
+msgstr "トップバーを有効化する"
+
+#: inc/customizer/settings/topbar.php:79
+msgid "Top Bar Full Width"
+msgstr "トップバーを最大幅にする"
+
+#: inc/customizer/settings/topbar.php:120
+msgid "Style"
+msgstr "スタイル"
+
+#: inc/customizer/settings/topbar.php:127
+msgid "Left Content & Right Social"
+msgstr "左にコンテンツ/右にSNS"
+
+#: inc/customizer/settings/topbar.php:128
+msgid "Left Social & Right Content"
+msgstr "右にSNS/左にコンテンツ"
+
+#: inc/customizer/settings/topbar.php:129
+msgid "Centered Content & Social"
+msgstr "中央にコンテンツ/SNS"
+
+#: inc/customizer/settings/topbar.php:244
+msgid "Border Color"
+msgstr "ボーダー色"
+
+#: inc/customizer/settings/topbar.php:278
+msgid "Link Color"
+msgstr "リンク色"
+
+#: inc/customizer/settings/topbar.php:295
+msgid "Link Color: Hover"
+msgstr "リンク色:Hover"
+
+#: inc/customizer/settings/topbar.php:321
+msgid ""
+"Choose a template created in Theme Panel > My Library to replace the content."
+msgstr "Theme Panel > My Libraryから作成されたテンプレートを選択して置き換える"
+
+#: inc/customizer/settings/topbar.php:335
+msgid "Place your content here"
+msgstr "コンテンツをここに置く"
+
+#: inc/customizer/settings/topbar.php:352
+msgid "Social"
+msgstr "SNS"
+
+#: inc/customizer/settings/topbar.php:366
+msgid "Enable Social"
+msgstr "SNSを有効化"
+
+#: inc/customizer/settings/topbar.php:383
+msgid "Social Alternative"
+msgstr "SNS代替"
+
+#: inc/customizer/settings/topbar.php:403
+msgid "Social Link Target"
+msgstr "SNSリンクターゲット"
+
+#: inc/customizer/settings/topbar.php:410
+msgid "New Window"
+msgstr "新しいウィンドウ"
+
+#: inc/customizer/settings/topbar.php:411
+msgid "Same Window"
+msgstr "同じウィンドウ"
+
+#: inc/customizer/settings/topbar.php:435
+msgid "Font Size (px)"
+msgstr "フォントサイズ(px)"
+
+#: inc/customizer/settings/topbar.php:513
+msgid "Social Links Color"
+msgstr "SNSリンク色"
+
+#: inc/customizer/settings/topbar.php:529
+msgid "Social Links Color: Hover"
+msgstr "SNSリンク色:Hover"
+
+#: inc/customizer/settings/typography.php:46
+msgid "Body"
+msgstr "Body"
+
+#: inc/customizer/settings/typography.php:55
+msgid "All Headings"
+msgstr "All Headings"
+
+#: inc/customizer/settings/typography.php:64
+msgid "Heading 1 (H1)"
+msgstr "Heading 1 (H1)"
+
+#: inc/customizer/settings/typography.php:73
+msgid "Heading 2 (H2)"
+msgstr "Heading 2 (H2)"
+
+#: inc/customizer/settings/typography.php:82
+msgid "Heading 3 (H3)"
+msgstr "Heading 3 (H3)"
+
+#: inc/customizer/settings/typography.php:91
+msgid "Heading 4 (H4)"
+msgstr "Heading 4 (H4)"
+
+#: inc/customizer/settings/typography.php:100
+msgid "Logo"
+msgstr "ロゴ"
+
+#: inc/customizer/settings/typography.php:119
+msgid "Main Menu"
+msgstr "メインメニュー"
+
+#: inc/customizer/settings/typography.php:128
+msgid "Main Menu: Dropdowns"
+msgstr "メインメニュー:ドロップダウン"
+
+#: inc/customizer/settings/typography.php:147
+msgid "Page Title"
+msgstr "ページタイトル"
+
+#: inc/customizer/settings/typography.php:157
+msgid "Page Title Subheading"
+msgstr "ページタイトルSubheading"
+
+#: inc/customizer/settings/typography.php:167
+msgid "Breadcrumbs"
+msgstr "パンクズ"
+
+#: inc/customizer/settings/typography.php:176
+msgid "Blog Entry Title"
+msgstr "ブログエントリータイトル"
+
+#: inc/customizer/settings/typography.php:185
+msgid "Blog Post Title"
+msgstr "ブログポストタイトル"
+
+#: inc/customizer/settings/typography.php:195
+msgid "Sidebar Widget Heading"
+msgstr "サイドバーウィジェットHeading"
+
+#: inc/customizer/settings/typography.php:206
+msgid "Footer Widget Heading"
+msgstr "フッターウィジェットHeading"
+
+#: inc/customizer/settings/typography.php:217
+msgid "Footer Copyright"
+msgstr "フッターCopyright"
+
+#: inc/customizer/settings/typography.php:227
+msgid "Footer Menu"
+msgstr "フッターメニュー"
+
+#: inc/customizer/settings/typography.php:257
+msgid "Typography"
+msgstr "タイポグラフィ"
+
+#: inc/customizer/settings/typography.php:280
+msgid "Disable Google Fonts"
+msgstr "Googleフォントを無効化"
+
+#: inc/customizer/settings/typography.php:296
+msgid "Font Subsets"
+msgstr "Font Subsets"
+
+#: inc/customizer/settings/typography.php:372
+#: inc/customizer/controls/typo/class-control-typo.php:56
+msgid "Font Family"
+msgstr "Font Family"
+
+#: inc/customizer/settings/typography.php:394
+#: inc/customizer/controls/typo/class-control-typo.php:58
+msgid "Font Weight"
+msgstr "文字の太さ"
+
+#: inc/customizer/settings/typography.php:395
+msgid "Important: Not all fonts support every font-weight."
+msgstr "重要：文字の太さに対応しないフォントもあります。"
+
+#: inc/customizer/settings/typography.php:403
+#: inc/customizer/controls/typo/class-control-typo.php:297
+msgid "Thin: 100"
+msgstr "Thin: 100"
+
+#: inc/customizer/settings/typography.php:404
+#: inc/customizer/controls/typo/class-control-typo.php:298
+msgid "Light: 200"
+msgstr "Light: 200"
+
+#: inc/customizer/settings/typography.php:405
+#: inc/customizer/controls/typo/class-control-typo.php:299
+msgid "Book: 300"
+msgstr "Book: 300"
+
+#: inc/customizer/settings/typography.php:406
+#: inc/customizer/controls/typo/class-control-typo.php:300
+msgid "Normal: 400"
+msgstr "Normal: 400"
+
+#: inc/customizer/settings/typography.php:407
+#: inc/customizer/controls/typo/class-control-typo.php:301
+msgid "Medium: 500"
+msgstr "Medium: 500"
+
+#: inc/customizer/settings/typography.php:408
+#: inc/customizer/controls/typo/class-control-typo.php:302
+msgid "Semibold: 600"
+msgstr "Semibold: 600"
+
+#: inc/customizer/settings/typography.php:409
+#: inc/customizer/controls/typo/class-control-typo.php:303
+msgid "Bold: 700"
+msgstr "Bold: 700"
+
+#: inc/customizer/settings/typography.php:410
+#: inc/customizer/controls/typo/class-control-typo.php:304
+msgid "Extra Bold: 800"
+msgstr "Extra Bold: 800"
+
+#: inc/customizer/settings/typography.php:411
+#: inc/customizer/controls/typo/class-control-typo.php:305
+msgid "Black: 900"
+msgstr "Black: 900"
+
+#: inc/customizer/settings/typography.php:428
+#: inc/customizer/controls/typo/class-control-typo.php:59
+msgid "Font Style"
+msgstr "フォントスタイル"
+
+#: inc/customizer/settings/typography.php:436
+#: inc/customizer/controls/typo/class-control-typo.php:320
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/customizer/settings/typography.php:437
+#: inc/customizer/controls/typo/class-control-typo.php:321
+msgid "Italic"
+msgstr "Italic"
+
+#: inc/customizer/settings/typography.php:455
+#: inc/customizer/controls/typo/class-control-typo.php:60
+msgid "Text Transform"
+msgstr "Text Transform"
+
+#: inc/customizer/settings/typography.php:463
+#: inc/customizer/controls/typo/class-control-typo.php:336
+msgid "Capitalize"
+msgstr "先頭の文字を大文字に"
+
+#: inc/customizer/settings/typography.php:464
+#: inc/customizer/controls/typo/class-control-typo.php:337
+msgid "Lowercase"
+msgstr "小文字"
+
+#: inc/customizer/settings/typography.php:465
+#: inc/customizer/controls/typo/class-control-typo.php:338
+msgid "Uppercase"
+msgstr "大文字"
+
+#: inc/customizer/settings/typography.php:466
+msgid "None"
+msgstr "なし"
+
+#: inc/customizer/settings/typography.php:498
+#: inc/customizer/controls/typo/class-control-typo.php:57
+msgid "Font Size"
+msgstr "フォントサイズ"
+
+#: inc/customizer/settings/typography.php:537
+#: inc/customizer/controls/typo/class-control-typo.php:61
+msgid "Line Height"
+msgstr "行の高さ"
+
+#: inc/customizer/settings/typography.php:581
+msgid "Letter Spacing (px)"
+msgstr "文字間隔 (px)"
+
+#: inc/customizer/settings/typography.php:615
+msgid "Font Color"
+msgstr "Font Color"
+
+#: partials/header/style/medium-header-search.php:24
+#: partials/header/style/vertical-header-search.php:24
+msgid "Search..."
+msgstr "検索…"
+
+#: inc/customizer/controls/dimensions/class-control-dimensions.php:65
+msgid "Link values together"
+msgstr "Link values together"
+
+#: inc/customizer/controls/radio-image/class-control-radio-image.php:110
+msgid "Full Width"
+msgstr "Full Width"
+
+#: inc/customizer/controls/radio-image/class-control-radio-image.php:111
+#, php-format
+msgid "100% Full Width"
+msgstr "100% Full Width"
+
+#: inc/customizer/controls/text/class-control-text.php:119
+#: inc/customizer/controls/text/class-control-text.php:125
+#: inc/customizer/controls/text/class-control-text.php:131
+#: inc/customizer/controls/typo/class-control-typo.php:156
+#: inc/customizer/controls/typo/class-control-typo.php:225
+#: inc/customizer/controls/typo/class-control-typo.php:237
+msgid "px - em - rem"
+msgstr "px - em - rem"
+
+#: inc/customizer/controls/typo/class-control-typo.php:62
+msgid "Letter Spacing"
+msgstr "文字間隔"
+
+#: inc/customizer/controls/typography/class-control-typography.php:63
+msgid "Custom Fonts"
+msgstr "カスタムフォント"
+
+#: inc/customizer/controls/typography/class-control-typography.php:73
+msgid "Standard Fonts"
+msgstr "標準フォント"
+
+#: inc/customizer/controls/typography/class-control-typography.php:84
+msgid "Google Fonts"
+msgstr "Googleフォント"
+
+#. Description of the theme
+msgid ""
+"WooVina is an intuitive &amp; flexible, free WordPress theme offering deep "
+"integration with WooCommerce. Lightweight and highly extendable, it will "
+"enable you to create almost any type of ecommerce website. Very fast, "
+"responsive, RTL &amp; translation ready, best SEO practices, unique "
+"WooCommerce features to increase conversion and much more. You can even edit "
+"the settings on tablet &amp; mobile so your site looks good on every device. "
+"Work with the most popular page builders as Elementor, Beaver Builder, "
+"Visual Composer, Divi, SiteOrigin, etc... Developers will love his "
+"extensible codebase making it a joy to customize and extend. Best friend of "
+"Elementor &amp; WooCommerce, it's the perfect platform for your next "
+"WooCommerce project. Check the demos to realize that it's the only theme you "
+"will ever need: https://woovina.com/demos"
+msgstr ""
+"WooVinaはWooCommerceと連動する直感的で柔軟なワードプレステーマです。軽量で高"
+"い拡張性を持ち、あらゆるタイプのeコマースサイトを作ることができます。快適でレ"
+"スポンジブ、多言語対応でSEOにも最適化されたWooCommerceにより高いコンバージョ"
+"ンを実現します。さらに、タブレットやスマートフォンに対応したレイアウト編集も"
+"可能です。Elementor, Beaver Builder, Visual Composer, Divi, SiteOrigin, 等の"
+"人気のページビルダーにも対応。開発者であればコーディングにより自在なカスタマ"
+"イズや拡張も可能となります。Elementorと相性がよく、WooCommerceを利用したプ"
+"ラットフォームとして最適なテーマです。デモページを今すぐご覧ください。"
+"https://woovina.com/demos"
+
+#. URI of the theme
+msgid "https://woovina.com/"
+msgstr "https://woovina.com/"
+
+#. Author of the theme
+msgid "WooVina.com"
+msgstr "WooVina.com"
+
+#. Author URI of the theme
+msgid "https://www.facebook.com/WooVinaTheme/"
+msgstr "https://www.facebook.com/WooVinaTheme/"

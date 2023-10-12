@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-10-08 09:35+0700\n"
+"PO-Revision-Date: 2018-10-08 09:37+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;translate_nooped_plural\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: woovina-custom-sidebar.php:140 woovina-custom-sidebar.php:149
+msgid "Cheatin&#8217; huh?"
+msgstr "Gian lận&#8217; hả?"
+
+#: woovina-custom-sidebar.php:214 woovina-custom-sidebar.php:216
+#: woovina-custom-sidebar.php:311 woovina-custom-sidebar.php:312
+msgid "Sidebars"
+msgstr ""
+
+#: woovina-custom-sidebar.php:215
+msgid "Sidebar"
+msgstr ""
+
+#: woovina-custom-sidebar.php:217
+msgid "Search Sidebars"
+msgstr ""
+
+#: woovina-custom-sidebar.php:218
+msgid "All Sidebars"
+msgstr ""
+
+#: woovina-custom-sidebar.php:219
+msgid "Parent Sidebar"
+msgstr ""
+
+#: woovina-custom-sidebar.php:220
+msgid "Parent Sidebar:"
+msgstr ""
+
+#: woovina-custom-sidebar.php:221
+msgid "Edit Sidebar"
+msgstr ""
+
+#: woovina-custom-sidebar.php:222
+msgid "Update Sidebar"
+msgstr ""
+
+#: woovina-custom-sidebar.php:223
+msgid "Add New Sidebar"
+msgstr ""
+
+#: woovina-custom-sidebar.php:224
+msgid "New Sidebar Name"
+msgstr ""
+
+#: woovina-custom-sidebar.php:341
+msgid "ID"
+msgstr ""
+
+#: woovina-custom-sidebar.php:401
+msgid "The name of the widgets area"
+msgstr ""
+
+#: woovina-custom-sidebar.php:402
+msgid "The description of the widgets area (optional)"
+msgstr ""

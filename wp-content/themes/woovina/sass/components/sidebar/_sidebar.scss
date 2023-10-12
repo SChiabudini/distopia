@@ -1,0 +1,76 @@
+.widget-area {
+	font-size: 13px;
+}
+
+.sidebar-box {
+	margin-bottom: 40px;
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+}
+
+.widget-title {
+    display: block;
+    line-height: 1;
+    font-size: 13px;
+    font-weight: 400;
+    color: $color-2;
+    border-width: 0 0 0 3px;
+    border-style: solid;
+    border-color: $color-5;
+    letter-spacing: 1px;
+    padding-left: 15px;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+.widget_nav_menu ul ul.sub-menu {
+  margin-top: 0.25em;
+}
+
+.widget_nav_menu ul ul.sub-menu li {
+  padding-left: 20px;
+}
+
+.widget_nav_menu ul ul.sub-menu a:after {
+  left: -20px;
+}
+
+.widget_nav_menu ul ul.sub-menu ul a:after {
+  left: -40px;
+}
+
+.widget_nav_menu ul ul.sub-menu ul ul a:after {
+  left: -60px;
+}
+
+.widget_nav_menu li {
+  transition: all 0.2s linear;
+}
+
+/**
+ * Widgets > Borders
+ */
+.woovina-widget-recent-posts-li,
+.widget_categories li,
+.widget_recent_entries li,
+.widget_archive li,
+.widget_recent_comments li,
+.widget-recent-posts-icons li,
+.site-footer .widget_nav_menu li {
+	line-height: 30px;
+}
+
+/*------------------------------------*
+	Phone Portrait and Landscape
+*------------------------------------*/
+@media only screen and (max-width: 767px) {
+
+	#main .widget_nav_menu li a:before {
+		display: none;
+	}
+	
+}
